@@ -1,0 +1,66 @@
+---
+title: "Aula 40 — Prática: Configuração de AP e Controller"
+---
+
+## Objetivos da Aula
+
+- **Configurar** AP gerenciado por controller.
+- Testar **roaming** e **políticas**.
+- Consolidar a prática de gestão centralizada.
+
+## Aula de Hoje
+
+- Aula **prática em laboratório**.
+- Configuração de **AP + controller**.
+- Testes de **conexão e mobilidade**.
+
+## Roteiro da Prática
+
+- **1.** Acessar o **controller**.
+- **2.** Cadastrar/descobrir os **APs**.
+- **3.** Criar um **SSID corporativo**.
+- **4.** Aplicar **políticas** (VLAN, segurança).
+- **5.** Testar o **roaming**.
+
+## Testes
+
+- Conectar em diferentes pontos do **laboratório**.
+- Observar a **troca de AP** (roaming).
+- Medir **cobertura** e **velocidade**.
+
+## Registro
+
+| Local | AP conectado | Sinal | Observação |
+|-------|--------------|-------|------------|
+| | | | |
+| | | | |
+
+## Cuidados
+
+- Não alterar configurações **fora do escopo**.
+- Anotar as mudanças feitas.
+- Restaurar ao final, se necessário.
+
+::: {.callout-note}
+Testar o **roaming** na prática mostra a diferença entre vários APs "soltos" e uma rede **centralizada**.
+:::
+
+## Discussão
+
+- O roaming foi **transparente**?
+- Que problemas apareceram?
+
+## Resumo da Aula
+
+- Configuramos **AP e controller**.
+- Aplicamos **políticas e SSID**.
+- Testamos **roaming** e cobertura.
+
+## Referências
+
+- Manual do equipamento do laboratório.
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+
+## Próxima Aula
+
+- **Aula 41:** Segurança em redes sem fio — fundamentos.

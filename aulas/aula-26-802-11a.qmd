@@ -1,0 +1,71 @@
+---
+title: "Aula 26 — Família 802.11a"
+---
+
+## Objetivos da Aula
+
+- Conhecer o padrão **802.11a**.
+- Entender suas **características**.
+- Comparar com o **802.11b**.
+
+## O que é o 802.11a?
+
+- Emenda ao 802.11 (1999).
+- Foco em **maior velocidade**.
+- Usa a faixa de **5 GHz**.
+
+## Características
+
+- Faixa de **5 GHz**.
+- Taxas de até **54 Mbps**.
+- Técnica **OFDM** (multiportadora).
+
+## Vantagens
+
+- **Mais velocidade** que o 802.11b.
+- Faixa **5 GHz menos congestionada**.
+- Menos **interferência**.
+
+## Desvantagens
+
+- **Menor alcance** (5 GHz penetra pior).
+- Equipamentos mais **caros** na época.
+- **Incompatível** com o 802.11b.
+
+## Legado
+
+- Introduziu **OFDM** no Wi-Fi.
+- Base para os padrões **modernos**.
+- Popularizou a faixa **5 GHz**.
+
+::: {.callout-note}
+A escolha entre **2,4 GHz** (alcance) e **5 GHz** (velocidade) até hoje define a experiência do Wi-Fi.
+:::
+
+## Comparação com o b
+
+| Item | 802.11a | 802.11b |
+|------|---------|---------|
+| Faixa | 5 GHz | 2,4 GHz |
+| Taxa | 54 Mbps | 11 Mbps |
+| Alcance | menor | maior |
+
+## Resumo da Aula
+
+- 802.11a: **5 GHz**, até **54 Mbps**, OFDM.
+- Mais rápido, mas **menos alcance**.
+- Base dos padrões **modernos**.
+
+## Atividade Rápida
+
+- Compare **802.11a** e **802.11b**.
+- Por que o 5 GHz alcança **menos**?
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- ROCHOL, J. *Sistemas de Comunicação Sem Fio*. Bookman.
+
+## Próxima Aula
+
+- **Aula 27:** Família 802.11g.

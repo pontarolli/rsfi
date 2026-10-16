@@ -1,0 +1,66 @@
+---
+title: "Aula 63 — Projeto Interdisciplinar: Desenvolvimento (2)"
+---
+
+## Objetivos da Aula
+
+- Avançar no **dimensionamento** da rede.
+- Definir **posicionamento** dos APs.
+- Escolher **equipamentos**.
+
+## Aula de Hoje
+
+- **Desenvolvimento** do projeto em grupo.
+- Foco no **dimensionamento**.
+- Escolha de **equipamentos**.
+
+## Dimensionamento
+
+- Quantos **APs** são necessários?
+- Distribuição por **cobertura**.
+- Distribuição por **capacidade**.
+- **Canais** a utilizar.
+
+## Posicionamento dos APs
+
+- **Planta** do local com marcações.
+- Evitar **obstáculos** (paredes, metal).
+- Pontos de **maior demanda**.
+
+## Escolha de Equipamentos
+
+- **APs** (padrão n, ac, ax).
+- **Antenas** (se necessárias).
+- **Controlador** (se houver vários APs).
+- **Switch** de alimentação (PoE).
+
+## Segurança do Projeto
+
+- **WPA2/WPA3**.
+- **Personal** ou **Enterprise**?
+- **Rede de convidados** separada.
+
+::: {.callout-note}
+Nesta etapa, cada decisão precisa ser **justificada**: por que este AP, nesta posição, com esta segurança.
+:::
+
+## Registro
+
+- Plantas com posições **marcadas**.
+- Lista de **equipamentos**.
+- Justificativa das **escolhas**.
+
+## Resumo da Aula
+
+- Dimensionamos **APs** (cobertura e capacidade).
+- Definimos **posições** e **equipamentos**.
+- Estruturamos a **segurança**.
+
+## Referências
+
+- MORAES, A. F. *Redes Sem Fio*. Érica.
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+
+## Próxima Aula
+
+- **Aula 64:** Projeto interdisciplinar — desenvolvimento (3).

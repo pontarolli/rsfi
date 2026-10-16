@@ -1,0 +1,70 @@
+---
+title: "Aula 16 — Ganho de Sinal e Potência"
+---
+
+## Objetivos da Aula
+
+- Compreender o conceito de **ganho**.
+- Diferenciar **dBi, dBd e EIRP**.
+- Calcular um **balanço de enlace** simples.
+
+## O que é Ganho?
+
+- Capacidade da antena de **concentrar** energia.
+- Não cria energia: apenas **redistribui**.
+- Medido em **dBi** (referência isotrópica).
+
+## dBi e dBd
+
+- **dBi:** ganho em relação a uma antena **isotrópica**.
+- **dBd:** ganho em relação a um **dipolo**.
+- Relação: **dBd + 2,15 = dBi**.
+
+## Potência de Transmissão
+
+- Definida pelo **rádio** (ex.: 100 mW).
+- Em dBm: **20 dBm** = 100 mW.
+- Limitada pela **legislação**.
+
+## EIRP
+
+- **Potência isotrópica equivalente radiada**.
+- EIRP = potência + ganho da antena − perdas.
+- É o que define o **alcance real**.
+
+## Balanço de Enlace (exemplo)
+
+- Rádio: **20 dBm**.
+- Antena: **+9 dBi**.
+- Cabo: **−2 dB**.
+- EIRP = 20 + 9 − 2 = **27 dBm**.
+
+::: {.callout-note}
+Aumentar o **ganho da antena** é uma forma eficiente de ampliar o alcance **sem** elevar a potência do rádio.
+:::
+
+## Perdas
+
+- **Cabo** e conectores atenuam o sinal.
+- Cabos longos = **mais perda**.
+- Prefira cabos **curtos** e de qualidade.
+
+## Resumo da Aula
+
+- **Ganho** concentra energia (dBi/dBd).
+- **EIRP** resume o balanço do enlace.
+- Cabos e perdas precisam ser **contabilizados**.
+
+## Atividade Rápida
+
+- Calcule o **EIRP**: 17 dBm + 12 dBi − 1 dB.
+- Converta **10 dBi** para dBd.
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- RAPPAPORT, T. S. *Comunicações Sem Fio*. Pearson.
+
+## Próxima Aula
+
+- **Aula 17:** Prática — identificação de antenas.

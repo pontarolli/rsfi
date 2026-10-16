@@ -1,0 +1,73 @@
+---
+title: "Aula 60 — Projeto Interdisciplinar com ASRE: Cenários"
+---
+
+## Objetivos da Aula
+
+- Compreender a proposta do **projeto interdisciplinar**.
+- Conhecer os **cenários** de projeto.
+- Relacionar teoria e **prática**.
+
+## O Projeto
+
+- **Projeto interdisciplinar** de Redes sem Fio.
+- Desenvolvido com a disciplina **ASRE**.
+- Simula um **projeto real** de rede sem fio.
+
+## O que Será Feito
+
+- Escolher um **cenário** de cobertura.
+- **Projetar** a rede sem fio.
+- **Configurar** os equipamentos.
+- **Apresentar** a solução.
+
+## Cenários Possíveis
+
+- **Escola** — cobertura de salas e pátio.
+- **Galpão** — área ampla com obstáculos.
+- **Área rural** — longa distância.
+- **Praça pública** — cobertura externa.
+
+## Requisitos do Projeto
+
+- Levantamento de **requisitos**.
+- **Site survey** (real ou simulado).
+- Escolha de **equipamentos** (APs, antenas).
+- Definição de **segurança**.
+
+## Critérios de Avaliação
+
+- **Viabilidade técnica** da solução.
+- **Justificativa** das escolhas.
+- **Qualidade** da documentação.
+- **Apresentação** clara.
+
+::: {.callout-note}
+Este projeto integra **tudo** o que aprendemos: RF, antenas, padrões, equipamentos, segurança e projeto.
+:::
+
+## Organização Inicial
+
+- Leitura dos **cenários**.
+- Discussão em grupo.
+- Escolha do **cenário**.
+
+## Resumo da Aula
+
+- O projeto simula uma **rede real**.
+- Há vários **cenários** possíveis.
+- Integra os conceitos do **curso**.
+
+## Atividade Rápida
+
+- Qual **cenário** mais interessa ao seu grupo?
+- Liste **três requisitos** dele.
+
+## Referências
+
+- MORAES, A. F. *Redes Sem Fio*. Érica.
+- Documentação das disciplinas ASRE e RSFI.
+
+## Próxima Aula
+
+- **Aula 61:** Projeto interdisciplinar — divisão de grupos.

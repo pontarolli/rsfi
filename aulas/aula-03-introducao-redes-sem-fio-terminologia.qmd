@@ -1,0 +1,69 @@
+---
+title: "Aula 03 — Introdução às Redes sem Fio: Terminologia"
+---
+
+## Objetivos da Aula
+
+- Conhecer a **terminologia** das redes sem fio.
+- Compreender os **elementos** de uma rede sem fio.
+- Diferenciar termos comuns.
+
+## Termos Básicos
+
+- **Enlace sem fio:** conexão sem cabo físico.
+- **Nó (host):** dispositivo com interface sem fio.
+- **Estação (STA):** cliente da rede sem fio.
+- **Access Point (AP):** ponto de acesso à rede.
+
+## Ponto de Acesso
+
+- **AP:** dispositivo que conecta as **estações** à rede.
+- Cria uma **célula** de cobertura.
+- Pode ser ligado a uma rede **cabeada**.
+
+## Célula e Cobertura
+
+- **Célula:** área de cobertura de um AP.
+- **Roaming:** passagem do cliente entre células.
+- **Handoff:** troca de AP sem perder a conexão.
+
+## SSID e BSSID
+
+- **SSID:** nome da rede (ex.: "IFSP-Alunos").
+- **BSSID:** endereço do AP (**MAC**).
+- **ESSID:** nome comum a vários APs.
+
+## Termos de Banda
+
+- **Banda:** faixa de frequências (2,4 GHz, 5 GHz).
+- **Canal:** subdivisão da banda.
+- **Largura de banda:** capacidade de transmissão.
+
+## Outros Termos
+
+- **WLAN:** rede local sem fio.
+- **Móvel x sem fio:** mobilidade **versus** ausência de cabo.
+
+::: {.callout-note}
+Nem toda rede sem fio é móvel, e nem toda rede móvel é sem fio — os conceitos são **diferentes**.
+:::
+
+## Resumo da Aula
+
+- Termos essenciais: **STA, AP, SSID, BSSID, célula**.
+- **Roaming** e **handoff** garantem mobilidade.
+- Banda e canal descrevem o **espectro** usado.
+
+## Atividade Rápida
+
+- Qual o **SSID** da rede que você usa?
+- Explique a diferença entre **SSID e BSSID**.
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- ROCHOL, J. *Sistemas de Comunicação Sem Fio*. Bookman.
+
+## Próxima Aula
+
+- **Aula 04:** Transmissão por ondas de rádio.

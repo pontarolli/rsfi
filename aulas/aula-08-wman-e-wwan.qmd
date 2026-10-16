@@ -1,0 +1,71 @@
+---
+title: "Aula 08 — WMAN e WWAN: Redes Metropolitanas e Amplas"
+---
+
+## Objetivos da Aula
+
+- Definir **WMAN** e **WWAN**.
+- Conhecer suas **tecnologias**.
+- Comparar seus **alcances e usos**.
+
+## WMAN — Wireless Metropolitan Area Network
+
+- Rede sem fio de **alcance metropolitano**.
+- Cobre uma **cidade** ou região.
+- Tecnologia principal: **WiMax (IEEE 802.16)**.
+
+## WiMax
+
+- Oferece acesso de **banda larga** sem fio.
+- Alcance de **alguns quilômetros**.
+- Alternativa ao cabo em regiões **distantes**.
+
+## WWAN — Wireless Wide Area Network
+
+- Rede sem fio de **longo alcance**.
+- Cobre **regiões, países**.
+- Principal exemplo: **redes celulares**.
+
+## Redes Celulares
+
+- Dividem o território em **células**.
+- Evolução: **1G, 2G, 3G, 4G, 5G**.
+- Permitem **mobilidade** total.
+
+## Comparação
+
+| Categoria | Alcance | Exemplo |
+|-----------|---------|---------|
+| WLAN | ~100 m | Wi-Fi |
+| WMAN | km | WiMax |
+| WWAN | dezenas de km | 4G/5G |
+
+::: {.callout-note}
+WMAN e WWAN conectam **áreas maiores**, sendo ideais onde não há infraestrutura cabeadas disponível.
+:::
+
+## Aplicações
+
+- Internet em **áreas rurais** (WMAN).
+- Mobilidade urbana (**WWAN**).
+- Backhaul sem fio entre pontos.
+
+## Resumo da Aula
+
+- **WMAN** cobre cidades (**WiMax**).
+- **WWAN** cobre regiões (**celular 4G/5G**).
+- O alcance cresce da WLAN para a WWAN.
+
+## Atividade Rápida
+
+- Dê um exemplo de uso de **WMAN** e de **WWAN**.
+- Compare WiFi e 5G quanto ao **alcance**.
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- RAPPAPORT, T. S. *Comunicações Sem Fio*. Pearson.
+
+## Próxima Aula
+
+- **Aula 09:** WLL — acesso local sem fio.

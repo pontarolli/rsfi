@@ -12,6 +12,15 @@
 # versionar no repositório público até o professor decidir o contrário.
 /avaliacoes/
 
+# Material de trabalho do professor (planos, notas, laboratório) — não é conteúdo do aluno
+/BTV*.pdf
+/plano-de-aula.pdf
+/rsfi.txt
+/flows.json
+/mqtt.png
+/raspberrypi/
+/Gabriel Batista Canjão Etapa 1 e 2.png
+
 __pycache__/
 *.pyc
 

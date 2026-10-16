@@ -1,0 +1,72 @@
+---
+title: "Aula 50 — WPAN: Bluetooth"
+---
+
+## Objetivos da Aula
+
+- Conhecer a tecnologia **Bluetooth**.
+- Entender seu **funcionamento**.
+- Conhecer suas **versões** e **usos**.
+
+## O que é o Bluetooth?
+
+- Tecnologia **WPAN** de curto alcance.
+- Padrão **IEEE 802.15.1**.
+- Conecta dispositivos **pessoais**.
+
+## Características
+
+- Alcance de ~**10 m** (classe 2).
+- Faixa de **2,4 GHz**.
+- Baixo **consumo** de energia.
+- Conexão **ponto a ponto** ou **piconet**.
+
+## Piconet e Scatternet
+
+- **Piconet:** um mestre e até 7 escravos.
+- **Scatternet:** várias piconets interligadas.
+- Permite várias **conexões**.
+
+## Versões
+
+- **1.x:** básico.
+- **2.x:** taxas maiores (EDR).
+- **3.x, 4.x:** baixo consumo (BLE).
+- **5.x:** maior alcance e taxa.
+
+## Bluetooth Low Energy (BLE)
+
+- Foco em **economia** de energia.
+- Ideal para **IoT** e sensores.
+- Base de wearables e beacons.
+
+::: {.callout-note}
+O Bluetooth é ótimo para **dispositivos pessoais**, mas compartilha a faixa de 2,4 GHz — pode **interferir** no Wi-Fi.
+:::
+
+## Usos
+
+- Fones, caixas de som.
+- Smartwatch e pulseiras.
+- Teclados, mouses.
+- Sensores e beacons.
+
+## Resumo da Aula
+
+- **Bluetooth** é WPAN de curto alcance.
+- Padrão **802.15.1**, faixa 2,4 GHz.
+- Versões evoluíram até **BLE**.
+
+## Atividade Rápida
+
+- Cite **três** usos do Bluetooth.
+- O que é **BLE**?
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- LUGLI, A. B.; SANTOS, M. M. D. *Redes sem fio para automação industrial*. Érica.
+
+## Próxima Aula
+
+- **Aula 51:** WPAN — Infrared e ZigBee.

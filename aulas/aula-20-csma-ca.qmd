@@ -1,0 +1,71 @@
+---
+title: "Aula 20 — CSMA/CA: Acesso em Redes sem Fio"
+---
+
+## Objetivos da Aula
+
+- Compreender o funcionamento do **CSMA/CA**.
+- Entender **evitação de colisão**.
+- Conhecer **RTS/CTS** e ACK.
+
+## CSMA/CA em Resumo
+
+- **Carrier Sense Multiple Access with Collision Avoidance**.
+- **Escuta** o meio antes de transmitir.
+- Se o meio está **ocupado**, espera.
+- Se livre, transmite **evitando** colisões.
+
+## Por que "evitação"?
+
+- O nó **não detecta** colisões como no cabo.
+- Então ele tenta **evitá-las** de antemão.
+- Usa **espera aleatória** e confirmação.
+
+## Passos Básicos
+
+- **1.** Escutar o meio (canal livre?).
+- **2.** Esperar um **tempo (DIFS)**.
+- **3.** Contagem **aleatória** (backoff).
+- **4.** Transmitir e aguardar **ACK**.
+
+## ACK (Confirmação)
+
+- O receptor envia **ACK** se recebeu bem.
+- Sem ACK, o transmissor **retransmite**.
+- Garante **confiabilidade**.
+
+## RTS/CTS
+
+- **RTS:** "quero transmitir".
+- **CTS:** "pode transmitir".
+- Reserva o meio e reduz o problema da **estação oculta**.
+
+::: {.callout-note}
+O **RTS/CTS** é como pedir a palavra numa reunião: evita que duas pessoas falem ao mesmo tempo.
+:::
+
+## Vantagens e Limitações
+
+- **Vantagem:** reduz colisões.
+- **Limitação:** tem **overhead** (gasta tempo).
+- RTS/CTS é opcional (usado em cenários específicos).
+
+## Resumo da Aula
+
+- CSMA/CA **evita** colisões.
+- Usa **escuta, backoff e ACK**.
+- **RTS/CTS** combate a estação oculta.
+
+## Atividade Rápida
+
+- Descreva os passos do CSMA/CA.
+- Para que serve o **ACK**?
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- TANENBAUM, A. *Redes de Computadores*. Pearson.
+
+## Próxima Aula
+
+- **Aula 21:** Arquiteturas de redes wireless.

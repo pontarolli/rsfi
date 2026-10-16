@@ -1,0 +1,72 @@
+---
+title: "Aula 04 — Transmissão por Ondas de Rádio"
+---
+
+## Objetivos da Aula
+
+- Compreender como a informação viaja **pelo ar**.
+- Conhecer o **espectro eletromagnético**.
+- Entender **frequência** e **comprimento de onda**.
+
+## O Espectro Eletromagnético
+
+- Conjunto de todas as **ondas eletromagnéticas**.
+- Inclui rádio, micro-ondas, infravermelho, luz, raios X.
+- As comunicações sem fio usam **radiofrequência (RF)**.
+
+## Ondas de Rádio
+
+- Propagam-se **pelo espaço**, sem meio físico.
+- Transportam energia que carrega **informação**.
+- Viajam à **velocidade da luz**.
+
+## Frequência
+
+- Número de **oscilações por segundo**.
+- Medida em **hertz (Hz)**.
+- Wi-Fi: **2,4 GHz** e **5 GHz**.
+
+## Comprimento de Onda
+
+- Distância entre dois **picos** da onda.
+- Relaciona-se com a frequência: maior frequência → menor comprimento.
+- Fórmula: **λ = c / f**.
+
+## Conferindo a conta
+
+- **c** ≈ 3×10⁸ m/s (velocidade da luz).
+- Para **2,4 GHz**: λ ≈ 12,5 cm.
+- Para **5 GHz**: λ ≈ 6 cm.
+
+::: {.callout-note}
+Frequências mais **altas** transmitem mais dados, mas atingem distâncias **menores** e penetram pior em obstáculos.
+:::
+
+## Faixas Usadas
+
+| Faixa | Uso típico |
+|-------|-----------|
+| 2,4 GHz | Wi-Fi, Bluetooth |
+| 5 GHz | Wi-Fi (mais canais) |
+| 6 GHz | Wi-Fi 6E |
+| 60 GHz | WiGig (curta distância) |
+
+## Resumo da Aula
+
+- Comunicação sem fio usa **ondas de rádio**.
+- **Frequência** e **comprimento de onda** definem o comportamento.
+- 2,4 e 5 GHz são as faixas do Wi-Fi.
+
+## Atividade Rápida
+
+- Calcule o comprimento de onda para **5 GHz**.
+- Por que o **2,4 GHz** alcança mais longe?
+
+## Referências
+
+- RAPPAPORT, T. S. *Comunicações Sem Fio*. Pearson.
+- ROCHOL, J. *Sistemas de Comunicação Sem Fio*. Bookman.
+
+## Próxima Aula
+
+- **Aula 05:** Categorias de redes sem fio.

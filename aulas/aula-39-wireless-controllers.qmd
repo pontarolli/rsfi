@@ -1,0 +1,70 @@
+---
+title: "Aula 39 — Wireless Controllers: Conceitos"
+---
+
+## Objetivos da Aula
+
+- Compreender o papel do **controlador wireless**.
+- Entender o **gerenciamento centralizado**.
+- Conhecer as **arquiteturas** de controlador.
+
+## O Problema
+
+- Muitos APs precisam ser **gerenciados**.
+- Configurar **um a um** é trabalhoso e inconsistente.
+- Surge a necessidade de **centralização**.
+
+## Wireless Controller
+
+- Dispositivo que **centraliza** a gestão dos APs.
+- Aplica **configuração única** a vários APs.
+- Monitora **desempenho e segurança**.
+
+## Vantagens
+
+- Configuração **consistente**.
+- **Roaming** suave entre APs.
+- Monitoramento **central**.
+- Facilita **escalabilidade**.
+
+## Arquiteturas
+
+- **Controlador físico** (appliance).
+- **Controlador virtual** (software).
+- **Cloud-managed** (na nuvem).
+
+## CAPWAP
+
+- Protocolo entre AP e controlador.
+- Controla e **tunela** o tráfego.
+- Padroniza a comunicação.
+
+::: {.callout-note}
+O controlador é o **"cérebro"** da rede Wi-Fi: os APs viram "braços" que executam a política definida nele.
+:::
+
+## Aplicações
+
+- **Campus** e empresas grandes.
+- Redes com **muitos APs**.
+- Ambientes com **roaming** intenso.
+
+## Resumo da Aula
+
+- O **controller** centraliza a gestão dos APs.
+- Traz **consistência, roaming e monitoramento**.
+- Há versões **físicas, virtuais e em nuvem**.
+
+## Atividade Rápida
+
+- Por que centralizar o gerenciamento dos APs?
+- Cite **duas vantagens** do controlador.
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- Documentação dos fabricantes de controladores.
+
+## Próxima Aula
+
+- **Aula 40:** Prática — configuração de AP e controller.

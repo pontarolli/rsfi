@@ -1,0 +1,69 @@
+---
+title: "Aula 09 — WLL: Acesso Local sem Fio"
+---
+
+## Objetivos da Aula
+
+- Definir **WLL** (Wireless Local Loop).
+- Entender seu papel no acesso à internet.
+- Conhecer aplicações práticas.
+
+## O que é WLL?
+
+- **Wireless Local Loop** = acesso local **sem fio**.
+- Substitui o **cabo** entre a operadora e o cliente.
+- Também chamado de **"último trecho"** sem fio.
+
+## O Problema do "Último Trecho"
+
+- Levar internet até o **usuário final** é caro.
+- Passar cabo em áreas **rurais** ou isoladas é difícil.
+- A solução sem fio **reduz custos**.
+
+## Como Funciona
+
+- Uma **estação base** conecta-se à rede central.
+- Enlaces de **rádio** levam o sinal ao cliente.
+- Equipamentos **ponto-a-ponto** ou **ponto-multiponto**.
+
+## Aplicações
+
+- Internet em **zonas rurais**.
+- Provedores **locais** (ISPs sem fio).
+- Locais de difícil **acesso** por cabo.
+
+## Vantagens
+
+- Instalação **rápida** e barata.
+- Atende áreas **remotas**.
+- Boa opção onde não há infraestrutura.
+
+## Limitações
+
+- Depende de **linha de visada** (em alguns casos).
+- Sensível a **interferência e clima**.
+- **Banda** menor que fibra óptica.
+
+::: {.callout-note}
+O WLL é essencial para **incluir digitalmente** regiões onde o cabo não chega — um tema de cidadania.
+:::
+
+## Resumo da Aula
+
+- **WLL** leva o acesso sem fio ao usuário final.
+- Útil em áreas **rurais e remotas**.
+- Reduz custo do **"último trecho"**.
+
+## Atividade Rápida
+
+- Em que situação o **WLL** é melhor que o cabo?
+- Cite **uma vantagem** e **uma limitação**.
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- ROCHOL, J. *Sistemas de Comunicação Sem Fio*. Bookman.
+
+## Próxima Aula
+
+- **Aula 10:** Comparativo entre as categorias.

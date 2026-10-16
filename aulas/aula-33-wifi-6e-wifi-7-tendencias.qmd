@@ -1,0 +1,72 @@
+---
+title: "Aula 33 — Wi-Fi 6E, Wi-Fi 7 e Tendências Futuras"
+---
+
+## Objetivos da Aula
+
+- Conhecer **Wi-Fi 6E** e **Wi-Fi 7**.
+- Entender o uso da faixa de **6 GHz**.
+- Refletir sobre **tendências** do Wi-Fi.
+
+## Wi-Fi 6E
+
+- Extensão do Wi-Fi 6 para a faixa de **6 GHz**.
+- Mais **canais** e menos **interferência**.
+- **"E" de Extended**.
+
+## Vantagens do 6 GHz
+
+- Faixa **nova e livre**.
+- Canais largos **sem congestionamento**.
+- Melhor desempenho em **áreas densas**.
+
+## Wi-Fi 7 (802.11be)
+
+- Geração seguinte (**2024+**).
+- Foco em **altíssimas taxas** e **baixa latência**.
+- Recursos: **320 MHz**, **4K-QAM**, **MLO**.
+
+## MLO
+
+- **Multi-Link Operation**.
+- Usa **vários canais** ao mesmo tempo.
+- Mais velocidade e **confiabilidade**.
+
+## Tendências Futuras
+
+- Integração com **IoT**.
+- Wi-Fi e celular **colaborando**.
+- **Segurança** sempre mais forte.
+- Aplicações em **realidade aumentada** e jogos.
+
+::: {.callout-note}
+O 6 GHz não resolve tudo: exige **novos dispositivos** e tem **menor alcance**. É evolução, não mágica.
+:::
+
+## Ficha Técnica
+
+| Item | Wi-Fi 6E | Wi-Fi 7 |
+|------|----------|---------|
+| Padrão | 802.11ax | 802.11be |
+| Faixa | +6 GHz | 2,4/5/6 GHz |
+| Destaque | 6 GHz | MLO |
+
+## Resumo da Aula
+
+- **Wi-Fi 6E** usa a faixa de **6 GHz**.
+- **Wi-Fi 7** traz **MLO** e mais velocidade.
+- O futuro integra Wi-Fi, IoT e mobilidade.
+
+## Atividade Rápida
+
+- Qual a novidade do **6 GHz**?
+- O que é **MLO** no Wi-Fi 7?
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- Wi-Fi Alliance (documentação).
+
+## Próxima Aula
+
+- **Aula 34:** Prática — análise de espectro.

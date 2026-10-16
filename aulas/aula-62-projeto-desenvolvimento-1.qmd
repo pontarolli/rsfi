@@ -1,0 +1,66 @@
+---
+title: "Aula 62 — Projeto Interdisciplinar: Desenvolvimento (1)"
+---
+
+## Objetivos da Aula
+
+- Iniciar o **desenvolvimento** do projeto.
+- Levantar **requisitos** e dados do local.
+- Produzir a **documentação** inicial.
+
+## Aula de Hoje
+
+- **Desenvolvimento** do projeto em grupo.
+- Foco no **levantamento de dados**.
+- Início da **documentação**.
+
+## Etapas do Dia
+
+- **1.** Descrever o **cenário**.
+- **2.** Levantar **requisitos**.
+- **3.** Coletar dados do **local**.
+
+## Descrevendo o Cenário
+
+- **Local:** tipo e dimensões.
+- **Usuários:** quantidade e perfil.
+- **Aplicações:** voz, vídeo, dados.
+- **Áreas críticas:** onde o sinal é essencial.
+
+## Levantando Requisitos
+
+- **Cobertura** necessária.
+- **Capacidade** (usuários simultâneos).
+- **Segurança** exigida.
+- **Orçamento** disponível.
+
+::: {.callout-note}
+Documentar os **requisitos** desde o começo evita retrabalho e serve de base para justificar as escolhas técnicas.
+:::
+
+## Coleta de Dados
+
+- **Planta** do local (ou esboço).
+- Identificação de **obstáculos**.
+- Fontes de **interferência** previstas.
+
+## Registro
+
+- Anotar tudo no **documento** do grupo.
+- Guardar **esboços** e plantas.
+- Definir a **próxima etapa**.
+
+## Resumo da Aula
+
+- Iniciamos o **desenvolvimento** do projeto.
+- Descrevemos o cenário e levantamos **requisitos**.
+- Começamos a **documentação**.
+
+## Referências
+
+- MORAES, A. F. *Redes Sem Fio*. Érica.
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+
+## Próxima Aula
+
+- **Aula 63:** Projeto interdisciplinar — desenvolvimento (2).

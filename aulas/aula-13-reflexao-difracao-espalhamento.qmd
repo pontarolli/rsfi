@@ -1,0 +1,70 @@
+---
+title: "Aula 13 — Reflexão, Difração e Espalhamento"
+---
+
+## Objetivos da Aula
+
+- Compreender os **fenômenos** que afetam a RF.
+- Diferenciar **reflexão, difração e espalhamento**.
+- Relacionar esses efeitos à **qualidade** do sinal.
+
+## Reflexão
+
+- A onda "**bate**" em uma superfície e muda de direção.
+- Ocorre em metais, paredes, água.
+- Pode causar **multipercurso**.
+
+## Difração
+
+- A onda **contorna** obstáculos.
+- Explica por que o sinal chega **atrás** de uma parede.
+- Mais pronunciada em frequências **mais baixas**.
+
+## Espalhamento (Scattering)
+
+- A onda é **dispersada** por obstáculos pequenos.
+- Ex.: folhas, gotas de chuva, superfícies rugosas.
+- Espalha a energia em **várias direções**.
+
+## Multipercurso
+
+- Vários caminhos para o mesmo sinal.
+- Versões do sinal chegam **em tempos diferentes**.
+- Causa **interferência** e **erros**.
+
+## Efeito no Wi-Fi
+
+- Sinal oscila ao mover o dispositivo (**fading**).
+- Queda de velocidade e **retransmissões**.
+- Minimizado com **MIMO** e diversidade.
+
+::: {.callout-note}
+O **multipercurso** é uma das maiores causas de instabilidade no Wi-Fi — daí a importância da posição do AP.
+:::
+
+## Como Mitigar
+
+- Posicionar o AP em local **central e elevado**.
+- Evitar **obstáculos metálicos**.
+- Usar **múltiplas antenas** (MIMO).
+- Ajustar **canais e potência**.
+
+## Resumo da Aula
+
+- RF sofre **reflexão, difração e espalhamento**.
+- Isso gera **multipercurso** e instabilidade.
+- Bons projetos **mitigam** esses efeitos.
+
+## Atividade Rápida
+
+- Dê um exemplo de **difração** no seu dia a dia.
+- Como o **multipercurso** afeta o Wi-Fi?
+
+## Referências
+
+- RAPPAPORT, T. S. *Comunicações Sem Fio*. Pearson.
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+
+## Próxima Aula
+
+- **Aula 14:** Interferência e ruído.

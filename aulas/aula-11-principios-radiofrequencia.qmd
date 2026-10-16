@@ -1,0 +1,72 @@
+---
+title: "Aula 11 — Princípios de Radiofrequência (RF)"
+---
+
+## Objetivos da Aula
+
+- Compreender os **princípios da RF**.
+- Entender **potência, atenuação e decibel**.
+- Reconhecer a importância da RF para as redes sem fio.
+
+## O que é Radiofrequência?
+
+- Faixa do **espectro eletromagnético** usada em comunicações.
+- Vai de ~3 kHz a ~300 GHz.
+- Base física de **todas** as redes sem fio.
+
+## Potência do Sinal
+
+- Medida em **watts (W)** ou **miliwatts (mW)**.
+- Quanto maior a potência, **maior o alcance**.
+- Limitada por **lei** (agências reguladoras).
+
+## Atenuação
+
+- **Perda de potência** ao longo do caminho.
+- Cresce com a **distância**.
+- Aumenta ao atravessar **obstáculos**.
+
+## Decibel (dB)
+
+- Escala **logarítmica** para comparar potências.
+- **dBm:** potência em relação a 1 mW.
+- Facilita lidar com valores **muito grandes/pequenos**.
+
+## Ganho e Perda
+
+- **Ganho** (antena/amplificador): aumenta o sinal.
+- **Perda** (cabo/atenuação): reduz o sinal.
+- O resultado final é o **balanço** do enlace.
+
+## Medidas Comuns
+
+| Valor | Significado |
+|-------|-------------|
+| 0 dBm | 1 mW |
+| 10 dBm | 10 mW |
+| -70 dBm | sinal fraco (Wi-Fi) |
+| -30 dBm | sinal forte (Wi-Fi) |
+
+::: {.callout-note}
+No Wi-Fi, mudanças de **3 dB** correspondem a **dobrar ou metade** da potência — a escala é logarítmica.
+:::
+
+## Resumo da Aula
+
+- RF é a **base física** das redes sem fio.
+- A potência se mede em **W/mW** e **dBm**.
+- **Atenuação** e **ganho** definem a qualidade.
+
+## Atividade Rápida
+
+- Por que o sinal fica fraco **longe do roteador**?
+- Para que serve a escala em **dB**?
+
+## Referências
+
+- RAPPAPORT, T. S. *Comunicações Sem Fio*. Pearson.
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+
+## Próxima Aula
+
+- **Aula 12:** Propagação de ondas de rádio.

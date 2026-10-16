@@ -1,0 +1,67 @@
+---
+title: "Aula 54 — Síntese e Revisão do 3º Bimestre"
+---
+
+## Objetivos da Aula
+
+- **Revisar** os conceitos do bimestre.
+- Organizar o estudo para a **avaliação**.
+- Esclarecer dúvidas.
+
+## O que Estudamos
+
+- Configuração de **APs** e **controladores**.
+- Segurança: **WEP, WPA, WPA2, WPA3**.
+- **EAP/802.1X** e **RADIUS**.
+- Outras tecnologias (**Bluetooth, ZigBee, WiMax, mesh**).
+
+## Equipamentos
+
+- Configuração de **AP** (SSID, canal, segurança).
+- **Múltiplos SSIDs** e **VLANs**.
+- **Wireless Controller** (gestão centralizada).
+
+## Segurança
+
+- **WEP:** quebrado.
+- **WPA:** TKIP (provisório).
+- **WPA2:** AES-CCMP, **Personal** e **Enterprise**.
+- **WPA3:** SAE, OWE.
+
+## Autenticação
+
+- **802.1X** (suplicante, autenticador, servidor).
+- **EAP** (PEAP, TLS).
+- **RADIUS** (Autenticação/Autorização/Accounting).
+
+::: {.callout-note}
+O fio condutor: **configurar e proteger** bem uma rede sem fio — da segurança dos equipamentos à autenticação por servidor.
+:::
+
+## Outras Tecnologias
+
+- **Bluetooth** e **ZigBee** (WPAN).
+- **WiMax** (WMAN).
+- **Mesh** (malha).
+
+## Como se Preparar
+
+- Reler os **resumos**.
+- Revisar **WEP → WPA3**.
+- Entender **802.1X/RADIUS**.
+- Tirar **dúvidas**.
+
+## Resumo da Aula
+
+- Revisamos configuração, segurança e tecnologias.
+- A **segurança** é o tema central do bimestre.
+- Prontos para a **avaliação**.
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- MORAES, A. F. *Redes Sem Fio*. Érica.
+
+## Próxima Aula
+
+- **Aula 55:** VANETs — redes veiculares.

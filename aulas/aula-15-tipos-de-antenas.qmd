@@ -1,0 +1,73 @@
+---
+title: "Aula 15 — Tipos de Antenas: Onidirecionais e Direcionais"
+---
+
+## Objetivos da Aula
+
+- Conhecer os **tipos de antenas**.
+- Diferenciar antenas **onidirecionais e direcionais**.
+- Relacionar o tipo de antena ao **uso**.
+
+## O que é uma Antena?
+
+- Dispositivo que **irradia** e **capta** ondas de rádio.
+- Converte sinal elétrico em onda eletromagnética (e vice-versa).
+- Fundamental para o **alcance** e a **cobertura**.
+
+## Antenas Onidirecionais
+
+- Irradiam em **todas as direções**.
+- Cobertura **circular** (360°).
+- Alcance **menor** no plano horizontal.
+
+## Antenas Direcionais
+
+- Concentram a energia em **uma direção**.
+- **Maior alcance** na direção apontada.
+- Menos cobertura nas laterais.
+
+## Tipos Comuns
+
+- **Omni:** bastão (roteadores domésticos).
+- **Setorial:** cobre um **setor** (120°, 90°).
+- **Yagi:** direcional clássica.
+- **Parabólica:** enlaces de **longa distância**.
+
+## Padrão de Radiação
+
+- Gráfico que mostra **onde** a antena irradia.
+- **Lóbulo principal:** direção de maior ganho.
+- **Lóbulos laterais:** radiação indesejada.
+
+::: {.callout-note}
+"Onidirecional" **não** significa cobertura perfeita: a energia se distribui e o alcance vertical/horizontal varia.
+:::
+
+## Escolhendo a Antena
+
+| Cenário | Antena |
+|---------|--------|
+| Casa/praça | Onidirecional |
+| Corredor/armazém | Setorial |
+| Enlace entre prédios | Direcional |
+| Longa distância | Parabólica |
+
+## Resumo da Aula
+
+- Antenas podem ser **onidirecionais** ou **direcionais**.
+- Direcionais concentram energia e **alcançam mais**.
+- A escolha depende do **cenário**.
+
+## Atividade Rápida
+
+- Que antena usar para ligar **dois prédios**?
+- E para cobrir uma **praça**?
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- RAPPAPORT, T. S. *Comunicações Sem Fio*. Pearson.
+
+## Próxima Aula
+
+- **Aula 16:** Ganho de sinal e potência.

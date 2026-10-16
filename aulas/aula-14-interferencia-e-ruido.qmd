@@ -1,0 +1,70 @@
+---
+title: "Aula 14 — Interferência e Ruído"
+---
+
+## Objetivos da Aula
+
+- Compreender a **interferência** nas redes sem fio.
+- Conhecer as **fontes de ruído**.
+- Relacionar interferência e **desempenho**.
+
+## O que é Interferência?
+
+- Outro sinal **atrapalha** a comunicação.
+- Pode vir de redes **vizinhas** ou de aparelhos.
+- Degrada **velocidade e estabilidade**.
+
+## Fontes de Interferência
+
+- Outros **Wi-Fi** (na mesma faixa/canal).
+- Micro-ondas, telefones sem fio.
+- **Bluetooth** (na faixa de 2,4 GHz).
+- Câmeras e dispositivos sem fio.
+
+## A Faixa de 2,4 GHz
+
+- Muito **congestionada**.
+- Poucos canais **não sobrepostos**.
+- Sofre mais interferência que a 5 GHz.
+
+## Canais
+
+- 2,4 GHz: canais **1, 6 e 11** não se sobrepõem.
+- 5 GHz: **muito mais** canais disponíveis.
+- Escolher canais **livres** reduz a interferência.
+
+## Ruído
+
+- Sinais **indesejados** de fundo.
+- Quanto maior o **ruído**, pior a relação sinal/ruído.
+- **SNR** = relação sinal-ruído.
+
+## Relação Sinal-Ruído (SNR)
+
+- Boa SNR = **sinal forte** em relação ao ruído.
+- Baixa SNR = **erros e quedas**.
+- Medida em **dB**.
+
+::: {.callout-note}
+Um sinal forte pode ser inútil se o **ruído** for igualmente forte: o que importa é a relação sinal-ruído.
+:::
+
+## Resumo da Aula
+
+- **Interferência** degrada o Wi-Fi.
+- A faixa **2,4 GHz** é a mais sujeita.
+- **Canais** e **SNR** são conceitos-chave.
+
+## Atividade Rápida
+
+- Cite **três** fontes de interferência em casa.
+- Por que a faixa **5 GHz** sofre menos?
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- ROCHOL, J. *Sistemas de Comunicação Sem Fio*. Bookman.
+
+## Próxima Aula
+
+- **Aula 15:** Tipos de antenas.

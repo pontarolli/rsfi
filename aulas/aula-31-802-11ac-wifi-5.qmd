@@ -1,0 +1,72 @@
+---
+title: "Aula 31 — Padrões Modernos: 802.11ac (Wi-Fi 5)"
+---
+
+## Objetivos da Aula
+
+- Conhecer o padrão **802.11ac**.
+- Entender **MU-MIMO** e canais largos.
+- Reconhecer o foco na faixa de **5 GHz**.
+
+## O que é o 802.11ac?
+
+- Padrão ratificado em **2013**.
+- Também chamado **Wi-Fi 5**.
+- Foco na faixa de **5 GHz**.
+
+## Principais Novidades
+
+- Canais largos (**80 e 160 MHz**).
+- **MU-MIMO** (múltiplos usuários).
+- Modulação **256-QAM**.
+- Melhor desempenho em **5 GHz**.
+
+## MU-MIMO
+
+- **Multi-User MIMO**.
+- O AP atende **vários usuários** ao mesmo tempo.
+- Melhora o desempenho em **redes cheias**.
+
+## Taxas
+
+- Até **6,9 Gbps** (teórico).
+- Bem acima do 802.11n.
+- Depende de **várias antenas** e canais largos.
+
+## Benefícios e Limitações
+
+- **Benefícios:** altíssima velocidade, bom para **streaming**.
+- **Limitações:** 5 GHz tem **menor alcance**; exige **hardware** adequado.
+
+::: {.callout-note}
+O **Wi-Fi 5** foi feito para **altíssima velocidade** — ideal para vídeo e muitos dados, mas com alcance menor.
+:::
+
+## Ficha Técnica
+
+| Item | 802.11ac |
+|------|----------|
+| Ano | 2013 |
+| Faixa | 5 GHz |
+| Taxa máx. | ~6,9 Gbps |
+| Destaque | MU-MIMO |
+
+## Resumo da Aula
+
+- 802.11ac = **Wi-Fi 5**.
+- Foco em **5 GHz**, canais largos e **MU-MIMO**.
+- Altíssima **velocidade**.
+
+## Atividade Rápida
+
+- O que é **MU-MIMO**?
+- Por que o Wi-Fi 5 usa principalmente **5 GHz**?
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- Wi-Fi Alliance (documentação).
+
+## Próxima Aula
+
+- **Aula 32:** Padrões modernos — 802.11ax (Wi-Fi 6).

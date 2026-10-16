@@ -1,0 +1,67 @@
+---
+title: "Aula 61 — Projeto Interdisciplinar: Divisão de Grupos"
+---
+
+## Objetivos da Aula
+
+- **Formar** os grupos de projeto.
+- Definir **papéis** e responsabilidades.
+- Planejar o **cronograma** do projeto.
+
+## Formação dos Grupos
+
+- Grupos de **3 a 5** integrantes.
+- Escolha do **cenário** de cada grupo.
+- Definição de **papéis**.
+
+## Papéis Sugeridos
+
+- **Coordenador:** organiza e cobra prazos.
+- **Pesquisador:** levanta requisitos e tecnologias.
+- **Projetista:** dimensiona APs e antenas.
+- **Documentador:** elabora o relatório.
+- **Apresentador:** conduz a defesa.
+
+## Cronograma do Projeto
+
+- **Semana 1-2:** requisitos e site survey.
+- **Semana 3-4:** desenvolvimento.
+- **Semana 5:** 1ª entrega.
+- **Semana 6-7:** ajustes.
+- **Semana 8-9:** apresentação.
+
+## Ferramentas de Trabalho
+
+- Documento **compartilhado**.
+- **Lista de tarefas** com responsáveis.
+- **Canal** de comunicação do grupo.
+
+::: {.callout-note}
+Grupos que **combinam papéis e prazos** desde o início entregam melhor — evite deixar tudo para a última semana.
+:::
+
+## Produto da Aula
+
+- Grupos **formados**.
+- **Cenário** escolhido.
+- **Cronograma** interno definido.
+
+## Resumo da Aula
+
+- Formamos os **grupos** e definimos **papéis**.
+- Planejamos o **cronograma**.
+- Preparamos o **desenvolvimento**.
+
+## Atividade Rápida
+
+- Liste os **papéis** do seu grupo com nomes.
+- Defina as **datas** das tarefas.
+
+## Referências
+
+- MORAES, A. F. *Redes Sem Fio*. Érica.
+- Documentação do projeto.
+
+## Próxima Aula
+
+- **Aula 62:** Projeto interdisciplinar — desenvolvimento (1).

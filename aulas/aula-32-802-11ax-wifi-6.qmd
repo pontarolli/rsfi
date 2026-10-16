@@ -1,0 +1,73 @@
+---
+title: "Aula 32 — Padrões Modernos: 802.11ax (Wi-Fi 6)"
+---
+
+## Objetivos da Aula
+
+- Conhecer o padrão **802.11ax**.
+- Entender **OFDMA** e eficiência.
+- Reconhecer o foco em **ambientes cheios**.
+
+## O que é o 802.11ax?
+
+- Padrão ratificado em **2019/2021**.
+- Também chamado **Wi-Fi 6**.
+- Foco em **eficiência** em redes congestionadas.
+
+## Mais que Velocidade
+
+- O foco não é só **velocidade**.
+- É atender **muitos dispositivos** ao mesmo tempo.
+- Ideal para **estádios, escolas, empresas**.
+
+## OFDMA
+
+- **Orthogonal Frequency-Division Multiple Access**.
+- Divide o canal em **subportadoras**.
+- Atende vários usuários **simultaneamente**.
+
+## Outras Novidades
+
+- **MU-MIMO** melhorado.
+- **TWT** (economia de energia).
+- Modulação **1024-QAM**.
+- **BSS Coloring** (menos interferência).
+
+## Benefícios
+
+- Melhor desempenho em **ambientes densos**.
+- Menor **latência**.
+- Maior **eficiência** energética.
+
+::: {.callout-note}
+O **Wi-Fi 6** resolve o problema do "Wi-Fi cheio": mais dispositivos sem perder qualidade.
+:::
+
+## Ficha Técnica
+
+| Item | 802.11ax |
+|------|----------|
+| Ano | 2019/2021 |
+| Faixas | 2,4 e 5 GHz |
+| Destaque | OFDMA |
+| Foco | Eficiência |
+
+## Resumo da Aula
+
+- 802.11ax = **Wi-Fi 6**.
+- Foco em **eficiência** e ambientes densos.
+- Introduz **OFDMA** e **TWT**.
+
+## Atividade Rápida
+
+- Qual o foco principal do **Wi-Fi 6**?
+- O que é **OFDMA**?
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- Wi-Fi Alliance (documentação).
+
+## Próxima Aula
+
+- **Aula 33:** Wi-Fi 6E, Wi-Fi 7 e tendências futuras.

@@ -1,0 +1,75 @@
+---
+title: "Aula 59 — Site Survey e Cobertura"
+---
+
+## Objetivos da Aula
+
+- Compreender o que é **site survey**.
+- Conhecer os **tipos** de levantamento.
+- Medir e analisar **cobertura**.
+
+## O que é Site Survey?
+
+- **Levantamento** do local para projetar a rede.
+- Identifica obstáculos e **áreas críticas**.
+- Base para posicionar os **APs**.
+
+## Por que Fazer?
+
+- Evitar pontos **sem sinal**.
+- Ajustar **canais** e potências.
+- Reduzir **interferências**.
+
+## Dois Tipos
+
+- **Preditivo:** simulação (software) sem ir ao local.
+- **Ativo:** medição real **no local**.
+
+## Ferramentas
+
+- **Softwares** de planejamento (heat maps).
+- **Analisadores** de espectro.
+- Plantas **baixas** do local.
+
+## Processo
+
+- **1.** Obter a **planta** do local.
+- **2.** Identificar **obstáculos**.
+- **3.** Simular / medir.
+- **4.** Ajustar **posições e canais**.
+
+::: {.callout-note}
+O **heat map** mostra visualmente onde o sinal é bom ou ruim — é a "foto" da cobertura antes de instalar.
+:::
+
+## Métricas
+
+- **RSSI** (intensidade do sinal) em dBm.
+- **SNR** (relação sinal-ruído).
+- **Taxa** de dados alcançada.
+
+## Validação
+
+- Medir **após** a instalação.
+- Comparar com o **projeto**.
+- Corrigir **desvios**.
+
+## Resumo da Aula
+
+- **Site survey** orienta o posicionamento dos APs.
+- Pode ser **preditivo** ou **ativo**.
+- Validação confirma o **desempenho real**.
+
+## Atividade Rápida
+
+- Diferencie site survey **preditivo** e **ativo**.
+- Que métricas indicam **boa cobertura**?
+
+## Referências
+
+- MORAES, A. F. *Redes Sem Fio*. Érica.
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+
+## Próxima Aula
+
+- **Aula 60:** Projeto interdisciplinar com ASRE — cenários.

@@ -1,0 +1,69 @@
+---
+title: "Aula 07 — WLAN: Redes Locais sem Fio"
+---
+
+## Objetivos da Aula
+
+- Definir **WLAN** (Wireless Local Area Network).
+- Conhecer a tecnologia **Wi-Fi**.
+- Entender a **topologia** típica de uma WLAN.
+
+## O que é uma WLAN?
+
+- Rede local **sem fio**, de alcance médio.
+- Cobre um **prédio, andar ou campus**.
+- Substitui ou complementa a rede **cabeada**.
+
+## A Tecnologia Wi-Fi
+
+- Baseada no padrão **IEEE 802.11**.
+- Usa as faixas **2,4 e 5 GHz** (e 6 GHz).
+- Certificada pela **Wi-Fi Alliance**.
+
+## Componentes de uma WLAN
+
+- **Estações (STA):** celulares, notebooks.
+- **Access Point (AP):** ponto de acesso.
+- **Rede de distribuição:** cabeamento até o AP.
+- **Controlador:** gerencia vários APs.
+
+## Topologia em Infraestrutura
+
+- Clientes se conectam **via AP**.
+- O AP liga a rede sem fio à **rede cabeada**.
+- Cobre uma **célula**.
+
+## BSS, ESS
+
+- **BSS:** uma célula (um AP).
+- **ESS:** várias células com o mesmo **SSID**.
+- Permite **roaming** entre APs.
+
+::: {.callout-note}
+Quando vários APs compartilham o mesmo SSID, os clientes circulam sem perceber — é o **roaming**.
+:::
+
+## Vantagens e Limitações
+
+- **Vantagens:** mobilidade, fácil instalação, menos cabos.
+- **Limitações:** interfere em obstáculos, sofre **interferência**, segurança exige cuidado.
+
+## Resumo da Aula
+
+- WLAN é a rede local sem fio (**Wi-Fi**).
+- Baseada no **IEEE 802.11**.
+- Usa **APs** e células (**BSS/ESS**).
+
+## Atividade Rápida
+
+- Desenhe a **WLAN** da sua casa.
+- Onde está o **AP** e qual a **cobertura**?
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- MORAES, A. F. *Redes Sem Fio*. Érica.
+
+## Próxima Aula
+
+- **Aula 08:** WMAN e WWAN.

@@ -1,0 +1,70 @@
+---
+title: "Aula 38 — Configuração de Access Points: Parte 2"
+---
+
+## Objetivos da Aula
+
+- Aprofundar a **configuração** de APs.
+- Configurar **múltiplos SSIDs** e **VLANs**.
+- Ajustar **parâmetros avançados**.
+
+## Múltiplos SSIDs
+
+- Um AP pode oferecer **vários SSIDs**.
+- Ex.: "Visitantes" e "Corporativo".
+- Cada um com **segurança própria**.
+
+## VLANs
+
+- Isolar **tráfego** por rede virtual.
+- Associanr SSID → **VLAN**.
+- Separa convidados de **usuários internos**.
+
+## Parâmetros Avançados
+
+- **Largura de canal** (20/40/80 MHz).
+- **Potência** de transmissão.
+- **Modo** (b/g/n/ac/ax).
+- **Roaming** e balanceamento.
+
+## Convidados
+
+- Rede **isolada** e com senha simples.
+- Limite de **banda**.
+- Portal de **autenticação** (captive portal).
+
+::: {.callout-note}
+Separar a rede de **visitantes** da rede interna é uma prática essencial de **segurança e organização**.
+:::
+
+## Testes
+
+- Conectar em cada **SSID**.
+- Verificar o **isolamento** das VLANs.
+- Medir **velocidade** e **cobertura**.
+
+## Boas Práticas
+
+- Nomear SSIDs de forma **clara**.
+- Documentar **canais** e **potências**.
+- Evitar **sobreposição** de canais.
+
+## Resumo da Aula
+
+- Um AP pode ter **vários SSIDs** e **VLANs**.
+- Configurações avançadas controlam **desempenho**.
+- Separar convidados melhora a **segurança**.
+
+## Atividade Rápida
+
+- Por que usar **múltiplos SSIDs**?
+- O que é uma **VLAN** em um AP?
+
+## Referências
+
+- MORAES, A. F. *Redes Sem Fio*. Érica.
+- Manual do equipamento do laboratório.
+
+## Próxima Aula
+
+- **Aula 39:** Wireless Controllers — conceitos.

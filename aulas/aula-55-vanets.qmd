@@ -1,0 +1,72 @@
+---
+title: "Aula 55 — VANETs: Redes Veiculares"
+---
+
+## Objetivos da Aula
+
+- Compreender o que são **VANETs**.
+- Entender suas **aplicações**.
+- Reconhecer seus **desafios**.
+
+## O que são VANETs?
+
+- **Vehicular Ad Hoc Networks**.
+- Redes sem fio entre **veículos** e infraestrutura.
+- Caso especial de redes **ad hoc** móveis.
+
+## Componentes
+
+- **V2V:** veículo a veículo.
+- **V2I:** veículo a infraestrutura.
+- **V2X:** veículo a tudo.
+- **RSU:** unidades na beira da via.
+
+## Aplicações
+
+- **Segurança** no trânsito (alertas de colisão).
+- **Eficiência** (rotas, semáforos).
+- **Conforto** (infotenimento).
+- **Veículos autônomos**.
+
+## Desafios
+
+- Alta **mobilidade** dos nós.
+- Ambiente **urbano** com obstáculos.
+- **Segurança** e privacidade.
+- Padronização (**802.11p**, C-V2X).
+
+## Padrões
+
+- **IEEE 802.11p** (WAVE).
+- **C-V2X** (celular).
+- Ambos em **disputa** e convergência.
+
+::: {.callout-note}
+As VANETs podem **salvar vidas**: um alerta enviado a tempo pode evitar uma colisão.
+:::
+
+## Segurança
+
+- Autenticidade das **mensagens**.
+- **Privacidade** dos motoristas.
+- Resistência a **mensagens falsas**.
+
+## Resumo da Aula
+
+- **VANETs** conectam veículos (V2V, V2I, V2X).
+- Aplicações em **segurança e eficiência** do trânsito.
+- Desafios: **mobilidade, segurança e padrões**.
+
+## Atividade Rápida
+
+- Dê **dois** exemplos de V2X.
+- Qual o maior **desafio** das VANETs?
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- ROCHOL, J. *Sistemas de Comunicação Sem Fio*. Bookman.
+
+## Próxima Aula
+
+- **Aula 56:** Redes de sensores sem fio.

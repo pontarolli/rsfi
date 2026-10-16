@@ -1,0 +1,73 @@
+---
+title: "Aula 06 — WPAN: Redes Pessoais sem Fio"
+---
+
+## Objetivos da Aula
+
+- Definir **WPAN** (Wireless Personal Area Network).
+- Conhecer suas **tecnologias**.
+- Entender seus **usos**.
+
+## O que é uma WPAN?
+
+- Rede sem fio de **curtíssimo alcance**.
+- Cobre o espaço **pessoal** (poucos metros).
+- Conecta **dispositivos pessoais** entre si.
+
+## Características
+
+- **Alcance:** ~1 a 10 metros.
+- **Baixo consumo** de energia.
+- **Baixo custo**.
+- Velocidades **moderadas**.
+
+## Tecnologias WPAN
+
+- **Bluetooth:** dados e áudio.
+- **ZigBee:** sensores e automação.
+- **Infrared (IrDA):** linha de visada.
+- **NFC:** proximidade (pagamentos).
+
+## Usos no Cotidiano
+
+- Fones e caixas de som **Bluetooth**.
+- **Smartwatches** e pulseiras.
+- **Automação residencial** (lâmpadas, sensores).
+- **Pagamento por aproximação** (NFC).
+
+::: {.callout-note}
+A WPAN é a rede "**de bolso**": conecta os dispositivos que carregamos sem depender de infraestrutura.
+:::
+
+## WPAN no Curso
+
+- Voltaremos ao **Bluetooth** e **ZigBee** no 3º bimestre.
+- Base para entender **IoT** no 4º bimestre.
+
+## Comparação Rápida
+
+| Tecnologia | Uso | Alcance |
+|------------|-----|---------|
+| Bluetooth | áudio, dados | ~10 m |
+| ZigBee | sensores | ~10–100 m |
+| NFC | pagamento | ~4 cm |
+
+## Resumo da Aula
+
+- WPAN é a rede sem fio **pessoal**.
+- Tecnologias: **Bluetooth, ZigBee, IrDA, NFC**.
+- Baixo consumo e curto alcance.
+
+## Atividade Rápida
+
+- Liste **dispositivos** WPAN que você usa.
+- Qual a principal **vantagem** da WPAN?
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- LUGLI, A. B.; SANTOS, M. M. D. *Redes sem fio para automação industrial*. Érica.
+
+## Próxima Aula
+
+- **Aula 07:** WLAN — redes locais sem fio.

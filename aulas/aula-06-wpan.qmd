@@ -1,5 +1,5 @@
 ---
-title: "Aula 06 — WPAN: Redes Pessoais sem Fio"
+title: "Aula 6 — WPAN: Redes Pessoais sem Fio"
 ---
 
 ## Objetivos da Aula

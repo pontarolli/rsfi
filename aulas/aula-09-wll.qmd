@@ -1,5 +1,5 @@
 ---
-title: "Aula 09 — WLL: Acesso Local sem Fio"
+title: "Aula 9 — WLL: Acesso Local sem Fio"
 ---
 
 ## Objetivos da Aula

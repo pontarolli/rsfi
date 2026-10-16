@@ -1,5 +1,5 @@
 ---
-title: "Aula 02 — Introdução às Redes sem Fio: Histórico"
+title: "Aula 2 — Introdução às Redes sem Fio: Histórico"
 ---
 
 ## Objetivos da Aula

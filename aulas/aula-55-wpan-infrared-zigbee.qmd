@@ -1,0 +1,79 @@
+---
+title: "Aula 55 — WPAN: Infrared e ZigBee"
+---
+
+## Objetivos da Aula
+
+- Conhecer o **Infrared (IrDA)**.
+- Conhecer o **ZigBee**.
+- Comparar aplicações e características.
+
+## Infrared (IrDA)
+
+- Comunicação por **infravermelho**.
+- Exige **linha de visada**.
+- Alcance **curto** (metros).
+
+## Características do IrDA
+
+- Não atravessa **paredes**.
+- Alta **segurança** (confinado).
+- Baixo custo, mas **pouco usado** hoje.
+
+## Aplicações do Infrared
+
+- Controles remotos.
+- Sensores de proximidade.
+- Antigos celulares (transferência de dados).
+
+## ZigBee
+
+- Padrão **IEEE 802.15.4**.
+- Foco em **baixo consumo** e **automação**.
+- Redes **em malha** (mesh).
+
+## Características do ZigBee
+
+- Baixa taxa de dados.
+- Longa **duração de bateria**.
+- Suporta **muitos nós**.
+- Autorroteamento (**mesh**).
+
+## Aplicações do ZigBee
+
+- **Automação residencial**.
+- Sensores industriais.
+- Medidores inteligentes (**smart meters**).
+- **IoT**.
+
+::: {.callout-note}
+O **ZigBee** é feito para sensores: transmite **pouco** e **devagar**, mas dura **anos** com uma bateria.
+:::
+
+## Comparação
+
+| Item | IrDA | ZigBee |
+|------|------|--------|
+| Meio | Infravermelho | RF (2,4 GHz) |
+| Visada | Sim | Não |
+| Bateria | — | Muito baixa |
+
+## Resumo da Aula
+
+- **IrDA:** infravermelho, linha de visada.
+- **ZigBee:** baixo consumo, mesh, IoT.
+- Cada um serve a **aplicações** distintas.
+
+## Atividade Rápida
+
+- Por que o **IrDA** caiu em desuso?
+- Para que serve o **ZigBee**?
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- LUGLI, A. B.; SANTOS, M. M. D. *Redes sem fio para automação industrial*. Érica.
+
+## Próxima Aula
+
+- **Aula 52:** WMAN e WiMax.

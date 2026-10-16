@@ -1,0 +1,70 @@
+---
+title: "Aula 23 — Arquiteturas de Redes Wireless"
+---
+
+## Objetivos da Aula
+
+- Conhecer as **arquiteturas** das redes wireless.
+- Entender os papéis de **AP e estação**.
+- Diferenciar os **modos** de operação.
+
+## Arquitetura em Infraestrutura
+
+- Clientes se conectam a um **AP**.
+- O AP conecta a WLAN à rede **cabeada**.
+- Modelo mais **comum**.
+
+## Arquitetura Ad Hoc
+
+- Dispositivos se conectam **diretamente**.
+- Sem AP intermediário.
+- Usado para **compartilhamento** pontual.
+
+## Modos do 802.11
+
+- **Infrastructure:** via AP.
+- **Ad hoc:** direto entre estações.
+- **Mesh:** APs se comunicam entre si.
+
+## Elementos da Arquitetura
+
+- **STA:** estação (cliente).
+- **AP:** ponto de acesso.
+- **DS:** sistema de distribuição (backbone).
+- **Portal:** ligação com outras redes.
+
+## Serviços do 802.11
+
+- **Associação:** conectar-se ao AP.
+- **Autenticação:** identificar-se.
+- **Reassociação:** trocar de AP (roaming).
+
+::: {.callout-note}
+A arquitetura **em infraestrutura** domina o mundo real: quase todo Wi-Fi passa por um **AP** ligado à rede cabeada.
+:::
+
+## Sistemas de Distribuição
+
+- Ligam vários APs a um **backbone**.
+- Permitem **roaming** em um ESS.
+- Frequentemente usam **cabo** ou **backhaul sem fio**.
+
+## Resumo da Aula
+
+- Arquiteturas: **infraestrutura, ad hoc e mesh**.
+- Elementos: **STA, AP, DS, portal**.
+- Serviços: associação, autenticação, roaming.
+
+## Atividade Rápida
+
+- Compare **infraestrutura** e **ad hoc**.
+- O que é o **sistema de distribuição**?
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- ROCHOL, J. *Sistemas de Comunicação Sem Fio*. Bookman.
+
+## Próxima Aula
+
+- **Aula 22:** Topologias — infraestrutura e ad hoc.

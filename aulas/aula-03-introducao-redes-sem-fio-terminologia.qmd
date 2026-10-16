@@ -1,5 +1,5 @@
 ---
-title: "Aula 03 — Introdução às Redes sem Fio: Terminologia"
+title: "Aula 3 — Introdução às Redes sem Fio: Terminologia"
 ---
 
 ## Objetivos da Aula

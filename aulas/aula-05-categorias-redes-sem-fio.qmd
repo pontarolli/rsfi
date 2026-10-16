@@ -1,5 +1,5 @@
 ---
-title: "Aula 05 — Categorias de Redes sem Fio: Visão Geral"
+title: "Aula 5 — Categorias de Redes sem Fio: Visão Geral"
 ---
 
 ## Objetivos da Aula

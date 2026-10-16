@@ -1,0 +1,70 @@
+---
+title: "Aula 51 — Servidores RADIUS"
+---
+
+## Objetivos da Aula
+
+- Compreender o que é o **RADIUS**.
+- Entender seu papel na autenticação.
+- Conhecer sua configuração básica.
+
+## O que é o RADIUS?
+
+- **Remote Authentication Dial-In User Service**.
+- Servidor de **autenticação, autorização e accounting**.
+- Centraliza o controle de acesso.
+
+## Os "Três A"
+
+- **Authentication:** confirma a identidade.
+- **Authorization:** define o que pode acessar.
+- **Accounting:** registra o uso.
+
+## Papel no Wi-Fi
+
+- No WPA2-Enterprise, o **AP** consulta o RADIUS.
+- O RADIUS **valida** as credenciais.
+- Só então o cliente entra na **rede**.
+
+## Componentes
+
+- **Servidor** RADIUS (ex.: FreeRADIUS).
+- **Clientes** (APs/controladores).
+- **Usuários** e **certificados**.
+
+## Configuração Básica
+
+- Definir os **clientes** (APs) e segredos.
+- Cadastrar **usuários**.
+- Escolher o método **EAP**.
+- Testar a **autenticação**.
+
+::: {.callout-note}
+O RADIUS é o **cartório** da rede: ele confirma quem é quem antes de liberar o acesso.
+:::
+
+## Vantagens
+
+- Gestão **centralizada** de usuários.
+- **Logs** de acesso.
+- Integração com **diretórios** (LDAP/AD).
+
+## Resumo da Aula
+
+- RADIUS faz **autenticação, autorização e accounting**.
+- Centraliza o controle de acesso.
+- É a base do **WPA2-Enterprise**.
+
+## Atividade Rápida
+
+- Quais são os "**três A**" do RADIUS?
+- Qual o papel do RADIUS no Wi-Fi?
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- Documentação do FreeRADIUS.
+
+## Próxima Aula
+
+- **Aula 48:** WPA3 e segurança moderna.

@@ -1,0 +1,74 @@
+---
+title: "Aula 25 — Padrões IEEE 802.11: Visão Geral"
+---
+
+## Objetivos da Aula
+
+- Conhecer a família de padrões **IEEE 802.11**.
+- Entender o papel das **normas**.
+- Situar as **gerações** do Wi-Fi.
+
+## O que é o IEEE?
+
+- **Institute of Electrical and Electronics Engineers**.
+- Organização que define **padrões** técnicos.
+- O **802** é o comitê de redes locais.
+
+## A Família 802
+
+- **802.3:** Ethernet (cabo).
+- **802.11:** Wi-Fi (sem fio).
+- **802.15:** WPAN (Bluetooth).
+- **802.16:** WiMax (WMAN).
+
+## O Padrão 802.11
+
+- Define como funciona o **Wi-Fi**.
+- Especifica camadas **físicas** e de **acesso**.
+- Evolui por **emendas** (a, b, g, n...).
+
+## Certificação Wi-Fi
+
+- O IEEE define o **padrão**.
+- A **Wi-Fi Alliance** certifica a **interoperabilidade**.
+- Garante que equipamentos "se entendam".
+
+## Gerações do Wi-Fi
+
+| Geração | Padrão |
+|---------|--------|
+| (1ª) | 802.11b |
+| (2ª) | 802.11a/g |
+| Wi-Fi 4 | 802.11n |
+| Wi-Fi 5 | 802.11ac |
+| Wi-Fi 6 | 802.11ax |
+
+::: {.callout-note}
+"802.11" e "Wi-Fi" parecem sinônimos, mas o primeiro é o **padrão** e o segundo é a **certificação** comercial.
+:::
+
+## Por que Estudar os Padrões?
+
+- Entender **compatibilidade** entre equipamentos.
+- Escolher a tecnologia **adequada**.
+- Prever **desempenho**.
+
+## Resumo da Aula
+
+- **IEEE 802.11** é o padrão do Wi-Fi.
+- A **Wi-Fi Alliance** certifica os produtos.
+- As gerações evoluem (b → ax).
+
+## Atividade Rápida
+
+- Qual a diferença entre **IEEE** e **Wi-Fi Alliance**?
+- Cite as gerações do Wi-Fi.
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- IEEE 802.11 (documentação do padrão).
+
+## Próxima Aula
+
+- **Aula 24:** 802.11 original — características.

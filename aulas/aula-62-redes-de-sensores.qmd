@@ -1,0 +1,72 @@
+---
+title: "Aula 62 — Redes de Sensores sem Fio"
+---
+
+## Objetivos da Aula
+
+- Compreender as **redes de sensores sem fio** (WSN).
+- Conhecer seus **componentes**.
+- Reconhecer suas **aplicações**.
+
+## O que são WSN?
+
+- **Wireless Sensor Networks**.
+- Conjunto de **sensores** que coletam dados.
+- Comunicam-se **sem fio** até um ponto de coleta.
+
+## Componentes
+
+- **Nó sensor:** mede grandezas (temperatura, umidade...).
+- **Gateway/sink:** recolhe os dados.
+- **Estação base:** processa as informações.
+
+## Características
+
+- **Baixo consumo** de energia.
+- Muitos **nós** distribuídos.
+- Autonomia por **bateria**.
+- Comunicação **multihop**.
+
+## Aplicações
+
+- **Agricultura** de precisão.
+- **Monitoramento ambiental**.
+- **Indústria** (automação).
+- **Cidades inteligentes**.
+
+## Desafios
+
+- **Energia** (bateria limitada).
+- **Alcance** e confiabilidade.
+- **Segurança** dos dados.
+- Volume de **dados** gerado.
+
+::: {.callout-note}
+Em uma WSN, **economizar energia** é vital: o sensor precisa durar meses ou anos com uma única bateria.
+:::
+
+## Tecnologias Relacionadas
+
+- **ZigBee** e **LoRa**.
+- **BLE**.
+- Redes **mesh** de sensores.
+
+## Resumo da Aula
+
+- WSN: redes de **sensores** sem fio.
+- Baixo consumo e **muitos nós**.
+- Aplicações em **agricultura, indústria e ambiente**.
+
+## Atividade Rápida
+
+- Cite **duas** aplicações de WSN.
+- Qual o maior **desafio** energético?
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- LUGLI, A. B.; SANTOS, M. M. D. *Redes sem fio para automação industrial*. Érica.
+
+## Próxima Aula
+
+- **Aula 57:** IoT e conectividade sem fio.

@@ -66,4 +66,4 @@ Apesar de tecnicamente bom, o WiMax perdeu espaço para o **celular** — um exe
 
 ## Próxima Aula
 
-- **Aula 53:** Redes em malha (Wimesh/mesh).
+- **Aula 57:** Redes em malha (Wimesh/mesh).

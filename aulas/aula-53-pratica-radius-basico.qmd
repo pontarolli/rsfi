@@ -66,4 +66,4 @@ O log do RADIUS é a **prova** da autenticação: é onde se vê se o acesso foi
 
 ## Próxima Aula
 
-- **Aula 50:** WPAN — Bluetooth.
+- **Aula 54:** WPAN — Bluetooth.

@@ -69,4 +69,4 @@ Trocar a **senha padrão** do AP é a primeira medida de segurança — senhas d
 
 ## Próxima Aula
 
-- **Aula 38:** Configuração de Access Points — Parte 2.
+- **Aula 42:** Configuração de Access Points — Parte 2.

@@ -71,4 +71,4 @@ Não existe "a" tecnologia de IoT: cada caso pede o **equilíbrio** certo entre 
 
 ## Próxima Aula
 
-- **Aula 58:** Projeto de redes sem fio — planejamento.
+- **Aula 64:** Projeto de redes sem fio — planejamento.

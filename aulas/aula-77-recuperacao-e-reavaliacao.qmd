@@ -60,4 +60,4 @@ A recuperação não é só uma **segunda chance**: é a oportunidade de **realm
 
 ## Próxima Aula
 
-- **Aula 72:** Encerramento do ano letivo.
+- **Aula 78:** Encerramento do ano letivo.

@@ -69,4 +69,4 @@ O **Wi-Fi 5** foi feito para **altíssima velocidade** — ideal para vídeo e m
 
 ## Próxima Aula
 
-- **Aula 32:** Padrões modernos — 802.11ax (Wi-Fi 6).
+- **Aula 34:** Padrões modernos — 802.11ax (Wi-Fi 6).

@@ -63,4 +63,4 @@ A 1ª entrega **não é o fim**: serve para identificar erros enquanto ainda dá
 
 ## Próxima Aula
 
-- **Aula 66:** Feedback e correção dos erros.
+- **Aula 72:** Feedback e correção dos erros.

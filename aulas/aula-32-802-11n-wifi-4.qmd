@@ -69,4 +69,4 @@ O **MIMO** aproveita o multipercurso — antes um problema, agora transformado e
 
 ## Próxima Aula
 
-- **Aula 31:** Padrões modernos — 802.11ac (Wi-Fi 5).
+- **Aula 33:** Padrões modernos — 802.11ac (Wi-Fi 5).

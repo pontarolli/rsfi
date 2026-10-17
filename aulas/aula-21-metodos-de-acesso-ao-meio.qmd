@@ -66,4 +66,4 @@ No sem fio, as **colisões são difíceis de detectar** — por isso se tenta **
 
 ## Próxima Aula
 
-- **Aula 20:** CSMA/CA — acesso em redes sem fio.
+- **Aula 22:** CSMA/CA — acesso em redes sem fio.

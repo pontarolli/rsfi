@@ -76,4 +76,4 @@ O **ZigBee** é feito para sensores: transmite **pouco** e **devagar**, mas dura
 
 ## Próxima Aula
 
-- **Aula 52:** WMAN e WiMax.
+- **Aula 56:** WMAN e WiMax.

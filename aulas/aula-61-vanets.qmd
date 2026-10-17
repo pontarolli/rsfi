@@ -69,4 +69,4 @@ As VANETs podem **salvar vidas**: um alerta enviado a tempo pode evitar uma coli
 
 ## Próxima Aula
 
-- **Aula 56:** Redes de sensores sem fio.
+- **Aula 62:** Redes de sensores sem fio.

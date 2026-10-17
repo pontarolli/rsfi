@@ -64,4 +64,4 @@ Corrigir **agora** é barato; corrigir depois de instalado custa muito mais. É 
 
 ## Próxima Aula
 
-- **Aula 67:** Ajustes e finalização do projeto.
+- **Aula 73:** Ajustes e finalização do projeto.

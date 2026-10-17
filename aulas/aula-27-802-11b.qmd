@@ -69,4 +69,4 @@ O **802.11b** foi o responsável por levar o Wi-Fi para as casas — mesmo com v
 
 ## Próxima Aula
 
-- **Aula 26:** Família 802.11a.
+- **Aula 28:** Família 802.11a.

@@ -63,4 +63,4 @@ Um erro clássico é projetar só pensando em **cobertura** e esquecer a **capac
 
 ## Próxima Aula
 
-- **Aula 59:** Site survey e cobertura.
+- **Aula 65:** Site survey e cobertura.

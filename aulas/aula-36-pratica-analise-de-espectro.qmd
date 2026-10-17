@@ -63,4 +63,4 @@ Ver o espectro "cheio" ajuda a entender por que escolher **bons canais** melhora
 
 ## Próxima Aula
 
-- **Aula 35:** Pesquisa orientada — evolução do Wi-Fi.
+- **Aula 37:** Pesquisa orientada — evolução do Wi-Fi.

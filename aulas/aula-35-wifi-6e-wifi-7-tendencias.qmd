@@ -69,4 +69,4 @@ O 6 GHz não resolve tudo: exige **novos dispositivos** e tem **menor alcance**.
 
 ## Próxima Aula
 
-- **Aula 34:** Prática — análise de espectro.
+- **Aula 36:** Prática — análise de espectro.

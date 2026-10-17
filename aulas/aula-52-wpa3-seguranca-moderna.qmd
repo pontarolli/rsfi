@@ -67,4 +67,4 @@ O WPA3 corrige o ponto fraco do WPA2: a **senha** deixa de ser tão vulnerável 
 
 ## Próxima Aula
 
-- **Aula 49:** Prática — configuração de RADIUS básico.
+- **Aula 53:** Prática — configuração de RADIUS básico.

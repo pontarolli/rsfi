@@ -69,4 +69,4 @@ O Bluetooth é ótimo para **dispositivos pessoais**, mas compartilha a faixa de
 
 ## Próxima Aula
 
-- **Aula 51:** WPAN — Infrared e ZigBee.
+- **Aula 55:** WPAN — Infrared e ZigBee.

@@ -63,4 +63,4 @@ Leia o projeto como se fosse um **cliente**: ele entenderia a proposta só com e
 
 ## Próxima Aula
 
-- **Aula 68:** Preparação das apresentações.
+- **Aula 74:** Preparação das apresentações.

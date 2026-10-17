@@ -63,4 +63,4 @@ Testar o **roaming** na prática mostra a diferença entre vários APs "soltos" 
 
 ## Próxima Aula
 
-- **Aula 41:** Segurança em redes sem fio — fundamentos.
+- **Aula 45:** Segurança em redes sem fio — fundamentos.

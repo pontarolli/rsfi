@@ -69,4 +69,4 @@ Em uma WSN, **economizar energia** é vital: o sensor precisa durar meses ou ano
 
 ## Próxima Aula
 
-- **Aula 57:** IoT e conectividade sem fio.
+- **Aula 63:** IoT e conectividade sem fio.

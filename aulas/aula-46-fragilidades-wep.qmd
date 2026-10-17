@@ -66,4 +66,4 @@ O WEP foi **quebrado** e é considerado **inseguro**: não deve ser usado em nen
 
 ## Próxima Aula
 
-- **Aula 43:** Transição do WEP para o WPA.
+- **Aula 47:** Transição do WEP para o WPA.

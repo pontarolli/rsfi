@@ -63,4 +63,4 @@ Nesta etapa, cada decisão precisa ser **justificada**: por que este AP, nesta p
 
 ## Próxima Aula
 
-- **Aula 64:** Projeto interdisciplinar — desenvolvimento (3).
+- **Aula 70:** Projeto interdisciplinar — desenvolvimento (3).

@@ -64,4 +64,4 @@ O fio condutor: **configurar e proteger** bem uma rede sem fio — da segurança
 
 ## Próxima Aula
 
-- **Aula 55:** VANETs — redes veiculares.
+- **Aula 61:** VANETs — redes veiculares.

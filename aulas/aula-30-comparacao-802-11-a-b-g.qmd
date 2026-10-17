@@ -65,4 +65,4 @@ A escolha de faixa **2,4 vs 5 GHz** continua sendo a decisão central em projeto
 
 ## Próxima Aula
 
-- **Aula 29:** Estudo de caso — comparação de tecnologias.
+- **Aula 31:** Estudo de caso — comparação de tecnologias.

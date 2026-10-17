@@ -67,4 +67,4 @@ O RADIUS é o **cartório** da rede: ele confirma quem é quem antes de liberar 
 
 ## Próxima Aula
 
-- **Aula 48:** WPA3 e segurança moderna.
+- **Aula 52:** WPA3 e segurança moderna.

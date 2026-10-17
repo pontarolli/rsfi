@@ -67,4 +67,4 @@ A arquitetura **em infraestrutura** domina o mundo real: quase todo Wi-Fi passa 
 
 ## Próxima Aula
 
-- **Aula 22:** Topologias — infraestrutura e ad hoc.
+- **Aula 24:** Topologias — infraestrutura e ad hoc.

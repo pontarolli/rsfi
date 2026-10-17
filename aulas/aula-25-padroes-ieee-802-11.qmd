@@ -71,4 +71,4 @@ title: "Aula 25 — Padrões IEEE 802.11: Visão Geral"
 
 ## Próxima Aula
 
-- **Aula 24:** 802.11 original — características.
+- **Aula 26:** 802.11 original — características.

@@ -70,4 +70,4 @@ Uma rede **aberta** é como uma conversa em voz alta numa praça: qualquer um po
 
 ## Próxima Aula
 
-- **Aula 42:** Fragilidades do WEP.
+- **Aula 46:** Fragilidades do WEP.

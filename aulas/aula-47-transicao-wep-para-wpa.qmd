@@ -66,4 +66,4 @@ O WPA foi um **remendo inteligente**: melhorou a segurança sem descartar os equ
 
 ## Próxima Aula
 
-- **Aula 44:** WPA2 — conceitos.
+- **Aula 48:** WPA2 — conceitos.

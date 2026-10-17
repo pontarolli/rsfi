@@ -68,4 +68,4 @@ O 802.11g foi o **"melhor dos dois mundos"**: velocidade do 5 GHz com a compatib
 
 ## Próxima Aula
 
-- **Aula 28:** Comparação 802.11a/b/g.
+- **Aula 30:** Comparação 802.11a/b/g.

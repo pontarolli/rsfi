@@ -67,4 +67,4 @@ O 802.11 original provou o conceito; as **emendas seguintes** (b, a, g...) troux
 
 ## Próxima Aula
 
-- **Aula 25:** Família 802.11b.
+- **Aula 27:** Família 802.11b.

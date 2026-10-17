@@ -67,4 +67,4 @@ O WPA2 é seguro **se** a senha for forte e os equipamentos estiverem **atualiza
 
 ## Próxima Aula
 
-- **Aula 45:** WPA2 Personal (PSK).
+- **Aula 49:** WPA2 Personal (PSK).

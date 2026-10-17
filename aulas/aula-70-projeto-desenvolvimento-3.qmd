@@ -65,4 +65,4 @@ Um bom relatório **explica o porquê** de cada decisão — não apenas lista e
 
 ## Próxima Aula
 
-- **Aula 65:** Projeto interdisciplinar — 1ª entrega.
+- **Aula 71:** Projeto interdisciplinar — 1ª entrega.

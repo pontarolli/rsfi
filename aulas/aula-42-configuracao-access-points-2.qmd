@@ -67,4 +67,4 @@ Separar a rede de **visitantes** da rede interna é uma prática essencial de **
 
 ## Próxima Aula
 
-- **Aula 39:** Wireless Controllers — conceitos.
+- **Aula 43:** Wireless Controllers — conceitos.

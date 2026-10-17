@@ -72,4 +72,4 @@ O **heat map** mostra visualmente onde o sinal é bom ou ruim — é a "foto" da
 
 ## Próxima Aula
 
-- **Aula 60:** Projeto interdisciplinar com ASRE — cenários.
+- **Aula 66:** Projeto interdisciplinar com ASRE — cenários.

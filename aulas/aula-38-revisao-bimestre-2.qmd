@@ -68,4 +68,4 @@ O fio condutor do bimestre: **como o Wi-Fi se organiza e evolui** — do acesso 
 
 ## Próxima Aula
 
-- **Aula 37:** Configuração de Access Points — Parte 1.
+- **Aula 41:** Configuração de Access Points — Parte 1.

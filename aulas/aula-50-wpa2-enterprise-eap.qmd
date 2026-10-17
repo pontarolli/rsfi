@@ -69,4 +69,4 @@ No Enterprise, cada usuário tem **sua** credencial — revogar o acesso de uma 
 
 ## Próxima Aula
 
-- **Aula 47:** Servidores RADIUS.
+- **Aula 51:** Servidores RADIUS.

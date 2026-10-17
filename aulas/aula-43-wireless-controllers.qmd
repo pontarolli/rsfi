@@ -67,4 +67,4 @@ O controlador é o **"cérebro"** da rede Wi-Fi: os APs viram "braços" que exec
 
 ## Próxima Aula
 
-- **Aula 40:** Prática — configuração de AP e controller.
+- **Aula 44:** Prática — configuração de AP e controller.

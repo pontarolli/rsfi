@@ -67,4 +67,4 @@ O fio condutor do bimestre: **como o sinal sem fio se comporta** — e como proj
 
 ## Próxima Aula
 
-- **Aula 19:** Métodos de acesso ao meio.
+- **Aula 21:** Métodos de acesso ao meio.

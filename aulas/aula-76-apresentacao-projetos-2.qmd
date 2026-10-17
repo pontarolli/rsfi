@@ -61,4 +61,4 @@ Comparar as **soluções** dos colegas amplia nossa visão: não há uma única 
 
 ## Próxima Aula
 
-- **Aula 71:** Recuperação e reavaliação.
+- **Aula 77:** Recuperação e reavaliação.

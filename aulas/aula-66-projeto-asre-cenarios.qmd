@@ -70,4 +70,4 @@ Este projeto integra **tudo** o que aprendemos: RF, antenas, padrões, equipamen
 
 ## Próxima Aula
 
-- **Aula 61:** Projeto interdisciplinar — divisão de grupos.
+- **Aula 67:** Projeto interdisciplinar — divisão de grupos.

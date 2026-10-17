@@ -70,4 +70,4 @@ O **Wi-Fi 6** resolve o problema do "Wi-Fi cheio": mais dispositivos sem perder 
 
 ## Próxima Aula
 
-- **Aula 33:** Wi-Fi 6E, Wi-Fi 7 e tendências futuras.
+- **Aula 35:** Wi-Fi 6E, Wi-Fi 7 e tendências futuras.

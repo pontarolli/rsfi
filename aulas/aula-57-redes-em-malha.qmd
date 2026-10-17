@@ -68,4 +68,4 @@ Na malha, cada nó é **cliente e roteador** ao mesmo tempo — a rede "se vira"
 
 ## Próxima Aula
 
-- **Aula 54:** Síntese e revisão do 3º bimestre.
+- **Aula 58:** Síntese e revisão do 3º bimestre.

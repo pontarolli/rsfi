@@ -69,4 +69,4 @@ Do **BSS** ao **ESS** é só "ligar vários APs com o mesmo nome" — é isso qu
 
 ## Próxima Aula
 
-- **Aula 23:** Padrões IEEE 802.11 — visão geral.
+- **Aula 25:** Padrões IEEE 802.11 — visão geral.

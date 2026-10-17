@@ -68,4 +68,4 @@ O **RTS/CTS** é como pedir a palavra numa reunião: evita que duas pessoas fale
 
 ## Próxima Aula
 
-- **Aula 21:** Arquiteturas de redes wireless.
+- **Aula 23:** Arquiteturas de redes wireless.

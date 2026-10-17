@@ -68,4 +68,4 @@ A escolha entre **2,4 GHz** (alcance) e **5 GHz** (velocidade) até hoje define 
 
 ## Próxima Aula
 
-- **Aula 27:** Família 802.11g.
+- **Aula 29:** Família 802.11g.

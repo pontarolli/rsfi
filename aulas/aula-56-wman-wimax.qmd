@@ -32,6 +32,16 @@ title: "Aula 56 — WMAN e WiMax"
 - **WiMax:** longo alcance, uso metropolitano.
 - Papéis **complementares**.
 
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize,
+  b/.style={draw,rounded corners,minimum width=3.4cm,minimum height=1.1cm,align=center,inner sep=3pt}]
+  \node[b,fill=blue!12] (a) at (0,0) {Wi-Fi\\ \scriptsize curto alcance\\ \scriptsize uso local};
+  \node[b,fill=orange!20] (b) at (4.2,0) {WiMax\\ \scriptsize longo alcance\\ \scriptsize metropolitano};
+\end{tikzpicture}
+\end{center}
+```
+
 ## WiMax x Celular
 
 - WiMax compete com **4G/5G**.

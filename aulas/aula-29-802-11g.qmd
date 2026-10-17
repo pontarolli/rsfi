@@ -26,6 +26,17 @@ title: "Aula 29 — Família 802.11g"
 - Permite migração gradual.
 - Quando há clientes "b", a rede **cai** para taxas menores.
 
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize,node distance=14mm,
+  b/.style={draw,rounded corners,minimum width=2.7cm,minimum height=0.85cm,align=center,inner sep=3pt}]
+  \node[b,fill=green!12] (g) {802.11g\\ \scriptsize 54 Mbps (OFDM)};
+  \node[b,right=of g,fill=blue!12] (b) {802.11b\\ \scriptsize 11 Mbps (DSSS)};
+  \draw[<->] (g)-- node[above,font=\tiny]{compatível} (b);
+\end{tikzpicture}
+\end{center}
+```
+
 ## Vantagens
 
 - **Velocidade** do 802.11a com o **alcance** do b.

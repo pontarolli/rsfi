@@ -33,6 +33,21 @@ title: "Aula 7 — WLAN: Redes Locais sem Fio"
 - O AP liga a rede sem fio à **rede cabeada**.
 - Cobre uma **célula**.
 
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize,
+  st/.style={draw,circle,fill=blue!15,minimum size=4mm,inner sep=0pt}]
+  \node[draw,rounded corners,fill=orange!25,minimum width=1.1cm,minimum height=0.6cm] (ap) at (0,0) {AP};
+  \node[st] (s1) at (-1.3,0.9) {};
+  \node[st] (s2) at (-1.7,0) {};
+  \node[st] (s3) at (-1.3,-0.9) {};
+  \draw[thick] (s1)--(ap); \draw[thick] (s2)--(ap); \draw[thick] (s3)--(ap);
+  \draw[dashed] (0,0) circle (1.5);
+  \draw[very thick] (ap.east) -- (4.2,0) node[right,font=\tiny]{rede cabeada};
+\end{tikzpicture}
+\end{center}
+```
+
 ## BSS, ESS
 
 - **BSS:** uma célula (um AP).

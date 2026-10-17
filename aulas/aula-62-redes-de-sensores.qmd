@@ -20,6 +20,21 @@ title: "Aula 62 — Redes de Sensores sem Fio"
 - **Gateway/sink:** recolhe os dados.
 - **Estação base:** processa as informações.
 
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize,
+  s/.style={draw,circle,fill=green!18,minimum size=3.5mm,inner sep=0pt},
+  b/.style={draw,rounded corners,minimum width=1.5cm,minimum height=0.75cm,align=center,inner sep=2pt}]
+  \node[s] (n1) at (0,1.0) {}; \node[s] (n2) at (0,0) {}; \node[s] (n3) at (0,-1.0) {};
+  \node[b,fill=orange!20] (gw) at (2.7,0) {Gateway (sink)};
+  \node[b,fill=blue!12] (base) at (5.9,0) {Estação base};
+  \draw (n1)--(gw); \draw (n2)--(gw); \draw (n3)--(gw);
+  \draw[-{Latex}] (gw)--(base);
+  \node[font=\tiny,above] at (0,1.5) {nós sensores};
+\end{tikzpicture}
+\end{center}
+```
+
 ## Características
 
 - **Baixo consumo** de energia.

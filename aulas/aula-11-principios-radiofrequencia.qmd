@@ -26,6 +26,17 @@ title: "Aula 11 — Princípios de Radiofrequência (RF)"
 - Cresce com a **distância**.
 - Aumenta ao atravessar **obstáculos**.
 
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize]
+  \draw[-{Latex}] (0,0) -- (7.6,0) node[right,font=\tiny] {distância};
+  \draw[-{Latex}] (0,0) -- (0,2.2) node[above,font=\tiny] {potência};
+  \draw[thick,blue,domain=0.2:7.4,samples=80] plot (\x,{2.0/(1+\x)});
+  \node[font=\tiny,blue] at (4.6,0.7) {queda com a distância};
+\end{tikzpicture}
+\end{center}
+```
+
 ## Decibel (dB)
 
 - Escala **logarítmica** para comparar potências.

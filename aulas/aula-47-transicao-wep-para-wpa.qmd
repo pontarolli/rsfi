@@ -48,6 +48,19 @@ O WPA foi um **remendo inteligente**: melhorou a segurança sem descartar os equ
 - Cada passo corrigiu falhas do anterior.
 - A evolução continua.
 
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize,node distance=5mm,
+  b/.style={draw,rounded corners,minimum width=1.7cm,minimum height=0.75cm,align=center,inner sep=2pt}]
+  \node[b,fill=red!18] (wep) {WEP};
+  \node[b,right=of wep,fill=orange!20] (wpa) {WPA};
+  \node[b,right=of wpa,fill=green!15] (wpa2) {WPA2};
+  \node[b,right=of wpa2,fill=green!25] (wpa3) {WPA3};
+  \draw[-{Latex}] (wep)--(wpa); \draw[-{Latex}] (wpa)--(wpa2); \draw[-{Latex}] (wpa2)--(wpa3);
+\end{tikzpicture}
+\end{center}
+```
+
 ## Resumo da Aula
 
 - **WPA** surgiu para substituir o WEP.

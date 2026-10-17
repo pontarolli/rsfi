@@ -26,6 +26,18 @@ title: "Aula 46 — Fragilidades do WEP"
 - Chave **fraca** derivada do IV.
 - **RC4** vulnerável.
 
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize,
+  b/.style={draw,rounded corners,fill=red!12,minimum width=2.8cm,minimum height=0.8cm,align=center,inner sep=3pt}]
+  \node[b] (a) at (0,0.9) {IV de 24 bits\\ \scriptsize repetição previsível};
+  \node[b,fill=red!18] (b) at (0,-0.4) {Chave derivada do IV\\ \scriptsize fraca};
+  \node[b,fill=red!25] (c) at (0,-1.7) {RC4\\ \scriptsize vulnerável};
+  \draw[-{Latex}] (a)--(b); \draw[-{Latex}] (b)--(c);
+\end{tikzpicture}
+\end{center}
+```
+
 ## O Ataque
 
 - Capturar **muitos pacotes**.

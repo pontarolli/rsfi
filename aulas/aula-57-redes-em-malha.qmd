@@ -20,6 +20,22 @@ title: "Aula 57 — Redes em Malha (Wimesh/Mesh)"
 - Se um nó falha, a rede **se ajusta**.
 - Alta **resiliência**.
 
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize,
+  n/.style={draw,circle,fill=blue!15,minimum size=4mm,inner sep=0pt}]
+  \node[n] (a) at (0,0) {};
+  \node[n] (b) at (1.4,0.9) {};
+  \node[n] (c) at (2.8,0) {};
+  \node[n] (d) at (1.4,-0.9) {};
+  \draw (a)--(b); \draw (b)--(c); \draw (a)--(d); \draw (d)--(c);
+  \node[n,fill=red!30] (x) at (1.4,0) {};
+  \draw (a)--(x); \draw (x)--(c);
+  \node[font=\tiny,below] at (1.4,-1.35) {se um nó falha, há rota alternativa};
+\end{tikzpicture}
+\end{center}
+```
+
 ## Wimesh
 
 - Mesh **sem fio** de grande área.

@@ -31,6 +31,21 @@ title: "Aula 5 — Categorias de Redes sem Fio: Visão Geral"
 | WMAN | alguns km |
 | WWAN | dezenas de km |
 
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize]
+  \draw[fill=blue!8] (0,0) circle (3.4);
+  \draw[fill=green!10] (0,0) circle (2.3);
+  \draw[fill=orange!12] (0,0) circle (1.3);
+  \draw[fill=red!15] (0,0) circle (0.55);
+  \node at (0,0) {WPAN};
+  \node at (0,0.9) {WLAN};
+  \node at (0,1.75) {WMAN};
+  \node at (0,2.8) {WWAN};
+\end{tikzpicture}
+\end{center}
+```
+
 ## Exemplos de Tecnologias
 
 - **WPAN:** Bluetooth, ZigBee.

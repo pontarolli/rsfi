@@ -25,6 +25,16 @@ title: "Aula 65 — Site Survey e Cobertura"
 - **Preditivo:** simulação (software) sem ir ao local.
 - **Ativo:** medição real **no local**.
 
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize,
+  b/.style={draw,rounded corners,minimum width=3.6cm,minimum height=1.1cm,align=center,inner sep=3pt}]
+  \node[b,fill=blue!12] (a) at (0,0) {Preditivo\\ \scriptsize simulação (software)};
+  \node[b,fill=green!12] (b) at (4.4,0) {Ativo\\ \scriptsize medição no local};
+\end{tikzpicture}
+\end{center}
+```
+
 ## Ferramentas
 
 - **Softwares** de planejamento (heat maps).

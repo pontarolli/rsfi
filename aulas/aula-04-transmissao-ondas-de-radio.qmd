@@ -32,6 +32,19 @@ title: "Aula 4 — Transmissão por Ondas de Rádio"
 - Relaciona-se com a frequência: maior frequência → menor comprimento.
 - Fórmula: **λ = c / f**.
 
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize]
+  \draw[-{Latex}] (0,0) -- (8,0) node[right,font=\tiny] {distância};
+  \draw[-{Latex}] (0,-1.1) -- (0,1.3) node[above,font=\tiny] {amplitude};
+  \draw[thick,blue,domain=0:7.5,samples=120] plot (\x,{sin(\x*120)});
+  \draw[{Latex}-{Latex}] (0.75,1.05)--(3.75,1.05) node[midway,above,font=\tiny]{$\lambda$};
+  \draw[dashed] (0.75,0)--(0.75,1.05);
+  \draw[dashed] (3.75,0)--(3.75,1.05);
+\end{tikzpicture}
+\end{center}
+```
+
 ## Conferindo a conta
 
 - **c** ≈ 3×10⁸ m/s (velocidade da luz).

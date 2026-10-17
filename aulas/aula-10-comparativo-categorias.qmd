@@ -23,6 +23,18 @@ title: "Aula 10 — Comparativo entre as Categorias"
 - WWAN: longo alcance, banda moderada.
 - A escolha depende da **necessidade**.
 
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize]
+  \foreach \i/\t/\w in {0/WPAN/1.0,1/WLAN/1.6,2/WMAN/2.6,3/WWAN/3.6,4/WLL/1.9}{
+    \draw[fill=blue!15] (0,-\i*0.62) rectangle (\w,-\i*0.62+0.45);
+    \node[left,font=\tiny] at (0,-\i*0.62+0.22) {\t};
+  }
+  \node[font=\tiny,right] at (3.7,-0.05) {alcance};
+\end{tikzpicture}
+\end{center}
+```
+
 ## Comparativo Geral
 
 | Categoria | Alcance | Padrão | Exemplo |

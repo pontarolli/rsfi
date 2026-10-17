@@ -33,6 +33,23 @@ title: "Aula 14 — Interferência e Ruído"
 - 5 GHz: **muito mais** canais disponíveis.
 - Escolher canais **livres** reduz a interferência.
 
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize]
+  \foreach \x in {0,0.45,0.9,1.35,1.8,2.25,2.7,3.15,3.6,4.05,4.5,4.95,5.4}{
+    \draw[fill=blue!12] (\x,0) circle (0.9);
+  }
+  \foreach \x in {0,2.25,4.5}{
+    \draw[fill=green!40] (\x,0) circle (0.9);
+  }
+  \node[font=\tiny] at (0,0) {1};
+  \node[font=\tiny] at (2.25,0) {6};
+  \node[font=\tiny] at (4.5,0) {11};
+  \node[font=\tiny,below] at (2.7,-1.15) {canais 1, 6 e 11 não se sobrepõem};
+\end{tikzpicture}
+\end{center}
+```
+
 ## Ruído
 
 - Sinais **indesejados** de fundo.

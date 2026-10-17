@@ -28,6 +28,19 @@ title: "Aula 63 — IoT e Conectividade sem Fio"
 - **ZigBee:** automação, mesh.
 - **LoRa/NB-IoT:** longo alcance, baixa taxa.
 
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize]
+  \draw[-{Latex}] (0,0) -- (7.6,0) node[right,font=\tiny]{alcance};
+  \draw[-{Latex}] (0,0) -- (0,2.4) node[above,font=\tiny]{taxa};
+  \node[font=\tiny,blue] at (1.0,2.0) {Wi-Fi};
+  \node[font=\tiny,green!60!black] at (0.7,1.0) {BLE};
+  \node[font=\tiny,orange] at (2.1,0.85) {ZigBee};
+  \node[font=\tiny,red] at (5.6,0.5) {LoRa/NB-IoT};
+\end{tikzpicture}
+\end{center}
+```
+
 ## Escolhendo a Tecnologia
 
 | Necessidade | Tecnologia |

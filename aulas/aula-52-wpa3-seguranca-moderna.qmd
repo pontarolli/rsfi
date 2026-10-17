@@ -33,6 +33,16 @@ title: "Aula 52 — WPA3 e Segurança Moderna"
 - **Enterprise:** usa **192 bits** de segurança.
 - Ambos mais **resilientes**.
 
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize,
+  b/.style={draw,rounded corners,minimum width=3.5cm,minimum height=1.2cm,align=center,inner sep=3pt}]
+  \node[b,fill=blue!12] (a) at (0,0) {WPA3-Personal\\ \scriptsize SAE};
+  \node[b,fill=green!12] (b) at (4.3,0) {WPA3-Enterprise\\ \scriptsize 192 bits};
+\end{tikzpicture}
+\end{center}
+```
+
 ## OWE
 
 - **Opportunistic Wireless Encryption**.

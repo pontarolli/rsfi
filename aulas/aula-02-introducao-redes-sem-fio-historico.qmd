@@ -42,6 +42,23 @@ title: "Aula 2 — Introdução às Redes sem Fio: Histórico"
 | 1990s | Padrão IEEE 802.11 |
 | 2000s+ | Wi-Fi e mobilidade |
 
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize]
+  \draw[-{Latex},very thick] (-0.2,0) -- (9.4,0);
+  \foreach \x/\t in {0/1890s,2.2/1920s,4.4/1970s,6.6/1990s,8.8/2000s}{
+    \draw[very thick] (\x,0.2)--(\x,-0.2);
+    \node[below=1mm] at (\x,0) {\t};
+  }
+  \node[above=2mm,font=\tiny,align=center] at (0,0) {rádio};
+  \node[above=2mm,font=\tiny,align=center] at (2.2,0) {difusão};
+  \node[above=2mm,font=\tiny,align=center] at (4.4,0) {redes\\ locais};
+  \node[above=2mm,font=\tiny,align=center] at (6.6,0) {IEEE\\ 802.11};
+  \node[above=2mm,font=\tiny,align=center] at (8.8,0) {Wi-Fi\\ e IoT};
+\end{tikzpicture}
+\end{center}
+```
+
 ::: {.callout-note}
 A redes sem fio não "substituíram" os cabos: elas **ampliaram** o acesso à rede onde o cabo é impraticável.
 :::

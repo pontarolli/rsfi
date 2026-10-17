@@ -33,6 +33,23 @@ title: "Aula 12 — Propagação de Ondas de Rádio"
 - Sinal chega por **reflexões** desencontradas.
 - Gera **multipercurso** e degradação.
 
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize]
+  \node[draw,circle,fill=orange!25,minimum size=4mm,inner sep=0pt] (tx) at (0,0) {};
+  \node[draw,circle,fill=green!20,minimum size=4mm,inner sep=0pt] (rx) at (6.6,0) {};
+  \node[font=\tiny,below] at (0,-0.3) {TX};
+  \node[font=\tiny,below] at (6.6,-0.3) {RX};
+  \draw[-{Latex},thick] (tx)--(rx);
+  \node[font=\tiny,above] at (3.3,0.12) {LOS};
+  \draw[-{Latex},red] (tx) -- (2,1.3) -- (rx);
+  \draw[-{Latex},red] (tx) -- (4,-1.4) -- (rx);
+  \draw[-{Latex},red] (tx) -- (5.4,1.0) -- (rx);
+  \node[font=\tiny,red] at (3.3,-1.7) {percursos refletidos (multipercurso)};
+\end{tikzpicture}
+\end{center}
+```
+
 ## Fatores que Afetam
 
 - **Distância** entre transmissor e receptor.

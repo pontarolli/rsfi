@@ -26,6 +26,31 @@ title: "Aula 23 — Arquiteturas de Redes Wireless"
 - **Ad hoc:** direto entre estações.
 - **Mesh:** APs se comunicam entre si.
 
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize,
+  st/.style={draw,circle,fill=blue!15,minimum size=3mm,inner sep=0pt},
+  ap/.style={draw,rounded corners,fill=orange!25,minimum width=0.7cm,minimum height=0.45cm,inner sep=1pt}]
+  \node[ap] (ap1) at (0,0) {AP};
+  \node[st] at (-0.7,0.7) {}; \node[st] at (0.7,0.7) {}; \node[st] at (0,-0.7) {};
+  \draw (ap1)--(-0.7,0.7); \draw (ap1)--(0.7,0.7); \draw (ap1)--(0,-0.7);
+  \node[font=\tiny,below] at (0,-1.05) {Infraestrutura};
+  \begin{scope}[xshift=3.6cm]
+    \node[st] (h1) at (0,0.6) {}; \node[st] (h2) at (0.9,-0.4) {}; \node[st] (h3) at (-0.9,-0.4) {};
+    \draw (h1)--(h2); \draw (h2)--(h3); \draw (h1)--(h3);
+    \node[font=\tiny,below] at (0,-1.05) {Ad hoc};
+  \end{scope}
+  \begin{scope}[xshift=7.8cm]
+    \node[ap] (m1) at (-0.8,0.5) {AP};
+    \node[ap] (m2) at (0.8,0.5) {AP};
+    \node[ap] (m3) at (0,-0.6) {AP};
+    \draw (m1)--(m2); \draw (m1)--(m3); \draw (m2)--(m3);
+    \node[font=\tiny,below] at (0,-1.05) {Mesh};
+  \end{scope}
+\end{tikzpicture}
+\end{center}
+```
+
 ## Elementos da Arquitetura
 
 - **STA:** estação (cliente).

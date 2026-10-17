@@ -11,3 +11,9 @@ author: "Ricardo Pasquati Pontarolli"
 subtitle: "Redes sem Fio"
 institute_base: "Técnico em Redes de Computadores · IFSP Boituva · pasquati@ifsp.edu.br"
 institute: "Técnico em Redes de Computadores · IFSP Boituva · pasquati@ifsp.edu.br · v18"
+
+header-includes: |
+  \usepackage{tikz}
+  \usetikzlibrary{positioning,arrows.meta,shapes.geometric,shapes.misc,fit,backgrounds,calc}
+  \usepackage{pgfplots}
+  \pgfplotsset{compat=1.18}

@@ -26,6 +26,21 @@ title: "Aula 34 — Padrões Modernos: 802.11ax (Wi-Fi 6)"
 - Divide o canal em **subportadoras**.
 - Atende vários usuários **simultaneamente**.
 
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize,y=0.6cm]
+  \foreach \x/\c in {0/blue!25,1/blue!25,2/green!30,3/green!30,4/orange!30,5/orange!30,6/red!25,7/red!25}{
+    \draw[fill=\c] (\x,0) rectangle (\x+1,1);
+  }
+  \node[font=\tiny] at (1,0.5) {A};
+  \node[font=\tiny] at (3,0.5) {B};
+  \node[font=\tiny] at (5,0.5) {C};
+  \node[font=\tiny] at (7,0.5) {D};
+  \node[font=\tiny,below] at (4,-0.35) {subportadoras do canal (usuários A–D)};
+\end{tikzpicture}
+\end{center}
+```
+
 ## Outras Novidades
 
 - **MU-MIMO** melhorado.

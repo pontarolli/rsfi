@@ -26,6 +26,20 @@ title: "Aula 32 — Padrões Modernos: 802.11n (Wi-Fi 4)"
 - Várias antenas enviam/recebem **fluxos** simultâneos.
 - Aumenta **velocidade** e **confiabilidade**.
 
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize,
+  b/.style={draw,rounded corners,fill=orange!20,minimum width=1.5cm,minimum height=1.0cm,align=center,inner sep=2pt}]
+  \node[b] (tx) at (0,0) {TX};
+  \node[b,fill=green!15] (rx) at (5.2,0) {RX};
+  \draw[-{Latex}] (0.8,0.4) -- (4.4,0.4);
+  \draw[-{Latex}] (0.8,0) -- (4.4,0);
+  \draw[-{Latex}] (0.8,-0.4) -- (4.4,-0.4);
+  \node[font=\tiny,above] at (2.6,0.5) {fluxos simultâneos (antenas)};
+\end{tikzpicture}
+\end{center}
+```
+
 ## Taxas
 
 - Até **600 Mbps** (teórico).

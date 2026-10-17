@@ -28,6 +28,18 @@ title: "Aula 45 — Segurança em Redes sem Fio: Fundamentos"
 - **Autenticação:** provar a identidade.
 - **Disponibilidade:** garantir o acesso.
 
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize,node distance=4mm,
+  c/.style={draw,rounded corners,fill=blue!10,minimum width=2.3cm,minimum height=0.8cm,align=center,inner sep=3pt}]
+  \node[c] (a) {Confidencialidade};
+  \node[c,right=of a,fill=green!12] (b) {Integridade};
+  \node[c,below=of a,fill=orange!20] (c) {Autenticação};
+  \node[c,below=of b,fill=yellow!25] (d) {Disponibilidade};
+\end{tikzpicture}
+\end{center}
+```
+
 ## Autenticação e Criptografia
 
 - **Autenticação:** quem pode entrar.

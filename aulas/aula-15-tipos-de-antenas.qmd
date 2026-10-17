@@ -39,6 +39,23 @@ title: "Aula 15 — Tipos de Antenas: Onidirecionais e Direcionais"
 - **Lóbulo principal:** direção de maior ganho.
 - **Lóbulos laterais:** radiação indesejada.
 
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize]
+  \draw[fill=blue!15] (0,0) circle (1.2);
+  \draw[fill=blue!60] (0,0) circle (0.12);
+  \node[font=\tiny,below] at (0,-1.4) {onidirecional};
+  \begin{scope}[xshift=4.8cm]
+    \draw[fill=blue!15] (0,0) ellipse (1.7 and 0.42);
+    \draw[fill=blue!10] (0,0) ellipse (0.95 and 0.2);
+    \draw[fill=blue!60] (0,0) circle (0.12);
+    \node[font=\tiny,above] at (1.2,0.55) {lóbulo principal};
+    \node[font=\tiny,below] at (0,-1.4) {direcional};
+  \end{scope}
+\end{tikzpicture}
+\end{center}
+```
+
 ::: {.callout-note}
 "Onidirecional" **não** significa cobertura perfeita: a energia se distribui e o alcance vertical/horizontal varia.
 :::

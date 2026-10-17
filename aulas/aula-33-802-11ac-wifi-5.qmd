@@ -27,6 +27,24 @@ title: "Aula 33 — Padrões Modernos: 802.11ac (Wi-Fi 5)"
 - O AP atende **vários usuários** ao mesmo tempo.
 - Melhora o desempenho em **redes cheias**.
 
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize,
+  ap/.style={draw,rounded corners,fill=orange!25,minimum width=0.9cm,minimum height=0.6cm},
+  st/.style={draw,circle,fill=blue!15,minimum size=4mm,inner sep=0pt}]
+  \node[ap] (ap) at (0,0) {AP};
+  \node[st] (u1) at (2.4,1.0) {};
+  \node[st] (u2) at (2.4,0) {};
+  \node[st] (u3) at (2.4,-1.0) {};
+  \node[font=\tiny,right] at (2.65,1.0) {Usuário 1};
+  \node[font=\tiny,right] at (2.65,0) {Usuário 2};
+  \node[font=\tiny,right] at (2.65,-1.0) {Usuário 3};
+  \draw[-{Latex}] (ap)--(u1); \draw[-{Latex}] (ap)--(u2); \draw[-{Latex}] (ap)--(u3);
+  \node[font=\tiny,below] at (1.4,-1.65) {envio simultâneo (MU-MIMO)};
+\end{tikzpicture}
+\end{center}
+```
+
 ## Taxas
 
 - Até **6,9 Gbps** (teórico).

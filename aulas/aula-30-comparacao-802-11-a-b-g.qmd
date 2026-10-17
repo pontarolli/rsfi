@@ -24,6 +24,16 @@ title: "Aula 30 — Comparação 802.11a/b/g"
 - **5 GHz:** mais velocidade, menos alcance.
 - A física explica as **diferenças**.
 
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize,
+  b/.style={draw,rounded corners,minimum width=3.4cm,minimum height=1.1cm,align=center,inner sep=3pt}]
+  \node[b,fill=orange!20] (a) at (0,0) {2,4 GHz\\ \scriptsize mais alcance\\ \scriptsize mais interferência};
+  \node[b,fill=blue!12] (b) at (4.3,0) {5 GHz\\ \scriptsize mais velocidade\\ \scriptsize menos alcance};
+\end{tikzpicture}
+\end{center}
+```
+
 ## Compatibilidade
 
 - **a** e **b/g** são **incompatíveis** entre si (faixas diferentes).

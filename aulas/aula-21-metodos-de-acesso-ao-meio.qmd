@@ -38,6 +38,22 @@ title: "Aula 21 — Métodos de Acesso ao Meio: Conceitos"
 - **Estação exposta:** espera desnecessariamente.
 - Sinais fracos e meio ruidoso.
 
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize]
+  \node[draw,circle,fill=orange!25,minimum size=4mm,inner sep=0pt] (ap) at (0,0) {};
+  \node[font=\tiny,below] at (0,-0.35) {AP};
+  \node[draw,circle,fill=blue!20,minimum size=4mm,inner sep=0pt] (a) at (-2.7,1.9) {};
+  \node[draw,circle,fill=blue!20,minimum size=4mm,inner sep=0pt] (b) at (2.7,1.9) {};
+  \node[font=\tiny,below] at (-2.7,1.55) {A};
+  \node[font=\tiny,below] at (2.7,1.55) {B};
+  \draw[dashed] (ap)--(a);
+  \draw[dashed] (ap)--(b);
+  \node[font=\tiny,red] at (0,1.95) {A e B não se "ouvem"};
+\end{tikzpicture}
+\end{center}
+```
+
 ::: {.callout-note}
 No sem fio, as **colisões são difíceis de detectar** — por isso se tenta **evitá-las** antes que aconteçam.
 :::

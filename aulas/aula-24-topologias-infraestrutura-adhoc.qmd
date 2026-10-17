@@ -26,6 +26,22 @@ title: "Aula 24 — Topologias: Infraestrutura e Ad Hoc"
 - Mesmo **SSID** em todos.
 - Garante **roaming** e cobertura ampla.
 
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize,
+  ap/.style={draw,rounded corners,fill=orange!25,minimum width=0.7cm,minimum height=0.45cm,inner sep=1pt},
+  st/.style={draw,circle,fill=blue!15,minimum size=3mm,inner sep=0pt}]
+  \foreach \x/\l in {0/AP1,2.5/AP2,5.0/AP3}{
+    \draw[dashed] (\x,0) circle (1.1);
+    \node[ap] at (\x,0) {\l};
+    \node[st] at (\x-0.6,0.6) {};
+    \node[st] at (\x+0.6,0.6) {};
+  }
+  \node[font=\tiny,below] at (2.5,-1.35) {ESS: mesmo SSID, várias células (BSS)};
+\end{tikzpicture}
+\end{center}
+```
+
 ## IBSS (Ad Hoc)
 
 - Rede **independente**, sem AP.

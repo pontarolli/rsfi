@@ -27,6 +27,24 @@ title: "Aula 3 — Introdução às Redes sem Fio: Terminologia"
 - **Roaming:** passagem do cliente entre células.
 - **Handoff:** troca de AP sem perder a conexão.
 
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize,
+  st/.style={draw,circle,fill=blue!15,minimum size=4mm,inner sep=0pt},
+  ap/.style={draw,rounded corners,fill=orange!25,minimum width=0.9cm,minimum height=0.5cm,inner sep=1pt}]
+  \draw[dashed] (0,0) circle (1.4);
+  \draw[dashed] (3.4,0) circle (1.4);
+  \node[ap] (a1) at (0,0) {AP1};
+  \node[ap] (a2) at (3.4,0) {AP2};
+  \node[st] at (-0.6,0.7) {}; \node[st] at (0.5,-0.6) {};
+  \node[st] at (4.0,0.6) {};
+  \draw[-{Latex}] (1.0,1.15) to[bend left=15] node[above,font=\tiny]{roaming} (2.4,1.15);
+  \node[below,font=\tiny] at (0,-1.55) {célula 1};
+  \node[below,font=\tiny] at (3.4,-1.55) {célula 2};
+\end{tikzpicture}
+\end{center}
+```
+
 ## SSID e BSSID
 
 - **SSID:** nome da rede (ex.: "IFSP-Alunos").

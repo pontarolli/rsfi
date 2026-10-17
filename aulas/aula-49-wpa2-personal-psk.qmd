@@ -26,6 +26,18 @@ title: "Aula 49 — WPA2 Personal (PSK)"
 - Deriva-se a **PMK** (chave mestra).
 - Gera-se a **PTK** para a sessão.
 
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize,node distance=6mm,
+  b/.style={draw,rounded corners,fill=blue!10,minimum width=2.2cm,minimum height=0.85cm,align=center,inner sep=3pt}]
+  \node[b] (psk) {Senha (PSK)};
+  \node[b,right=of psk,fill=green!12] (pmk) {PMK\\ \scriptsize chave mestra};
+  \node[b,right=of pmk,fill=orange!20] (ptk) {PTK\\ \scriptsize chave da sessão};
+  \draw[-{Latex}] (psk)--(pmk); \draw[-{Latex}] (pmk)--(ptk);
+\end{tikzpicture}
+\end{center}
+```
+
 ## Boas Práticas
 
 - Senha **longa** (12+ caracteres).

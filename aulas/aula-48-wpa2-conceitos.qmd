@@ -26,6 +26,16 @@ title: "Aula 48 — WPA2: Conceitos"
 - **WPA2-Enterprise (802.1X):** autenticação por servidor.
 - Escolha depende do **ambiente**.
 
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize,
+  b/.style={draw,rounded corners,minimum width=3.7cm,minimum height=1.2cm,align=center,inner sep=3pt}]
+  \node[b,fill=blue!12] (a) at (0,0) {Personal (PSK)\\ \scriptsize chave compartilhada};
+  \node[b,fill=green!12] (b) at (4.5,0) {Enterprise (802.1X)\\ \scriptsize servidor de autenticação};
+\end{tikzpicture}
+\end{center}
+```
+
 ## Por que é Padrão Hoje
 
 - Segurança **sólida** até hoje.

@@ -27,6 +27,17 @@ title: "Aula 26 — 802.11 Original: Características"
   - **DSSS** (sequência direta).
   - **Infravermelho** (não vingou).
 
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize,
+  b/.style={draw,rounded corners,fill=blue!10,minimum width=3.0cm,minimum height=0.8cm,align=center,inner sep=3pt}]
+  \node[b] (a) at (0,0.9) {FHSS\\ \scriptsize salto de frequência};
+  \node[b,fill=green!12] (b) at (0,-0.4) {DSSS\\ \scriptsize sequência direta};
+  \node[b,fill=gray!15] (c) at (0,-1.7) {Infravermelho\\ \scriptsize (não vingou)};
+\end{tikzpicture}
+\end{center}
+```
+
 ## Limitações
 
 - Taxas **muito baixas** (1–2 Mbps).

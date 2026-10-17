@@ -32,6 +32,19 @@ title: "Aula 55 — WPAN: Infrared e ZigBee"
 - Foco em **baixo consumo** e **automação**.
 - Redes **em malha** (mesh).
 
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize,
+  n/.style={draw,circle,fill=green!18,minimum size=3.5mm,inner sep=0pt}]
+  \node[n] (a) at (0,0) {}; \node[n] (b) at (1.3,0.7) {}; \node[n] (c) at (2.6,0) {};
+  \node[n] (d) at (1.3,-0.7) {}; \node[n] (e) at (0.6,1.4) {}; \node[n] (f) at (2.0,1.4) {};
+  \draw (a)--(b); \draw (b)--(c); \draw (a)--(d); \draw (d)--(c);
+  \draw (a)--(e); \draw (e)--(b); \draw (b)--(f); \draw (f)--(c);
+  \node[font=\tiny,below] at (1.3,-1.15) {malha ZigBee (autorroteamento)};
+\end{tikzpicture}
+\end{center}
+```
+
 ## Características do ZigBee
 
 - Baixa taxa de dados.

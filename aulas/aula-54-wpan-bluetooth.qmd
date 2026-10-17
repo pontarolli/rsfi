@@ -27,6 +27,21 @@ title: "Aula 54 — WPAN: Bluetooth"
 - **Scatternet:** várias piconets interligadas.
 - Permite várias **conexões**.
 
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize,
+  m/.style={draw,rounded corners,fill=orange!25,minimum width=1.0cm,minimum height=0.5cm,inner sep=1pt},
+  s/.style={draw,circle,fill=blue!15,minimum size=3.5mm,inner sep=0pt}]
+  \node[m] (m) at (0,0) {Mestre};
+  \foreach \a in {0,45,90,135,180,225,270}{
+    \node[s] at ({1.7*cos(\a)},{1.7*sin(\a)}) {};
+    \draw (m) -- ({1.7*cos(\a)},{1.7*sin(\a)});
+  }
+  \node[font=\tiny,below] at (0,-2.1) {piconet: 1 mestre + até 7 escravos};
+\end{tikzpicture}
+\end{center}
+```
+
 ## Versões
 
 - **1.x:** básico.

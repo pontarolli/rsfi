@@ -58,14 +58,14 @@ O componente curricular conceitua e aplica os protocolos de redes sem fio e dos 
 
 ### Conteúdo Programático
 
-> Cada item indica entre parênteses as semanas (`sNN`) em que é trabalhado. Marque o checkbox ao confirmar a cobertura.
+> Lista ordenada pela semana em que cada tópico é trabalhado (segue a ordem das aulas, de `s01` a `s40`). Os valores entre parênteses indicam as semanas correspondentes; marque o checkbox ao confirmar a cobertura.
 
 - [ ] Introdução às redes sem fio (s01 a s02)
 - [ ] Categorias de redes sem fio: WPAN, WLAN, WMAN, WWAN, WLL (s02 a s06)
-- [ ] Tecnologias: Wi-Fi (s13 a s21), Infrared e Bluetooth (s28), Wimax (s29), Wimesh (s29), VANETs (s31)
+- [ ] Tipos de antenas de comunicação (s06 a s09)
 - [ ] Evolução das tecnologias da Família IEEE 802.11: 802.11a, 802.11b e 802.11g (s13 a s16)
-- [ ] Conceitos sobre protocolos de segurança: WEP (s23), WPA-WPA2 PSK (s23 a s24) e WPA2 Enterprise/EAP (s26 a s27)
-- [ ] Tipos de antenas de comunicação (s08 a s09)
+- [ ] Tecnologias: Wi-Fi, Infrared, Wimax, Wimesh, Bluetooth, VANETs (Wi-Fi s13 a s21; Infrared e Bluetooth s28; Wimax e Wimesh s29; VANETs s31)
+- [ ] Conceitos sobre protocolos de segurança: WEP, WPA-WPA2 (PSK e EAP) (personal e enterprise) (WEP s23; WPA/WPA2 PSK s23 a s24; Enterprise/EAP s26 a s27)
 - [ ] Projetos de redes sem fio (s32 a s38)
 
 ### Avaliação

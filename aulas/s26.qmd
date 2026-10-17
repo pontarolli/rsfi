@@ -1,0 +1,165 @@
+---
+title: "Semana 26 — Conteúdo de 2 aulas"
+---
+
+## Semana 26 — Conteúdo de 2 aulas
+
+- **Aula 41:** WPA2 Enterprise (EAP/802.1X)
+- **Aula 42:** Servidores RADIUS
+
+## Aula 41 — WPA2 Enterprise (EAP/802.1X)
+
+## Objetivos da Aula
+
+- Compreender o modo **WPA2-Enterprise**.
+- Entender o **802.1X** e o **EAP**.
+- Reconhecer suas vantagens.
+
+## WPA2-Enterprise
+
+- Modo voltado a **empresas e instituições**.
+- **Cada usuário** tem suas credenciais.
+- Autenticação por **servidor** (RADIUS).
+
+## 802.1X
+
+- Padrão de **controle de acesso à rede**.
+- Três papéis:
+  - **Suplicante:** o cliente.
+  - **Autenticador:** o AP/switch.
+  - **Servidor:** RADIUS.
+
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize,node distance=6mm,
+  b/.style={draw,rounded corners,fill=blue!10,minimum width=2.3cm,minimum height=0.9cm,align=center,inner sep=3pt}]
+  \node[b] (sup) {Suplicante\\ \scriptsize cliente};
+  \node[b,right=of sup,fill=orange!20] (aut) {Autenticador\\ \scriptsize AP / switch};
+  \node[b,right=of aut,fill=green!12] (srv) {Servidor\\ \scriptsize RADIUS};
+  \draw[-{Latex}] (sup)--(aut); \draw[-{Latex}] (aut)--(srv);
+\end{tikzpicture}
+\end{center}
+```
+
+## EAP
+
+- **Extensible Authentication Protocol**.
+- Método de **autenticação** entre as partes.
+- Tipos: **EAP-TLS, PEAP, EAP-TTLS**.
+
+## Funcionamento
+
+- O cliente **não** envia a senha ao AP.
+- As credenciais vão ao **servidor RADIUS**.
+- O AP apenas **repassa**.
+
+## Vantagens
+
+- Identidade **individual** por usuário.
+- Fácil **revogar** acesso.
+- Registro (**log**) de acessos.
+- Mais **seguro** e gerenciável.
+
+::: {.callout-note}
+No Enterprise, cada usuário tem **sua** credencial — revogar o acesso de uma pessoa não afeta as demais.
+:::
+
+## Desafios
+
+- Exige **infraestrutura** (RADIUS, certificados).
+- Configuração mais **complexa**.
+- Requer **planejamento**.
+
+## Resumo da Aula
+
+- WPA2-Enterprise usa **802.1X + EAP**.
+- Autenticação por **RADIUS**.
+- Ideal para **empresas e instituições**.
+
+## Atividade Rápida
+
+- Cite os **três papéis** do 802.1X.
+- Por que o Enterprise é mais **gerenciável**?
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- MORAES, A. F. *Redes Sem Fio*. Érica.
+
+## Aula 42 — Servidores RADIUS
+
+## Objetivos da Aula
+
+- Compreender o que é o **RADIUS**.
+- Entender seu papel na autenticação.
+- Conhecer sua configuração básica.
+
+## O que é o RADIUS?
+
+- **Remote Authentication Dial-In User Service**.
+- Servidor de **autenticação, autorização e accounting**.
+- Centraliza o controle de acesso.
+
+## Os "Três A"
+
+- **Authentication:** confirma a identidade.
+- **Authorization:** define o que pode acessar.
+- **Accounting:** registra o uso.
+
+## Papel no Wi-Fi
+
+- No WPA2-Enterprise, o **AP** consulta o RADIUS.
+- O RADIUS **valida** as credenciais.
+- Só então o cliente entra na **rede**.
+
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize,node distance=7mm,
+  b/.style={draw,rounded corners,fill=blue!10,minimum width=2.1cm,minimum height=0.9cm,align=center,inner sep=3pt}]
+  \node[b] (cli) {Cliente};
+  \node[b,right=of cli,fill=orange!20] (ap) {AP};
+  \node[b,right=of ap,fill=green!12] (rad) {RADIUS};
+  \draw[<->] (cli)-- node[above,font=\tiny]{EAP} (ap);
+  \draw[<->] (ap)-- node[above,font=\tiny]{RADIUS} (rad);
+\end{tikzpicture}
+\end{center}
+```
+
+## Componentes
+
+- **Servidor** RADIUS (ex.: FreeRADIUS).
+- **Clientes** (APs/controladores).
+- **Usuários** e **certificados**.
+
+## Configuração Básica
+
+- Definir os **clientes** (APs) e segredos.
+- Cadastrar **usuários**.
+- Escolher o método **EAP**.
+- Testar a **autenticação**.
+
+::: {.callout-note}
+O RADIUS é o **cartório** da rede: ele confirma quem é quem antes de liberar o acesso.
+:::
+
+## Vantagens
+
+- Gestão **centralizada** de usuários.
+- **Logs** de acesso.
+- Integração com **diretórios** (LDAP/AD).
+
+## Resumo da Aula
+
+- RADIUS faz **autenticação, autorização e accounting**.
+- Centraliza o controle de acesso.
+- É a base do **WPA2-Enterprise**.
+
+## Atividade Rápida
+
+- Quais são os "**três A**" do RADIUS?
+- Qual o papel do RADIUS no Wi-Fi?
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- Documentação do FreeRADIUS.

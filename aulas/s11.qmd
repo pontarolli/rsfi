@@ -1,0 +1,167 @@
+---
+title: "Semana 11 — Conteúdo de 2 aulas"
+---
+
+## Semana 11 — Conteúdo de 2 aulas
+
+- **Aula 17:** Métodos de Acesso ao Meio: Conceitos
+- **Aula 18:** CSMA/CA: Acesso em Redes sem Fio
+
+## Aula 17 — Métodos de Acesso ao Meio: Conceitos
+
+## Objetivos da Aula
+
+- Compreender o problema do **acesso ao meio**.
+- Conhecer os **métodos** de acesso.
+- Entender por que o sem fio é **diferente** do cabo.
+
+## O Problema
+
+- Vários dispositivos compartilham o **mesmo meio** (o ar).
+- Sem regras, os sinais **colidem**.
+- É preciso um método para **organizar** o acesso.
+
+## Meio Compartilhado
+
+- O ar é um **meio compartilhado**.
+- Todos "falam" na mesma **faixa**.
+- A colisão **destrói** a informação.
+
+## Comparação com o Cabo
+
+- **Ethernet:** CSMA/CD (detecta colisão).
+- **Sem fio:** não dá para detectar bem as colisões.
+- Daí usar **CSMA/CA** (evita colisão).
+
+## Acesso ao Meio
+
+- Conjunto de regras para **quando** transmitir.
+- Busca **eficiência** e **justiça** no uso.
+- Base dos protocolos **802.11**.
+
+## Desafios do Sem Fio
+
+- **Estação oculta:** dois nós não se "ouvem".
+- **Estação exposta:** espera desnecessariamente.
+- Sinais fracos e meio ruidoso.
+
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize]
+  \node[draw,circle,fill=orange!25,minimum size=4mm,inner sep=0pt] (ap) at (0,0) {};
+  \node[font=\tiny,below] at (0,-0.35) {AP};
+  \node[draw,circle,fill=blue!20,minimum size=4mm,inner sep=0pt] (a) at (-2.7,1.9) {};
+  \node[draw,circle,fill=blue!20,minimum size=4mm,inner sep=0pt] (b) at (2.7,1.9) {};
+  \node[font=\tiny,below] at (-2.7,1.55) {A};
+  \node[font=\tiny,below] at (2.7,1.55) {B};
+  \draw[dashed] (ap)--(a);
+  \draw[dashed] (ap)--(b);
+  \node[font=\tiny,red] at (0,1.95) {A e B não se "ouvem"};
+\end{tikzpicture}
+\end{center}
+```
+
+::: {.callout-note}
+No sem fio, as **colisões são difíceis de detectar** — por isso se tenta **evitá-las** antes que aconteçam.
+:::
+
+## Conceitos-Chave
+
+- **CSMA:** escuta o meio antes de transmitir.
+- **CA:** evita a colisão (não só detecta).
+- **DIFS/SIFS:** intervalos de tempo.
+
+## Resumo da Aula
+
+- O ar é um **meio compartilhado**.
+- Colisões exigem **regras de acesso**.
+- O sem fio usa **CSMA/CA**.
+
+## Atividade Rápida
+
+- Por que não se usa **CSMA/CD** no sem fio?
+- O que é a **estação oculta**?
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- TANENBAUM, A. *Redes de Computadores*. Pearson.
+
+## Aula 18 — CSMA/CA: Acesso em Redes sem Fio
+
+## Objetivos da Aula
+
+- Compreender o funcionamento do **CSMA/CA**.
+- Entender **evitação de colisão**.
+- Conhecer **RTS/CTS** e ACK.
+
+## CSMA/CA em Resumo
+
+- **Carrier Sense Multiple Access with Collision Avoidance**.
+- **Escuta** o meio antes de transmitir.
+- Se o meio está **ocupado**, espera.
+- Se livre, transmite **evitando** colisões.
+
+## Por que "evitação"?
+
+- O nó **não detecta** colisões como no cabo.
+- Então ele tenta **evitá-las** de antemão.
+- Usa **espera aleatória** e confirmação.
+
+## Passos Básicos
+
+- **1.** Escutar o meio (canal livre?).
+- **2.** Esperar um **tempo (DIFS)**.
+- **3.** Contagem **aleatória** (backoff).
+- **4.** Transmitir e aguardar **ACK**.
+
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize,node distance=5mm,
+  b/.style={draw,rounded corners,fill=blue!10,minimum width=2.0cm,minimum height=0.9cm,align=center,inner sep=3pt}]
+  \node[b] (s1) {1. Escutar\\ \scriptsize canal livre?};
+  \node[b,right=of s1,fill=green!12] (s2) {2. DIFS\\ \scriptsize espera};
+  \node[b,right=of s2,fill=orange!20] (s3) {3. Backoff\\ \scriptsize aleatório};
+  \node[b,right=of s3,fill=yellow!25] (s4) {4. TX + ACK};
+  \draw[-{Latex}] (s1)--(s2); \draw[-{Latex}] (s2)--(s3); \draw[-{Latex}] (s3)--(s4);
+\end{tikzpicture}
+\end{center}
+```
+
+## ACK (Confirmação)
+
+- O receptor envia **ACK** se recebeu bem.
+- Sem ACK, o transmissor **retransmite**.
+- Garante **confiabilidade**.
+
+## RTS/CTS
+
+- **RTS:** "quero transmitir".
+- **CTS:** "pode transmitir".
+- Reserva o meio e reduz o problema da **estação oculta**.
+
+::: {.callout-note}
+O **RTS/CTS** é como pedir a palavra numa reunião: evita que duas pessoas falem ao mesmo tempo.
+:::
+
+## Vantagens e Limitações
+
+- **Vantagem:** reduz colisões.
+- **Limitação:** tem **overhead** (gasta tempo).
+- RTS/CTS é opcional (usado em cenários específicos).
+
+## Resumo da Aula
+
+- CSMA/CA **evita** colisões.
+- Usa **escuta, backoff e ACK**.
+- **RTS/CTS** combate a estação oculta.
+
+## Atividade Rápida
+
+- Descreva os passos do CSMA/CA.
+- Para que serve o **ACK**?
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- TANENBAUM, A. *Redes de Computadores*. Pearson.

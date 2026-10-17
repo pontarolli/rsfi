@@ -1,0 +1,131 @@
+---
+title: "Semana 37 — Conteúdo de 2 aulas"
+---
+
+## Semana 37 — Conteúdo de 2 aulas
+
+- **Aula 59:** Feedback e Correção dos Erros
+- **Aula 60:** Ajustes e Finalização do Projeto
+
+## Aula 59 — Feedback e Correção dos Erros
+
+## Objetivos da Aula
+
+- Analisar os **erros** apontados.
+- Corrigir o **projeto**.
+- Melhorar a **documentação**.
+
+## Aula de Hoje
+
+- Trabalhar sobre o **feedback** recebido.
+- **Corrigir** os problemas apontados.
+- Refinar a **solução**.
+
+## Erros Comuns
+
+- **Cobertura** insuficiente em áreas críticas.
+- **Capacidade** subestimada.
+- **Canais** sobrepostos.
+- **Segurança** inadequada.
+
+## Metodologia de Correção
+
+- **1.** Listar os problemas do feedback.
+- **2.** Priorizar os mais **críticos**.
+- **3.** Corrigir e **justificar**.
+- **4.** Revisar o **conjunto**.
+
+## Canais e Potências
+
+- Revisar a **distribuição de canais**.
+- Ajustar **potências** para reduzir interferência.
+- Evitar **sobreposição** excessiva.
+
+## Segurança
+
+- Reforçar **métodos** inadequados.
+- Separar **convidados**.
+- Planejar autenticação adequada.
+
+::: {.callout-note}
+Corrigir **agora** é barato; corrigir depois de instalado custa muito mais. É para isso que serve o feedback.
+:::
+
+## Checklist de Correção
+
+- [ ] Cobertura revisada
+- [ ] Canais ajustados
+- [ ] Capacidade reavaliada
+- [ ] Segurança reforçada
+
+## Resumo da Aula
+
+- Analisamos os **erros** apontados.
+- Corrigimos e **justificamos** as mudanças.
+- O projeto fica **mais sólido**.
+
+## Referências
+
+- Feedback do professor.
+- MORAES, A. F. *Redes Sem Fio*. Érica.
+
+## Aula 60 — Ajustes e Finalização do Projeto
+
+## Objetivos da Aula
+
+- **Finalizar** a documentação do projeto.
+- Validar a **solução** completa.
+- Preparar o material para **entrega final**.
+
+## Aula de Hoje
+
+- **Finalização** do projeto em grupo.
+- Revisão **geral**.
+- Preparação da **entrega final**.
+
+## Revisão Geral
+
+- A solução atende **todos** os requisitos?
+- A **documentação** está completa?
+- As **justificativas** estão claras?
+
+## Documentação Final
+
+- **Cenário** e requisitos.
+- **Solução** técnica.
+- **Equipamentos** e orçamento.
+- **Segurança** e conclusões.
+
+## Padronização
+
+- Formatação **uniforme**.
+- Plantas **legíveis**.
+- Tabelas **organizadas**.
+
+## Verificação Final
+
+- **Reler** o documento completo.
+- Corrigir **erros** de escrita.
+- Garantir a **coerência** interna.
+
+::: {.callout-note}
+Leia o projeto como se fosse um **cliente**: ele entenderia a proposta só com este documento?
+:::
+
+## Checklist Final
+
+- [ ] Todos os requisitos atendidos
+- [ ] Documentação completa
+- [ ] Plantas legíveis
+- [ ] Revisão de texto feita
+
+## Resumo da Aula
+
+- Finalizamos a **documentação**.
+- Revisamos e **padronizamos** o material.
+- Prontos para a **entrega final**.
+
+## Referências
+
+- Documentação do projeto.
+- MORAES, A. F. *Redes Sem Fio*. Érica.

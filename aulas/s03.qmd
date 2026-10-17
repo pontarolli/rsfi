@@ -1,0 +1,167 @@
+---
+title: "Semana 03 — Conteúdo de 2 aulas"
+---
+
+## Semana 03 — Conteúdo de 2 aulas
+
+- **Aula 5:** WPAN: Redes Pessoais sem Fio
+- **Aula 6:** WLAN: Redes Locais sem Fio
+
+## Aula 5 — WPAN: Redes Pessoais sem Fio
+
+## Objetivos da Aula
+
+- Definir **WPAN** (Wireless Personal Area Network).
+- Conhecer suas **tecnologias**.
+- Entender seus **usos**.
+
+## O que é uma WPAN?
+
+- Rede sem fio de **curtíssimo alcance**.
+- Cobre o espaço **pessoal** (poucos metros).
+- Conecta **dispositivos pessoais** entre si.
+
+## Características
+
+- **Alcance:** ~1 a 10 metros.
+- **Baixo consumo** de energia.
+- **Baixo custo**.
+- Velocidades **moderadas**.
+
+## Tecnologias WPAN
+
+- **Bluetooth:** dados e áudio.
+- **ZigBee:** sensores e automação.
+- **Infrared (IrDA):** linha de visada.
+- **NFC:** proximidade (pagamentos).
+
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize,node distance=4mm and 5mm,
+  c/.style={draw,rounded corners,fill=blue!10,minimum width=2.7cm,minimum height=0.9cm,align=center,inner sep=3pt}]
+  \node[c] (a) {Bluetooth\\ \scriptsize áudio/dados};
+  \node[c,right=of a,fill=green!12] (b) {ZigBee\\ \scriptsize sensores};
+  \node[c,below=of a,fill=orange!20] (c) {Infrared (IrDA)\\ \scriptsize linha de visada};
+  \node[c,below=of b,fill=yellow!25] (d) {NFC\\ \scriptsize proximidade};
+\end{tikzpicture}
+\end{center}
+```
+
+## Usos no Cotidiano
+
+- Fones e caixas de som **Bluetooth**.
+- **Smartwatches** e pulseiras.
+- **Automação residencial** (lâmpadas, sensores).
+- **Pagamento por aproximação** (NFC).
+
+::: {.callout-note}
+A WPAN é a rede "**de bolso**": conecta os dispositivos que carregamos sem depender de infraestrutura.
+:::
+
+## WPAN no Curso
+
+- Voltaremos ao **Bluetooth** e **ZigBee** no 3º bimestre.
+- Base para entender **IoT** no 4º bimestre.
+
+## Comparação Rápida
+
+| Tecnologia | Uso | Alcance |
+|------------|-----|---------|
+| Bluetooth | áudio, dados | ~10 m |
+| ZigBee | sensores | ~10–100 m |
+| NFC | pagamento | ~4 cm |
+
+## Resumo da Aula
+
+- WPAN é a rede sem fio **pessoal**.
+- Tecnologias: **Bluetooth, ZigBee, IrDA, NFC**.
+- Baixo consumo e curto alcance.
+
+## Atividade Rápida
+
+- Liste **dispositivos** WPAN que você usa.
+- Qual a principal **vantagem** da WPAN?
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- LUGLI, A. B.; SANTOS, M. M. D. *Redes sem fio para automação industrial*. Érica.
+
+## Aula 6 — WLAN: Redes Locais sem Fio
+
+## Objetivos da Aula
+
+- Definir **WLAN** (Wireless Local Area Network).
+- Conhecer a tecnologia **Wi-Fi**.
+- Entender a **topologia** típica de uma WLAN.
+
+## O que é uma WLAN?
+
+- Rede local **sem fio**, de alcance médio.
+- Cobre um **prédio, andar ou campus**.
+- Substitui ou complementa a rede **cabeada**.
+
+## A Tecnologia Wi-Fi
+
+- Baseada no padrão **IEEE 802.11**.
+- Usa as faixas **2,4 e 5 GHz** (e 6 GHz).
+- Certificada pela **Wi-Fi Alliance**.
+
+## Componentes de uma WLAN
+
+- **Estações (STA):** celulares, notebooks.
+- **Access Point (AP):** ponto de acesso.
+- **Rede de distribuição:** cabeamento até o AP.
+- **Controlador:** gerencia vários APs.
+
+## Topologia em Infraestrutura
+
+- Clientes se conectam **via AP**.
+- O AP liga a rede sem fio à **rede cabeada**.
+- Cobre uma **célula**.
+
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize,
+  st/.style={draw,circle,fill=blue!15,minimum size=4mm,inner sep=0pt}]
+  \node[draw,rounded corners,fill=orange!25,minimum width=1.1cm,minimum height=0.6cm] (ap) at (0,0) {AP};
+  \node[st] (s1) at (-1.3,0.9) {};
+  \node[st] (s2) at (-1.7,0) {};
+  \node[st] (s3) at (-1.3,-0.9) {};
+  \draw[thick] (s1)--(ap); \draw[thick] (s2)--(ap); \draw[thick] (s3)--(ap);
+  \draw[dashed] (0,0) circle (1.5);
+  \draw[very thick] (ap.east) -- (4.2,0) node[right,font=\tiny]{rede cabeada};
+\end{tikzpicture}
+\end{center}
+```
+
+## BSS, ESS
+
+- **BSS:** uma célula (um AP).
+- **ESS:** várias células com o mesmo **SSID**.
+- Permite **roaming** entre APs.
+
+::: {.callout-note}
+Quando vários APs compartilham o mesmo SSID, os clientes circulam sem perceber — é o **roaming**.
+:::
+
+## Vantagens e Limitações
+
+- **Vantagens:** mobilidade, fácil instalação, menos cabos.
+- **Limitações:** interfere em obstáculos, sofre **interferência**, segurança exige cuidado.
+
+## Resumo da Aula
+
+- WLAN é a rede local sem fio (**Wi-Fi**).
+- Baseada no **IEEE 802.11**.
+- Usa **APs** e células (**BSS/ESS**).
+
+## Atividade Rápida
+
+- Desenhe a **WLAN** da sua casa.
+- Onde está o **AP** e qual a **cobertura**?
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- MORAES, A. F. *Redes Sem Fio*. Érica.

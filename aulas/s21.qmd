@@ -1,0 +1,218 @@
+---
+title: "Semana 21 — Conteúdo de 2 aulas"
+---
+
+## Semana 21 — Conteúdo de 2 aulas
+
+- **Aula 33:** Configuração de Access Points
+- **Aula 34:** Wireless Controllers: Conceitos
+
+## Aula 33 — Configuração de Access Points
+
+## Objetivos da Aula
+
+- Conhecer a **interface** de configuração de um AP.
+- Realizar a **configuração básica**.
+- Definir **SSID, canal e segurança**.
+
+## O Access Point
+
+- Dispositivo que cria a **célula** Wi-Fi.
+- Liga a rede sem fio à **rede cabeada**.
+- Configurável por **interface web** ou CLI.
+
+## Acesso à Configuração
+
+- Descobrir o **endereço IP** do AP.
+- Acessar via **navegador** (interface web).
+- Login com **usuário e senha** (trocar o padrão!).
+
+## Configurações Básicas
+
+- **SSID:** nome da rede.
+- **Canal:** 1, 6, 11 (2,4 GHz) ou automático.
+- **Modo:** b/g/n/ac/ax.
+- **Potência** de transmissão.
+
+## Segurança Inicial
+
+- Escolher **WPA2/WPA3** (nunca WEP).
+- Definir **senha forte**.
+- Ocultar ou não o **SSID** (pouco eficaz sozinho).
+
+::: {.callout-note}
+Trocar a **senha padrão** do AP é a primeira medida de segurança — senhas de fábrica são públicas e conhecidas.
+:::
+
+## Boas Práticas
+
+- Atualizar o **firmware**.
+- Desativar **WPS** se não for necessário.
+- Desativar **gerenciamento** remoto exposto.
+- Documentar a **configuração**.
+
+## Roteiro da Prática (preparação)
+
+- **1.** Acessar a interface do AP.
+- **2.** Definir **SSID** e **canal**.
+- **3.** Ativar **WPA2** e senha forte.
+- **4.** Testar a **conexão**.
+
+## Resumo da Aula
+
+- O AP se configura por **interface web**.
+- Ajustes básicos: **SSID, canal, modo, segurança**.
+- Segurança: **WPA2/WPA3** e senha forte.
+
+## Atividade Rápida
+
+- Liste **4** configurações básicas de um AP.
+- Por que trocar a **senha padrão**?
+
+## Referências
+
+- MORAES, A. F. *Redes Sem Fio*. Érica.
+- Manual do equipamento do laboratório.
+
+## Objetivos da Aula
+
+- Aprofundar a **configuração** de APs.
+- Configurar **múltiplos SSIDs** e **VLANs**.
+- Ajustar **parâmetros avançados**.
+
+## Múltiplos SSIDs
+
+- Um AP pode oferecer **vários SSIDs**.
+- Ex.: "Visitantes" e "Corporativo".
+- Cada um com **segurança própria**.
+
+## VLANs
+
+- Isolar **tráfego** por rede virtual.
+- Associanr SSID → **VLAN**.
+- Separa convidados de **usuários internos**.
+
+## Parâmetros Avançados
+
+- **Largura de canal** (20/40/80 MHz).
+- **Potência** de transmissão.
+- **Modo** (b/g/n/ac/ax).
+- **Roaming** e balanceamento.
+
+## Convidados
+
+- Rede **isolada** e com senha simples.
+- Limite de **banda**.
+- Portal de **autenticação** (captive portal).
+
+::: {.callout-note}
+Separar a rede de **visitantes** da rede interna é uma prática essencial de **segurança e organização**.
+:::
+
+## Testes
+
+- Conectar em cada **SSID**.
+- Verificar o **isolamento** das VLANs.
+- Medir **velocidade** e **cobertura**.
+
+## Boas Práticas
+
+- Nomear SSIDs de forma **clara**.
+- Documentar **canais** e **potências**.
+- Evitar **sobreposição** de canais.
+
+## Resumo da Aula
+
+- Um AP pode ter **vários SSIDs** e **VLANs**.
+- Configurações avançadas controlam **desempenho**.
+- Separar convidados melhora a **segurança**.
+
+## Atividade Rápida
+
+- Por que usar **múltiplos SSIDs**?
+- O que é uma **VLAN** em um AP?
+
+## Referências
+
+- MORAES, A. F. *Redes Sem Fio*. Érica.
+- Manual do equipamento do laboratório.
+
+## Aula 34 — Wireless Controllers: Conceitos
+
+## Objetivos da Aula
+
+- Compreender o papel do **controlador wireless**.
+- Entender o **gerenciamento centralizado**.
+- Conhecer as **arquiteturas** de controlador.
+
+## O Problema
+
+- Muitos APs precisam ser **gerenciados**.
+- Configurar **um a um** é trabalhoso e inconsistente.
+- Surge a necessidade de **centralização**.
+
+## Wireless Controller
+
+- Dispositivo que **centraliza** a gestão dos APs.
+- Aplica **configuração única** a vários APs.
+- Monitora **desempenho e segurança**.
+
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize,
+  ctrl/.style={draw,rounded corners,fill=orange!25,minimum width=1.6cm,minimum height=0.7cm,align=center},
+  ap/.style={draw,rounded corners,fill=blue!12,minimum width=1.2cm,minimum height=0.6cm,align=center}]
+  \node[ctrl] (c) at (0,0) {Controlador};
+  \node[ap] (a1) at (3.4,1.3) {AP1};
+  \node[ap] (a2) at (3.4,0) {AP2};
+  \node[ap] (a3) at (3.4,-1.3) {AP3};
+  \draw[-{Latex}] (c)--(a1); \draw[-{Latex}] (c)--(a2); \draw[-{Latex}] (c)--(a3);
+  \node[font=\tiny,above] at (1.7,0.7) {CAPWAP};
+\end{tikzpicture}
+\end{center}
+```
+
+## Vantagens
+
+- Configuração **consistente**.
+- **Roaming** suave entre APs.
+- Monitoramento **central**.
+- Facilita **escalabilidade**.
+
+## Arquiteturas
+
+- **Controlador físico** (appliance).
+- **Controlador virtual** (software).
+- **Cloud-managed** (na nuvem).
+
+## CAPWAP
+
+- Protocolo entre AP e controlador.
+- Controla e **tunela** o tráfego.
+- Padroniza a comunicação.
+
+::: {.callout-note}
+O controlador é o **"cérebro"** da rede Wi-Fi: os APs viram "braços" que executam a política definida nele.
+:::
+
+## Aplicações
+
+- **Campus** e empresas grandes.
+- Redes com **muitos APs**.
+- Ambientes com **roaming** intenso.
+
+## Resumo da Aula
+
+- O **controller** centraliza a gestão dos APs.
+- Traz **consistência, roaming e monitoramento**.
+- Há versões **físicas, virtuais e em nuvem**.
+
+## Atividade Rápida
+
+- Por que centralizar o gerenciamento dos APs?
+- Cite **duas vantagens** do controlador.
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- Documentação dos fabricantes de controladores.

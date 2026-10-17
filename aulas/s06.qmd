@@ -1,0 +1,171 @@
+---
+title: "Semana 06 — Conteúdo de 2 aulas"
+---
+
+## Semana 06 — Conteúdo de 2 aulas
+
+- **Aula 9:** Comparativo entre as Categorias
+- **Aula 10:** Princípios de Radiofrequência (RF)
+
+## Aula 9 — Comparativo entre as Categorias
+
+## Objetivos da Aula
+
+- **Comparar** WPAN, WLAN, WMAN, WWAN e WLL.
+- Relacionar **alcance, banda e uso**.
+- Escolher a categoria adequada a cada **cenário**.
+
+## Recapitulando
+
+- **WPAN:** pessoal (metros).
+- **WLAN:** local (prédio).
+- **WMAN:** metropolitana (cidade).
+- **WWAN:** ampla (região/país).
+- **WLL:** acesso do usuário final.
+
+## Alcance × Banda
+
+- Em geral, **maior alcance, menor banda**.
+- WPAN: curto alcance, baixa banda.
+- WWAN: longo alcance, banda moderada.
+- A escolha depende da **necessidade**.
+
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize]
+  \foreach \i/\t/\w in {0/WPAN/1.0,1/WLAN/1.6,2/WMAN/2.6,3/WWAN/3.6,4/WLL/1.9}{
+    \draw[fill=blue!15] (0,-\i*0.62) rectangle (\w,-\i*0.62+0.45);
+    \node[left,font=\tiny] at (0,-\i*0.62+0.22) {\t};
+  }
+  \node[font=\tiny,right] at (3.7,-0.05) {alcance};
+\end{tikzpicture}
+\end{center}
+```
+
+## Comparativo Geral
+
+| Categoria | Alcance | Padrão | Exemplo |
+|-----------|---------|--------|---------|
+| WPAN | metros | 802.15 | Bluetooth |
+| WLAN | ~100 m | 802.11 | Wi-Fi |
+| WMAN | km | 802.16 | WiMax |
+| WWAN | dezenas de km | Celular | 4G/5G |
+| WLL | até km | Vários | Enlace fixo |
+
+## Critérios de Escolha
+
+- **Distância** a cobrir.
+- **Taxa** de dados necessária.
+- **Custo** e infraestrutura.
+- **Mobilidade** desejada.
+
+::: {.callout-note}
+Não existe "melhor categoria": existe a categoria **adequada** a cada necessidade e contexto.
+:::
+
+## Cenários Práticos
+
+- **Casa:** WLAN (Wi-Fi) + WPAN (Bluetooth).
+- **Cidade:** WWAN (celular) + WMAN.
+- **Fazenda:** WLL (enlace) + WLAN.
+
+## Sobreposição de Tecnologias
+
+- Um celular usa **todas** ao mesmo tempo.
+- WPAN para acessórios.
+- WLAN para economizar dados.
+- WWAN para mobilidade.
+
+## Resumo da Aula
+
+- As categorias diferem em **alcance e uso**.
+- A escolha depende do **cenário**.
+- Tecnologias se **complementam**.
+
+## Atividade Rápida
+
+- Proponha a melhor categoria para: **fazenda, shopping, casa**.
+- Justifique suas escolhas.
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- RAPPAPORT, T. S. *Comunicações Sem Fio*. Pearson.
+
+## Aula 10 — Princípios de Radiofrequência (RF)
+
+## Objetivos da Aula
+
+- Compreender os **princípios da RF**.
+- Entender **potência, atenuação e decibel**.
+- Reconhecer a importância da RF para as redes sem fio.
+
+## O que é Radiofrequência?
+
+- Faixa do **espectro eletromagnético** usada em comunicações.
+- Vai de ~3 kHz a ~300 GHz.
+- Base física de **todas** as redes sem fio.
+
+## Potência do Sinal
+
+- Medida em **watts (W)** ou **miliwatts (mW)**.
+- Quanto maior a potência, **maior o alcance**.
+- Limitada por **lei** (agências reguladoras).
+
+## Atenuação
+
+- **Perda de potência** ao longo do caminho.
+- Cresce com a **distância**.
+- Aumenta ao atravessar **obstáculos**.
+
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize]
+  \draw[-{Latex}] (0,0) -- (7.6,0) node[right,font=\tiny] {distância};
+  \draw[-{Latex}] (0,0) -- (0,2.2) node[above,font=\tiny] {potência};
+  \draw[thick,blue,domain=0.2:7.4,samples=80] plot (\x,{2.0/(1+\x)});
+  \node[font=\tiny,blue] at (4.6,0.7) {queda com a distância};
+\end{tikzpicture}
+\end{center}
+```
+
+## Decibel (dB)
+
+- Escala **logarítmica** para comparar potências.
+- **dBm:** potência em relação a 1 mW.
+- Facilita lidar com valores **muito grandes/pequenos**.
+
+## Ganho e Perda
+
+- **Ganho** (antena/amplificador): aumenta o sinal.
+- **Perda** (cabo/atenuação): reduz o sinal.
+- O resultado final é o **balanço** do enlace.
+
+## Medidas Comuns
+
+| Valor | Significado |
+|-------|-------------|
+| 0 dBm | 1 mW |
+| 10 dBm | 10 mW |
+| -70 dBm | sinal fraco (Wi-Fi) |
+| -30 dBm | sinal forte (Wi-Fi) |
+
+::: {.callout-note}
+No Wi-Fi, mudanças de **3 dB** correspondem a **dobrar ou metade** da potência — a escala é logarítmica.
+:::
+
+## Resumo da Aula
+
+- RF é a **base física** das redes sem fio.
+- A potência se mede em **W/mW** e **dBm**.
+- **Atenuação** e **ganho** definem a qualidade.
+
+## Atividade Rápida
+
+- Por que o sinal fica fraco **longe do roteador**?
+- Para que serve a escala em **dB**?
+
+## Referências
+
+- RAPPAPORT, T. S. *Comunicações Sem Fio*. Pearson.
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.

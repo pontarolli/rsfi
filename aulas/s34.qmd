@@ -1,0 +1,190 @@
+---
+title: "Semana 34 — Conteúdo de 2 aulas"
+---
+
+## Semana 34 — Conteúdo de 2 aulas
+
+- **Aula 55:** Projeto Interdisciplinar: Divisão de Grupos
+- **Aula 56:** Projeto interdisciplinar: desenvolvimento (partes 1 e 2)
+
+## Aula 55 — Projeto Interdisciplinar: Divisão de Grupos
+
+## Objetivos da Aula
+
+- **Formar** os grupos de projeto.
+- Definir **papéis** e responsabilidades.
+- Planejar o **cronograma** do projeto.
+
+## Formação dos Grupos
+
+- Grupos de **3 a 5** integrantes.
+- Escolha do **cenário** de cada grupo.
+- Definição de **papéis**.
+
+## Papéis Sugeridos
+
+- **Coordenador:** organiza e cobra prazos.
+- **Pesquisador:** levanta requisitos e tecnologias.
+- **Projetista:** dimensiona APs e antenas.
+- **Documentador:** elabora o relatório.
+- **Apresentador:** conduz a defesa.
+
+## Cronograma do Projeto
+
+- **Semana 1-2:** requisitos e site survey.
+- **Semana 3-4:** desenvolvimento.
+- **Semana 5:** 1ª entrega.
+- **Semana 6-7:** ajustes.
+- **Semana 8-9:** apresentação.
+
+## Ferramentas de Trabalho
+
+- Documento **compartilhado**.
+- **Lista de tarefas** com responsáveis.
+- **Canal** de comunicação do grupo.
+
+::: {.callout-note}
+Grupos que **combinam papéis e prazos** desde o início entregam melhor — evite deixar tudo para a última semana.
+:::
+
+## Produto da Aula
+
+- Grupos **formados**.
+- **Cenário** escolhido.
+- **Cronograma** interno definido.
+
+## Resumo da Aula
+
+- Formamos os **grupos** e definimos **papéis**.
+- Planejamos o **cronograma**.
+- Preparamos o **desenvolvimento**.
+
+## Atividade Rápida
+
+- Liste os **papéis** do seu grupo com nomes.
+- Defina as **datas** das tarefas.
+
+## Referências
+
+- MORAES, A. F. *Redes Sem Fio*. Érica.
+- Documentação do projeto.
+
+## Aula 56 — Projeto interdisciplinar: desenvolvimento (partes 1 e 2)
+
+## Objetivos da Aula
+
+- Iniciar o **desenvolvimento** do projeto.
+- Levantar **requisitos** e dados do local.
+- Produzir a **documentação** inicial.
+
+## Aula de Hoje
+
+- **Desenvolvimento** do projeto em grupo.
+- Foco no **levantamento de dados**.
+- Início da **documentação**.
+
+## Etapas do Dia
+
+- **1.** Descrever o **cenário**.
+- **2.** Levantar **requisitos**.
+- **3.** Coletar dados do **local**.
+
+## Descrevendo o Cenário
+
+- **Local:** tipo e dimensões.
+- **Usuários:** quantidade e perfil.
+- **Aplicações:** voz, vídeo, dados.
+- **Áreas críticas:** onde o sinal é essencial.
+
+## Levantando Requisitos
+
+- **Cobertura** necessária.
+- **Capacidade** (usuários simultâneos).
+- **Segurança** exigida.
+- **Orçamento** disponível.
+
+::: {.callout-note}
+Documentar os **requisitos** desde o começo evita retrabalho e serve de base para justificar as escolhas técnicas.
+:::
+
+## Coleta de Dados
+
+- **Planta** do local (ou esboço).
+- Identificação de **obstáculos**.
+- Fontes de **interferência** previstas.
+
+## Registro
+
+- Anotar tudo no **documento** do grupo.
+- Guardar **esboços** e plantas.
+- Definir a **próxima etapa**.
+
+## Resumo da Aula
+
+- Iniciamos o **desenvolvimento** do projeto.
+- Descrevemos o cenário e levantamos **requisitos**.
+- Começamos a **documentação**.
+
+## Referências
+
+- MORAES, A. F. *Redes Sem Fio*. Érica.
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+
+## Objetivos da Aula
+
+- Avançar no **dimensionamento** da rede.
+- Definir **posicionamento** dos APs.
+- Escolher **equipamentos**.
+
+## Aula de Hoje
+
+- **Desenvolvimento** do projeto em grupo.
+- Foco no **dimensionamento**.
+- Escolha de **equipamentos**.
+
+## Dimensionamento
+
+- Quantos **APs** são necessários?
+- Distribuição por **cobertura**.
+- Distribuição por **capacidade**.
+- **Canais** a utilizar.
+
+## Posicionamento dos APs
+
+- **Planta** do local com marcações.
+- Evitar **obstáculos** (paredes, metal).
+- Pontos de **maior demanda**.
+
+## Escolha de Equipamentos
+
+- **APs** (padrão n, ac, ax).
+- **Antenas** (se necessárias).
+- **Controlador** (se houver vários APs).
+- **Switch** de alimentação (PoE).
+
+## Segurança do Projeto
+
+- **WPA2/WPA3**.
+- **Personal** ou **Enterprise**?
+- **Rede de convidados** separada.
+
+::: {.callout-note}
+Nesta etapa, cada decisão precisa ser **justificada**: por que este AP, nesta posição, com esta segurança.
+:::
+
+## Registro
+
+- Plantas com posições **marcadas**.
+- Lista de **equipamentos**.
+- Justificativa das **escolhas**.
+
+## Resumo da Aula
+
+- Dimensionamos **APs** (cobertura e capacidade).
+- Definimos **posições** e **equipamentos**.
+- Estruturamos a **segurança**.
+
+## Referências
+
+- MORAES, A. F. *Redes Sem Fio*. Érica.
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.

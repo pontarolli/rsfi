@@ -12,124 +12,144 @@ do **Curso Técnico em Redes de Computadores** do **IFSP — Câmpus Boituva**.
 
 ## Como usar este repositório
 
-As aulas estão na pasta [`aulas/`](aulas/), numeradas de **01 a 80**.
+As aulas estão na pasta [`aulas/`](aulas/), organizadas em **40 semanas** (`s01` a `s40`). Cada **semana** reúne as **2 aulas** do período num único arquivo.
 
-- Para **estudar**, abra o arquivo **`.pdf`** da aula (ex.: [`aulas/aula-01.pdf`](aulas/aula-01.pdf)).
-- Cada aula também tem a **fonte editável** `.qmd` (mesmo nome), para quem quiser adaptar o conteúdo.
+- Para **estudar**, abra o arquivo **`.pdf`** da semana (ex.: [`aulas/s01.pdf`](aulas/s01.pdf)).
+- Cada semana também tem a **fonte editável** `.qmd` (mesmo nome), para quem quiser adaptar o conteúdo.
 - As **avaliações** (`.gift`, com gabarito) ficam na pasta `aulas/` junto das aulas e **não** são publicadas.
 
 > Dica: no GitHub, clique no arquivo `.pdf` e depois em **Download** para abrir os slides.
 
 ---
 
+## Plano de Ensino
+
+> Baseado no **Plano de Ensino** e no **Plano de Aulas** do PPC do curso (arquivos `BTVRSFI.pdf` e `plano-de-aula.pdf`).
+
+### Identificação
+
+| Campo | Valor |
+|---|---|
+| Curso | Técnico em Redes de Computadores Integrado ao Ensino Médio |
+| Componente curricular | Redes sem Fio |
+| Tipo | Obrigatório/Técnica |
+| Núcleo | NET |
+| Série | 3º |
+| Sigla | BTVRSFI |
+| Aulas semanais | 2 |
+| Total de aulas | 80 |
+| Carga horária presencial | 60 h |
+| Carga horária em laboratório | 60 h |
+| Docentes | Marcelo Frate · Andre Luyde da Silva Souza · Ricardo Pasquati Pontarolli |
+
+### Conhecimentos essenciais do currículo de referência
+
+Redes de Computadores/Redes de Computadores.
+
+### Ementa
+
+O componente curricular conceitua e aplica os protocolos de redes sem fio e dos equipamentos de comunicação de dados. Estuda os sistemas de transmissão sem fio, terminologia, princípios de Radiofrequência e métodos de acesso em redes sem fio.
+
+### Objetivos
+
+- Conhecer as arquiteturas, conceitos, tecnologias e padronizações em redes sem fio;
+- Compreender como utilizar ferramentas para redes sem fio;
+- Aplicar a execução de um projeto e instalação de uma rede sem fio.
+
+### Conteúdo Programático
+
+- Introdução às redes sem fio;
+- Categorias de redes sem fio: WPAN, WLAN, WMAN, WWAN, WLL;
+- Tecnologias: Wi-Fi, Infrared, Wimax, Wimesh, Bluetooth, VANETs;
+- Evolução das tecnologias da Família IEEE 802.11: 802.11a, 802.11b e 802.11g;
+- Conceitos sobre protocolos de segurança: WEP, WPA-WPA2 (PSK e EAP) (personal e enterprise);
+- Tipos de antenas de comunicação;
+- Projetos de redes sem fio.
+
+### Avaliação
+
+O sistema avaliativo é embasado em **duas atividades avaliativas por bimestre**, postadas no **Moodle** (questões de múltipla escolha e/ou dissertativas), disponíveis por período não superior a 24 horas, além de uma **avaliação bimestral**. A nota final corresponde à **média ponderada** (pesos diferentes) entre todas as atividades. Aprovação: **MF ≥ 6,0** e frequência às aulas (FA) **≥ 75%**.
+
+### Bibliografia Básica
+
+- RAPPAPORT, Theodore S. *Comunicações Sem Fio: Princípios e Práticas*. 2. ed. Pearson Universidades, 2008. ISBN 978-8576051985.
+- ROCHOL, Juergen. *Sistemas de Comunicação Sem Fio — Conceitos e Aplicações*. v. 24. Bookman, 2018. ISBN 978-8582604557.
+- SILVA, Fernanda Rosa da et al. *Redes Sem Fio*. Grupo A, 2021. ISBN 978-6556901374.
+
+### Bibliografia Complementar
+
+- KUMAR, Ch. Niranjan. *Redes de comunicação sem fio reconfiguráveis*. KS OmniScriptum Publishing, 2022. ISBN 978-6203394689.
+- LUGLI, Alexandre Baratella; SANTOS, Max Mauro Dias. *Redes sem fio para automação industrial*. Érica, 2013. ISBN 978-8536504988.
+- MORAES, Alexandre Fernandes. *Redes Sem Fio — Instalação, Configuração e Segurança: Fundamentos*. Érica Saraiva, 2010. ISBN 978-8536503158.
+
+---
+
 ## Conteúdo por Bimestre
 
-Cronograma com **72 aulas de conteúdo** (18 por bimestre) e **8 avaliações** (2 por bimestre), em formato **GIFT** para importação no Moodle (10 questões cada).
-
-> As aulas são apresentações **Beamer (PDF)** geradas a partir das fontes `.qmd`.
-> As avaliações (`.gift`) ficam na pasta `aulas/` e **não** são publicadas.
+Cronograma com **64 aulas de conteúdo** (16 por bimestre), organizadas em **32 semanas de 2 aulas** cada, e **8 avaliações** (2 por bimestre), em formato **GIFT** para importação no Moodle (10 questões cada).
 
 ### 1º Bimestre — Fundamentos das Redes sem Fio
 
-| # | Aula | PDF | Fonte (.qmd) |
-|---|---|-----|-----|
-| 01 | Apresentação da disciplina e metodologia | [aula-01](aulas/aula-01.pdf) | [.qmd](aulas/aula-01-apresentacao-disciplina.qmd) |
-| 02 | Introdução às redes sem fio: histórico | [aula-02](aulas/aula-02.pdf) | [.qmd](aulas/aula-02-introducao-redes-sem-fio-historico.qmd) |
-| 03 | Introdução às redes sem fio: terminologia | [aula-03](aulas/aula-03.pdf) | [.qmd](aulas/aula-03-introducao-redes-sem-fio-terminologia.qmd) |
-| 04 | Transmissão por ondas de rádio | [aula-04](aulas/aula-04.pdf) | [.qmd](aulas/aula-04-transmissao-ondas-de-radio.qmd) |
-| 05 | Categorias de redes sem fio: visão geral | [aula-05](aulas/aula-05.pdf) | [.qmd](aulas/aula-05-categorias-redes-sem-fio.qmd) |
-| 06 | WPAN — redes pessoais sem fio | [aula-06](aulas/aula-06.pdf) | [.qmd](aulas/aula-06-wpan.qmd) |
-| 07 | WLAN — redes locais sem fio | [aula-07](aulas/aula-07.pdf) | [.qmd](aulas/aula-07-wlan.qmd) |
-| 08 | WMAN e WWAN — redes metropolitanas e amplas | [aula-08](aulas/aula-08.pdf) | [.qmd](aulas/aula-08-wman-e-wwan.qmd) |
-| 09 | WLL — acesso local sem fio | [aula-09](aulas/aula-09.pdf) | [.qmd](aulas/aula-09-wll.qmd) |
-| 10 | **Avaliação 1 (GIFT, 10 questões)** | — | `aula-10-avaliacao-b1-av1.gift` |
-| 11 | Comparativo entre as categorias | [aula-11](aulas/aula-11.pdf) | [.qmd](aulas/aula-11-comparativo-categorias.qmd) |
-| 12 | Princípios de radiofrequência (RF) | [aula-12](aulas/aula-12.pdf) | [.qmd](aulas/aula-12-principios-radiofrequencia.qmd) |
-| 13 | Propagação de ondas de rádio | [aula-13](aulas/aula-13.pdf) | [.qmd](aulas/aula-13-propagacao-ondas.qmd) |
-| 14 | Reflexão, difração e espalhamento | [aula-14](aulas/aula-14.pdf) | [.qmd](aulas/aula-14-reflexao-difracao-espalhamento.qmd) |
-| 15 | Interferência e ruído | [aula-15](aulas/aula-15.pdf) | [.qmd](aulas/aula-15-interferencia-e-ruido.qmd) |
-| 16 | Tipos de antenas: onidirecionais e direcionais | [aula-16](aulas/aula-16.pdf) | [.qmd](aulas/aula-16-tipos-de-antenas.qmd) |
-| 17 | Ganho de sinal e potência | [aula-17](aulas/aula-17.pdf) | [.qmd](aulas/aula-17-ganho-de-sinal.qmd) |
-| 18 | Prática: identificação de antenas em laboratório | [aula-18](aulas/aula-18.pdf) | [.qmd](aulas/aula-18-pratica-identificacao-antenas.qmd) |
-| 19 | Síntese e revisão do 1º bimestre | [aula-19](aulas/aula-19.pdf) | [.qmd](aulas/aula-19-revisao-bimestre-1.qmd) |
-| 20 | **Avaliação 2 (GIFT, 10 questões)** | — | `aula-20-avaliacao-b1-av2.gift` |
+| Semana | Conteúdo | PDF | Fonte (.qmd) |
+|---|---|---|---|
+| 1 | **Aula 1:** Apresentação da Disciplina · **Aula 2:** Introdução às redes sem fio: histórico e terminologia | [s01](aulas/s01.pdf) | [.qmd](aulas/s01.qmd) |
+| 2 | **Aula 3:** Transmissão por Ondas de Rádio · **Aula 4:** Categorias de Redes sem Fio: Visão Geral | [s02](aulas/s02.pdf) | [.qmd](aulas/s02.qmd) |
+| 3 | **Aula 5:** WPAN: Redes Pessoais sem Fio · **Aula 6:** WLAN: Redes Locais sem Fio | [s03](aulas/s03.pdf) | [.qmd](aulas/s03.qmd) |
+| 4 | **Aula 7:** WMAN e WWAN: Redes Metropolitanas e Amplas · **Aula 8:** WLL: Acesso Local sem Fio | [s04](aulas/s04.pdf) | [.qmd](aulas/s04.qmd) |
+| 5 | **Avaliação 1 (GIFT, 10 questões)** | — | `s05-avaliacao-1.gift` |
+| 6 | **Aula 9:** Comparativo entre as Categorias · **Aula 10:** Princípios de Radiofrequência (RF) | [s06](aulas/s06.pdf) | [.qmd](aulas/s06.qmd) |
+| 7 | **Aula 11:** Propagação de Ondas de Rádio · **Aula 12:** Reflexão, Difração e Espalhamento | [s07](aulas/s07.pdf) | [.qmd](aulas/s07.qmd) |
+| 8 | **Aula 13:** Interferência e Ruído · **Aula 14:** Tipos de Antenas: Onidirecionais e Direcionais | [s08](aulas/s08.pdf) | [.qmd](aulas/s08.qmd) |
+| 9 | **Aula 15:** Ganho de Sinal e Potência · **Aula 16:** Prática: Identificação de Antenas em Laboratório | [s09](aulas/s09.pdf) | [.qmd](aulas/s09.qmd) |
+| 10 | **Avaliação 2 (GIFT, 10 questões)** | — | `s10-avaliacao-2.gift` |
 
 ### 2º Bimestre — Acesso ao Meio e Padrões IEEE 802.11
 
-| # | Aula | PDF | Fonte (.qmd) |
-|---|---|-----|-----|
-| 21 | Métodos de acesso ao meio: conceitos | [aula-21](aulas/aula-21.pdf) | [.qmd](aulas/aula-21-metodos-de-acesso-ao-meio.qmd) |
-| 22 | CSMA/CA — acesso em redes sem fio | [aula-22](aulas/aula-22.pdf) | [.qmd](aulas/aula-22-csma-ca.qmd) |
-| 23 | Arquiteturas de redes wireless | [aula-23](aulas/aula-23.pdf) | [.qmd](aulas/aula-23-arquiteturas-redes-wireless.qmd) |
-| 24 | Topologias: infraestrutura e ad hoc | [aula-24](aulas/aula-24.pdf) | [.qmd](aulas/aula-24-topologias-infraestrutura-adhoc.qmd) |
-| 25 | Padrões IEEE 802.11: visão geral | [aula-25](aulas/aula-25.pdf) | [.qmd](aulas/aula-25-padroes-ieee-802-11.qmd) |
-| 26 | 802.11 original — características | [aula-26](aulas/aula-26.pdf) | [.qmd](aulas/aula-26-802-11-original.qmd) |
-| 27 | Família 802.11b | [aula-27](aulas/aula-27.pdf) | [.qmd](aulas/aula-27-802-11b.qmd) |
-| 28 | Família 802.11a | [aula-28](aulas/aula-28.pdf) | [.qmd](aulas/aula-28-802-11a.qmd) |
-| 29 | Família 802.11g | [aula-29](aulas/aula-29.pdf) | [.qmd](aulas/aula-29-802-11g.qmd) |
-| 30 | **Avaliação 1 (GIFT, 10 questões)** | — | `aula-30-avaliacao-b2-av1.gift` |
-| 31 | Comparação 802.11a/b/g | [aula-31](aulas/aula-31.pdf) | [.qmd](aulas/aula-31-comparacao-802-11-a-b-g.qmd) |
-| 32 | Estudo de caso: comparação de tecnologias | [aula-32](aulas/aula-32.pdf) | [.qmd](aulas/aula-32-estudo-de-caso-tecnologias.qmd) |
-| 33 | Padrões modernos: 802.11n (Wi-Fi 4) | [aula-33](aulas/aula-33.pdf) | [.qmd](aulas/aula-33-802-11n-wifi-4.qmd) |
-| 34 | Padrões modernos: 802.11ac (Wi-Fi 5) | [aula-34](aulas/aula-34.pdf) | [.qmd](aulas/aula-34-802-11ac-wifi-5.qmd) |
-| 35 | Padrões modernos: 802.11ax (Wi-Fi 6) | [aula-35](aulas/aula-35.pdf) | [.qmd](aulas/aula-35-802-11ax-wifi-6.qmd) |
-| 36 | Wi-Fi 6E, Wi-Fi 7 e tendências futuras | [aula-36](aulas/aula-36.pdf) | [.qmd](aulas/aula-36-wifi-6e-wifi-7-tendencias.qmd) |
-| 37 | Prática: análise de espectro | [aula-37](aulas/aula-37.pdf) | [.qmd](aulas/aula-37-pratica-analise-de-espectro.qmd) |
-| 38 | Pesquisa orientada: evolução do Wi-Fi | [aula-38](aulas/aula-38.pdf) | [.qmd](aulas/aula-38-pesquisa-evolucao-wifi.qmd) |
-| 39 | Síntese e revisão do 2º bimestre | [aula-39](aulas/aula-39.pdf) | [.qmd](aulas/aula-39-revisao-bimestre-2.qmd) |
-| 40 | **Avaliação 2 (GIFT, 10 questões)** | — | `aula-40-avaliacao-b2-av2.gift` |
+| Semana | Conteúdo | PDF | Fonte (.qmd) |
+|---|---|---|---|
+| 1 | **Aula 17:** Métodos de Acesso ao Meio: Conceitos · **Aula 18:** CSMA/CA: Acesso em Redes sem Fio | [s11](aulas/s11.pdf) | [.qmd](aulas/s11.qmd) |
+| 2 | **Aula 19:** Arquiteturas de Redes Wireless · **Aula 20:** Topologias: Infraestrutura e Ad Hoc | [s12](aulas/s12.pdf) | [.qmd](aulas/s12.qmd) |
+| 3 | **Aula 21:** Padrões IEEE 802.11: Visão Geral · **Aula 22:** 802.11 Original: Características | [s13](aulas/s13.pdf) | [.qmd](aulas/s13.qmd) |
+| 4 | **Aula 23:** Família 802.11b · **Aula 24:** Família 802.11a | [s14](aulas/s14.pdf) | [.qmd](aulas/s14.qmd) |
+| 5 | **Avaliação 1 (GIFT, 10 questões)** | — | `s15-avaliacao-1.gift` |
+| 6 | **Aula 25:** Família 802.11g · **Aula 26:** Comparação 802.11a/b/g | [s16](aulas/s16.pdf) | [.qmd](aulas/s16.qmd) |
+| 7 | **Aula 27:** Estudo de Caso: Comparação de Tecnologias · **Aula 28:** Padrões Modernos: 802.11n (Wi-Fi 4) | [s17](aulas/s17.pdf) | [.qmd](aulas/s17.qmd) |
+| 8 | **Aula 29:** Padrões Modernos: 802.11ac (Wi-Fi 5) · **Aula 30:** Padrões Modernos: 802.11ax (Wi-Fi 6) | [s18](aulas/s18.pdf) | [.qmd](aulas/s18.qmd) |
+| 9 | **Aula 31:** Wi-Fi 6E, Wi-Fi 7 e Tendências Futuras · **Aula 32:** Prática de análise de espectro e pesquisa sobre a evolução do Wi-Fi | [s19](aulas/s19.pdf) | [.qmd](aulas/s19.qmd) |
+| 10 | **Avaliação 2 (GIFT, 10 questões)** | — | `s20-avaliacao-2.gift` |
 
 ### 3º Bimestre — Equipamentos, Segurança e Outras Tecnologias
 
-| # | Aula | PDF | Fonte (.qmd) |
-|---|---|-----|-----|
-| 41 | Configuração de Access Points — Parte 1 | [aula-41](aulas/aula-41.pdf) | [.qmd](aulas/aula-41-configuracao-access-points-1.qmd) |
-| 42 | Configuração de Access Points — Parte 2 | [aula-42](aulas/aula-42.pdf) | [.qmd](aulas/aula-42-configuracao-access-points-2.qmd) |
-| 43 | Wireless Controllers — conceitos | [aula-43](aulas/aula-43.pdf) | [.qmd](aulas/aula-43-wireless-controllers.qmd) |
-| 44 | Prática: configuração de AP e controller | [aula-44](aulas/aula-44.pdf) | [.qmd](aulas/aula-44-pratica-ap-controller.qmd) |
-| 45 | Segurança em redes sem fio: fundamentos | [aula-45](aulas/aula-45.pdf) | [.qmd](aulas/aula-45-seguranca-redes-sem-fio-fundamentos.qmd) |
-| 46 | Fragilidades do WEP | [aula-46](aulas/aula-46.pdf) | [.qmd](aulas/aula-46-fragilidades-wep.qmd) |
-| 47 | Transição do WEP para o WPA | [aula-47](aulas/aula-47.pdf) | [.qmd](aulas/aula-47-transicao-wep-para-wpa.qmd) |
-| 48 | WPA2 — conceitos | [aula-48](aulas/aula-48.pdf) | [.qmd](aulas/aula-48-wpa2-conceitos.qmd) |
-| 49 | WPA2 Personal (PSK) | [aula-49](aulas/aula-49.pdf) | [.qmd](aulas/aula-49-wpa2-personal-psk.qmd) |
-| 50 | **Avaliação 1 (GIFT, 10 questões)** | — | `aula-50-avaliacao-b3-av1.gift` |
-| 51 | WPA2 Enterprise (EAP/802.1X) | [aula-51](aulas/aula-51.pdf) | [.qmd](aulas/aula-51-wpa2-enterprise-eap.qmd) |
-| 52 | Servidores RADIUS | [aula-52](aulas/aula-52.pdf) | [.qmd](aulas/aula-52-servidores-radius.qmd) |
-| 53 | WPA3 e segurança moderna | [aula-53](aulas/aula-53.pdf) | [.qmd](aulas/aula-53-wpa3-seguranca-moderna.qmd) |
-| 54 | Prática: configuração de RADIUS básico | [aula-54](aulas/aula-54.pdf) | [.qmd](aulas/aula-54-pratica-radius-basico.qmd) |
-| 55 | WPAN: Bluetooth | [aula-55](aulas/aula-55.pdf) | [.qmd](aulas/aula-55-wpan-bluetooth.qmd) |
-| 56 | WPAN: Infrared e ZigBee | [aula-56](aulas/aula-56.pdf) | [.qmd](aulas/aula-56-wpan-infrared-zigbee.qmd) |
-| 57 | WMAN e WiMax | [aula-57](aulas/aula-57.pdf) | [.qmd](aulas/aula-57-wman-wimax.qmd) |
-| 58 | Redes em malha (Wimesh/mesh) | [aula-58](aulas/aula-58.pdf) | [.qmd](aulas/aula-58-redes-em-malha.qmd) |
-| 59 | Síntese e revisão do 3º bimestre | [aula-59](aulas/aula-59.pdf) | [.qmd](aulas/aula-59-revisao-bimestre-3.qmd) |
-| 60 | **Avaliação 2 (GIFT, 10 questões)** | — | `aula-60-avaliacao-b3-av2.gift` |
+| Semana | Conteúdo | PDF | Fonte (.qmd) |
+|---|---|---|---|
+| 1 | **Aula 33:** Configuração de Access Points · **Aula 34:** Wireless Controllers: Conceitos | [s21](aulas/s21.pdf) | [.qmd](aulas/s21.qmd) |
+| 2 | **Aula 35:** Prática: Configuração de AP e Controller · **Aula 36:** Segurança em Redes sem Fio: Fundamentos | [s22](aulas/s22.pdf) | [.qmd](aulas/s22.qmd) |
+| 3 | **Aula 37:** Fragilidades do WEP · **Aula 38:** Transição do WEP para o WPA | [s23](aulas/s23.pdf) | [.qmd](aulas/s23.qmd) |
+| 4 | **Aula 39:** WPA2: Conceitos · **Aula 40:** WPA2 Personal (PSK) | [s24](aulas/s24.pdf) | [.qmd](aulas/s24.qmd) |
+| 5 | **Avaliação 1 (GIFT, 10 questões)** | — | `s25-avaliacao-1.gift` |
+| 6 | **Aula 41:** WPA2 Enterprise (EAP/802.1X) · **Aula 42:** Servidores RADIUS | [s26](aulas/s26.pdf) | [.qmd](aulas/s26.qmd) |
+| 7 | **Aula 43:** WPA3 e Segurança Moderna · **Aula 44:** Prática: Configuração de RADIUS Básico | [s27](aulas/s27.pdf) | [.qmd](aulas/s27.qmd) |
+| 8 | **Aula 45:** WPAN: Bluetooth · **Aula 46:** WPAN: Infrared e ZigBee | [s28](aulas/s28.pdf) | [.qmd](aulas/s28.qmd) |
+| 9 | **Aula 47:** WMAN e WiMax · **Aula 48:** Redes em Malha (Wimesh/Mesh) | [s29](aulas/s29.pdf) | [.qmd](aulas/s29.qmd) |
+| 10 | **Avaliação 2 (GIFT, 10 questões)** | — | `s30-avaliacao-2.gift` |
 
 ### 4º Bimestre — Tecnologias Avançadas e Projeto de Redes Sem Fio
 
-| # | Aula | PDF | Fonte (.qmd) |
-|---|---|-----|-----|
-| 61 | VANETs — redes veiculares | [aula-61](aulas/aula-61.pdf) | [.qmd](aulas/aula-61-vanets.qmd) |
-| 62 | Redes de sensores sem fio | [aula-62](aulas/aula-62.pdf) | [.qmd](aulas/aula-62-redes-de-sensores.qmd) |
-| 63 | IoT e conectividade sem fio | [aula-63](aulas/aula-63.pdf) | [.qmd](aulas/aula-63-iot-conectividade-sem-fio.qmd) |
-| 64 | Projeto de redes sem fio: planejamento | [aula-64](aulas/aula-64.pdf) | [.qmd](aulas/aula-64-projeto-redes-sem-fio-planejamento.qmd) |
-| 65 | Site survey e cobertura | [aula-65](aulas/aula-65.pdf) | [.qmd](aulas/aula-65-site-survey-cobertura.qmd) |
-| 66 | Projeto interdisciplinar com ASRE — cenários | [aula-66](aulas/aula-66.pdf) | [.qmd](aulas/aula-66-projeto-asre-cenarios.qmd) |
-| 67 | Projeto interdisciplinar: divisão de grupos | [aula-67](aulas/aula-67.pdf) | [.qmd](aulas/aula-67-projeto-divisao-de-grupos.qmd) |
-| 68 | Projeto interdisciplinar: desenvolvimento — Parte 1 | [aula-68](aulas/aula-68.pdf) | [.qmd](aulas/aula-68-projeto-desenvolvimento-1.qmd) |
-| 69 | Projeto interdisciplinar: desenvolvimento — Parte 2 | [aula-69](aulas/aula-69.pdf) | [.qmd](aulas/aula-69-projeto-desenvolvimento-2.qmd) |
-| 70 | **Avaliação 1 (GIFT, 10 questões)** | — | `aula-70-avaliacao-b4-av1.gift` |
-| 71 | Projeto interdisciplinar: desenvolvimento — Parte 3 | [aula-71](aulas/aula-71.pdf) | [.qmd](aulas/aula-71-projeto-desenvolvimento-3.qmd) |
-| 72 | Projeto interdisciplinar: 1ª entrega | [aula-72](aulas/aula-72.pdf) | [.qmd](aulas/aula-72-projeto-primeira-entrega.qmd) |
-| 73 | Feedback e correção dos erros | [aula-73](aulas/aula-73.pdf) | [.qmd](aulas/aula-73-feedback-correcao-erros.qmd) |
-| 74 | Ajustes e finalização do projeto | [aula-74](aulas/aula-74.pdf) | [.qmd](aulas/aula-74-ajustes-finalizacao-projeto.qmd) |
-| 75 | Preparação das apresentações | [aula-75](aulas/aula-75.pdf) | [.qmd](aulas/aula-75-preparacao-apresentacoes.qmd) |
-| 76 | Apresentação dos projetos — Parte 1 | [aula-76](aulas/aula-76.pdf) | [.qmd](aulas/aula-76-apresentacao-projetos-1.qmd) |
-| 77 | Apresentação dos projetos — Parte 2 | [aula-77](aulas/aula-77.pdf) | [.qmd](aulas/aula-77-apresentacao-projetos-2.qmd) |
-| 78 | Recuperação e reavaliação | [aula-78](aulas/aula-78.pdf) | [.qmd](aulas/aula-78-recuperacao-e-reavaliacao.qmd) |
-| 79 | Encerramento do ano letivo | [aula-79](aulas/aula-79.pdf) | [.qmd](aulas/aula-79-encerramento-ano-letivo.qmd) |
-| 80 | **Avaliação 2 (GIFT, 10 questões)** | — | `aula-80-avaliacao-b4-av2.gift` |
+| Semana | Conteúdo | PDF | Fonte (.qmd) |
+|---|---|---|---|
+| 1 | **Aula 49:** VANETs: Redes Veiculares · **Aula 50:** Redes de Sensores sem Fio | [s31](aulas/s31.pdf) | [.qmd](aulas/s31.qmd) |
+| 2 | **Aula 51:** IoT e Conectividade sem Fio · **Aula 52:** Projeto de Redes sem Fio: Planejamento | [s32](aulas/s32.pdf) | [.qmd](aulas/s32.qmd) |
+| 3 | **Aula 53:** Site Survey e Cobertura · **Aula 54:** Projeto Interdisciplinar com ASRE: Cenários | [s33](aulas/s33.pdf) | [.qmd](aulas/s33.qmd) |
+| 4 | **Aula 55:** Projeto Interdisciplinar: Divisão de Grupos · **Aula 56:** Projeto interdisciplinar: desenvolvimento (partes 1 e 2) | [s34](aulas/s34.pdf) | [.qmd](aulas/s34.qmd) |
+| 5 | **Avaliação 1 (GIFT, 10 questões)** | — | `s35-avaliacao-1.gift` |
+| 6 | **Aula 57:** Projeto Interdisciplinar: Desenvolvimento (3) · **Aula 58:** Projeto Interdisciplinar: 1ª Entrega | [s36](aulas/s36.pdf) | [.qmd](aulas/s36.qmd) |
+| 7 | **Aula 59:** Feedback e Correção dos Erros · **Aula 60:** Ajustes e Finalização do Projeto | [s37](aulas/s37.pdf) | [.qmd](aulas/s37.qmd) |
+| 8 | **Aula 61:** Preparação das Apresentações · **Aula 62:** Apresentação dos projetos | [s38](aulas/s38.pdf) | [.qmd](aulas/s38.qmd) |
+| 9 | **Aula 63:** Recuperação e Reavaliação · **Aula 64:** Encerramento do Ano Letivo | [s39](aulas/s39.pdf) | [.qmd](aulas/s39.qmd) |
+| 10 | **Avaliação 2 (GIFT, 10 questões)** | — | `s40-avaliacao-2.gift` |
 
 ---
+
 
 ## Estrutura do repositório
 
@@ -137,10 +157,10 @@ Cronograma com **72 aulas de conteúdo** (18 por bimestre) e **8 avaliações** 
 .
 ├── README.md            # este arquivo (inclui o cronograma)
 └── aulas/
-    ├── aula-01.pdf      # slides (para estudar)
-    ├── aula-01-*.qmd     # fonte editável (Quarto/Markdown)
-    ├── aula-NN-avaliacao-*.gift  # avaliações (não publicadas)
-    ├── images/          # ilustrações e diagramas
+    ├── s01.pdf         # slides da semana (para estudar)
+    ├── s01.qmd         # fonte editável (Quarto/Markdown)
+    ├── s05-avaliacao-1.gift      # avaliações (não publicadas)
+    ├── images/         # ilustrações e diagramas
     └── ...
 ```
 

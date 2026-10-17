@@ -1,0 +1,137 @@
+---
+title: "Semana 39 — Conteúdo de 2 aulas"
+---
+
+## Semana 39 — Conteúdo de 2 aulas
+
+- **Aula 63:** Recuperação e Reavaliação
+- **Aula 64:** Encerramento do Ano Letivo
+
+## Aula 63 — Recuperação e Reavaliação
+
+## Objetivos da Aula
+
+- **Retomar** os conteúdos essenciais do ano.
+- Oferecer oportunidade de **recuperação**.
+- Consolidar a **aprendizagem**.
+
+## Aula de Hoje
+
+- **Revisão** dos conteúdos centrais.
+- Orientação para a **recuperação**.
+- Esclarecimento de **dúvidas**.
+
+## Conteúdos Essenciais
+
+- **Fundamentos:** categorias e RF.
+- **Padrões:** IEEE 802.11 a/an/ac/ax.
+- **Equipamentos:** APs e controladores.
+- **Segurança:** WEP → WPA3, 802.1X.
+
+## Temas Mais Cobrados
+
+- **CSMA/CA**.
+- Evolução dos **padrões**.
+- **WPA2-Personal** x **Enterprise**.
+- **RADIUS** e as **três A**.
+
+## Como se Preparar
+
+- Reler os **resumos** das aulas.
+- Refazer as **questões** das avaliações.
+- Montar **resumos próprios**.
+- Trazer **dúvidas**.
+
+::: {.callout-note}
+A recuperação não é só uma **segunda chance**: é a oportunidade de **realmente** entender o que ficou para trás.
+:::
+
+## Estratégia de Estudo
+
+| Tema | Tempo sugerido |
+|------|----------------|
+| Fundamentos | 1 h |
+| Padrões | 1 h |
+| Segurança | 1 h |
+
+## Resumo da Aula
+
+- Revisamos os **conteúdos essenciais**.
+- Orientamos a **recuperação**.
+- Organizamos o **estudo**.
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- MORAES, A. F. *Redes Sem Fio*. Érica.
+
+## Aula 64 — Encerramento do Ano Letivo
+
+## Objetivos da Aula
+
+- **Retomar** a jornada do ano.
+- Refletir sobre **aprendizagens**.
+- Apontar **próximos passos** na carreira.
+
+## Aula de Hoje
+
+- **Encerramento** da disciplina de Redes sem Fio.
+- **Retrospectiva** do ano.
+- **Perspectivas** profissionais.
+
+## O Caminho Percorrido
+
+- **1º bim:** fundamentos e RF.
+- **2º bim:** acesso ao meio e 802.11.
+- **3º bim:** equipamentos e segurança.
+- **4º bim:** tecnologias avançadas e projeto.
+
+## O que Aprendemos
+
+- Fundamentos das **ondas e antenas**.
+- **Padrões** Wi-Fi e sua evolução.
+- **Segurança** sem fio (WEP → WPA3).
+- **Projeto** de redes sem fio.
+
+## Competências Desenvolvidas
+
+- **Configurar** equipamentos.
+- **Projetar** coberturas.
+- **Documentar** soluções técnicas.
+- **Trabalhar em grupo**.
+
+## Tendências
+
+- **Wi-Fi 7** e além.
+- **IoT** e **5G/6G**.
+- **Segurança** cada vez mais crítica.
+- **Integração** com a nuvem.
+
+::: {.callout-note}
+O campo das redes sem fio **não para**: o que aprendemos é a base para acompanhar o que vem a seguir.
+:::
+
+## Próximos Passos
+
+- Certificações (**CWNA, CCNA**...).
+- Cursos de **redes e segurança**.
+- Prática em **laboratórios**.
+- **Projetos** pessoais.
+
+## Encerramento
+
+- Agradecimento à **turma**.
+- **Bom descanso** e boas férias!
+- Bom **futuro** profissional.
+
+## Resumo da Aula
+
+- Retomamos a **jornada** do ano.
+- Refletimos sobre **competências** e **tendências**.
+- Apontamos **próximos passos** na carreira.
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- MORAES, A. F. *Redes Sem Fio*. Érica.
+- ROCHOL, J. *Sistemas de Comunicação Sem Fio*. Bookman.

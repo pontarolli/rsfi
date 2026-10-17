@@ -1,0 +1,169 @@
+---
+title: "Semana 02 — Conteúdo de 2 aulas"
+---
+
+## Semana 02 — Conteúdo de 2 aulas
+
+- **Aula 3:** Transmissão por Ondas de Rádio
+- **Aula 4:** Categorias de Redes sem Fio: Visão Geral
+
+## Aula 3 — Transmissão por Ondas de Rádio
+
+## Objetivos da Aula
+
+- Compreender como a informação viaja **pelo ar**.
+- Conhecer o **espectro eletromagnético**.
+- Entender **frequência** e **comprimento de onda**.
+
+## O Espectro Eletromagnético
+
+- Conjunto de todas as **ondas eletromagnéticas**.
+- Inclui rádio, micro-ondas, infravermelho, luz, raios X.
+- As comunicações sem fio usam **radiofrequência (RF)**.
+
+## Ondas de Rádio
+
+- Propagam-se **pelo espaço**, sem meio físico.
+- Transportam energia que carrega **informação**.
+- Viajam à **velocidade da luz**.
+
+## Frequência
+
+- Número de **oscilações por segundo**.
+- Medida em **hertz (Hz)**.
+- Wi-Fi: **2,4 GHz** e **5 GHz**.
+
+## Comprimento de Onda
+
+- Distância entre dois **picos** da onda.
+- Relaciona-se com a frequência: maior frequência → menor comprimento.
+- Fórmula: **λ = c / f**.
+
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize]
+  \draw[-{Latex}] (0,0) -- (8,0) node[right,font=\tiny] {distância};
+  \draw[-{Latex}] (0,-1.1) -- (0,1.3) node[above,font=\tiny] {amplitude};
+  \draw[thick,blue,domain=0:7.5,samples=120] plot (\x,{sin(\x*120)});
+  \draw[{Latex}-{Latex}] (0.75,1.05)--(3.75,1.05) node[midway,above,font=\tiny]{$\lambda$};
+  \draw[dashed] (0.75,0)--(0.75,1.05);
+  \draw[dashed] (3.75,0)--(3.75,1.05);
+\end{tikzpicture}
+\end{center}
+```
+
+## Conferindo a conta
+
+- **c** ≈ 3×10⁸ m/s (velocidade da luz).
+- Para **2,4 GHz**: λ ≈ 12,5 cm.
+- Para **5 GHz**: λ ≈ 6 cm.
+
+::: {.callout-note}
+Frequências mais **altas** transmitem mais dados, mas atingem distâncias **menores** e penetram pior em obstáculos.
+:::
+
+## Faixas Usadas
+
+| Faixa | Uso típico |
+|-------|-----------|
+| 2,4 GHz | Wi-Fi, Bluetooth |
+| 5 GHz | Wi-Fi (mais canais) |
+| 6 GHz | Wi-Fi 6E |
+| 60 GHz | WiGig (curta distância) |
+
+## Resumo da Aula
+
+- Comunicação sem fio usa **ondas de rádio**.
+- **Frequência** e **comprimento de onda** definem o comportamento.
+- 2,4 e 5 GHz são as faixas do Wi-Fi.
+
+## Atividade Rápida
+
+- Calcule o comprimento de onda para **5 GHz**.
+- Por que o **2,4 GHz** alcança mais longe?
+
+## Referências
+
+- RAPPAPORT, T. S. *Comunicações Sem Fio*. Pearson.
+- ROCHOL, J. *Sistemas de Comunicação Sem Fio*. Bookman.
+
+## Aula 4 — Categorias de Redes sem Fio: Visão Geral
+
+## Objetivos da Aula
+
+- Conhecer as **categorias** de redes sem fio.
+- Entender os critérios de **classificação**.
+- Situar cada tecnologia em sua categoria.
+
+## Por que Categorizar?
+
+- As redes variam por **alcance** e **finalidade**.
+- Cada categoria tem **padrões** e **tecnologias** próprios.
+- Ajuda a escolher a solução **correta**.
+
+## As Cinco Categorias
+
+- **WPAN:** rede pessoal (curtíssimo alcance).
+- **WLAN:** rede local (prédio/campus).
+- **WMAN:** rede metropolitana (cidade).
+- **WWAN:** rede ampla (país/região).
+- **WLL:** acesso local sem fio (substitui o "último trecho" de cabo).
+
+## Critério Principal: Alcance
+
+| Categoria | Alcance típico |
+|-----------|----------------|
+| WPAN | poucos metros |
+| WLAN | ~100 m |
+| WMAN | alguns km |
+| WWAN | dezenas de km |
+
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize]
+  \draw[fill=blue!8] (0,0) circle (3.4);
+  \draw[fill=green!10] (0,0) circle (2.3);
+  \draw[fill=orange!12] (0,0) circle (1.3);
+  \draw[fill=red!15] (0,0) circle (0.55);
+  \node at (0,0) {WPAN};
+  \node at (0,0.9) {WLAN};
+  \node at (0,1.75) {WMAN};
+  \node at (0,2.8) {WWAN};
+\end{tikzpicture}
+\end{center}
+```
+
+## Exemplos de Tecnologias
+
+- **WPAN:** Bluetooth, ZigBee.
+- **WLAN:** Wi-Fi (IEEE 802.11).
+- **WMAN:** WiMax (IEEE 802.16).
+- **WWAN:** redes celulares (4G, 5G).
+- **WLL:** enlaces ponto-a-ponto.
+
+::: {.callout-note}
+As categorias se **sobrepõem** na prática: hoje um celular usa WPAN (Bluetooth), WLAN (Wi-Fi) e WWAN (4G/5G) ao mesmo tempo.
+:::
+
+## Aplicações
+
+- **WPAN:** fones, sensores.
+- **WLAN:** internet em casa/escola.
+- **WMAN/WWAN:** acesso em mobilidade.
+- **WLL:** levar internet a locais distantes.
+
+## Resumo da Aula
+
+- As redes sem fio se classificam por **alcance**.
+- **WPAN, WLAN, WMAN, WWAN** e **WLL**.
+- Cada uma tem tecnologias e usos próprios.
+
+## Atividade Rápida
+
+- Associe: **Wi-Fi, Bluetooth, 5G, WiMax** às categorias.
+- Dê um exemplo de uso de cada categoria.
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- RAPPAPORT, T. S. *Comunicações Sem Fio*. Pearson.

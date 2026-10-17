@@ -1,0 +1,173 @@
+---
+title: "Semana 31 — Conteúdo de 2 aulas"
+---
+
+## Semana 31 — Conteúdo de 2 aulas
+
+- **Aula 49:** VANETs: Redes Veiculares
+- **Aula 50:** Redes de Sensores sem Fio
+
+## Aula 49 — VANETs: Redes Veiculares
+
+## Objetivos da Aula
+
+- Compreender o que são **VANETs**.
+- Entender suas **aplicações**.
+- Reconhecer seus **desafios**.
+
+## O que são VANETs?
+
+- **Vehicular Ad Hoc Networks**.
+- Redes sem fio entre **veículos** e infraestrutura.
+- Caso especial de redes **ad hoc** móveis.
+
+## Componentes
+
+- **V2V:** veículo a veículo.
+- **V2I:** veículo a infraestrutura.
+- **V2X:** veículo a tudo.
+- **RSU:** unidades na beira da via.
+
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize,
+  c/.style={draw,rounded corners,fill=blue!15,minimum width=1.4cm,minimum height=0.6cm,inner sep=2pt},
+  rsu/.style={draw,rounded corners,fill=orange!25,minimum width=0.8cm,minimum height=0.9cm,inner sep=1pt}]
+  \node[c] (v1) at (0,0) {Veículo};
+  \node[c] (v2) at (2.6,0) {Veículo};
+  \node[rsu] (r) at (1.3,1.6) {RSU};
+  \draw[<->] (v1)-- node[below,font=\tiny]{V2V} (v2);
+  \draw[<->] (v1)-- node[left,font=\tiny]{V2I} (r);
+  \draw[<->] (v2)-- node[right,font=\tiny]{V2I} (r);
+  \node[font=\tiny,below] at (1.3,-0.5) {V2X reúne todas as formas};
+\end{tikzpicture}
+\end{center}
+```
+
+## Aplicações
+
+- **Segurança** no trânsito (alertas de colisão).
+- **Eficiência** (rotas, semáforos).
+- **Conforto** (infotenimento).
+- **Veículos autônomos**.
+
+## Desafios
+
+- Alta **mobilidade** dos nós.
+- Ambiente **urbano** com obstáculos.
+- **Segurança** e privacidade.
+- Padronização (**802.11p**, C-V2X).
+
+## Padrões
+
+- **IEEE 802.11p** (WAVE).
+- **C-V2X** (celular).
+- Ambos em **disputa** e convergência.
+
+::: {.callout-note}
+As VANETs podem **salvar vidas**: um alerta enviado a tempo pode evitar uma colisão.
+:::
+
+## Segurança
+
+- Autenticidade das **mensagens**.
+- **Privacidade** dos motoristas.
+- Resistência a **mensagens falsas**.
+
+## Resumo da Aula
+
+- **VANETs** conectam veículos (V2V, V2I, V2X).
+- Aplicações em **segurança e eficiência** do trânsito.
+- Desafios: **mobilidade, segurança e padrões**.
+
+## Atividade Rápida
+
+- Dê **dois** exemplos de V2X.
+- Qual o maior **desafio** das VANETs?
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- ROCHOL, J. *Sistemas de Comunicação Sem Fio*. Bookman.
+
+## Aula 50 — Redes de Sensores sem Fio
+
+## Objetivos da Aula
+
+- Compreender as **redes de sensores sem fio** (WSN).
+- Conhecer seus **componentes**.
+- Reconhecer suas **aplicações**.
+
+## O que são WSN?
+
+- **Wireless Sensor Networks**.
+- Conjunto de **sensores** que coletam dados.
+- Comunicam-se **sem fio** até um ponto de coleta.
+
+## Componentes
+
+- **Nó sensor:** mede grandezas (temperatura, umidade...).
+- **Gateway/sink:** recolhe os dados.
+- **Estação base:** processa as informações.
+
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize,
+  s/.style={draw,circle,fill=green!18,minimum size=3.5mm,inner sep=0pt},
+  b/.style={draw,rounded corners,minimum width=1.5cm,minimum height=0.75cm,align=center,inner sep=2pt}]
+  \node[s] (n1) at (0,1.0) {}; \node[s] (n2) at (0,0) {}; \node[s] (n3) at (0,-1.0) {};
+  \node[b,fill=orange!20] (gw) at (2.7,0) {Gateway (sink)};
+  \node[b,fill=blue!12] (base) at (5.9,0) {Estação base};
+  \draw (n1)--(gw); \draw (n2)--(gw); \draw (n3)--(gw);
+  \draw[-{Latex}] (gw)--(base);
+  \node[font=\tiny,above] at (0,1.5) {nós sensores};
+\end{tikzpicture}
+\end{center}
+```
+
+## Características
+
+- **Baixo consumo** de energia.
+- Muitos **nós** distribuídos.
+- Autonomia por **bateria**.
+- Comunicação **multihop**.
+
+## Aplicações
+
+- **Agricultura** de precisão.
+- **Monitoramento ambiental**.
+- **Indústria** (automação).
+- **Cidades inteligentes**.
+
+## Desafios
+
+- **Energia** (bateria limitada).
+- **Alcance** e confiabilidade.
+- **Segurança** dos dados.
+- Volume de **dados** gerado.
+
+::: {.callout-note}
+Em uma WSN, **economizar energia** é vital: o sensor precisa durar meses ou anos com uma única bateria.
+:::
+
+## Tecnologias Relacionadas
+
+- **ZigBee** e **LoRa**.
+- **BLE**.
+- Redes **mesh** de sensores.
+
+## Resumo da Aula
+
+- WSN: redes de **sensores** sem fio.
+- Baixo consumo e **muitos nós**.
+- Aplicações em **agricultura, indústria e ambiente**.
+
+## Atividade Rápida
+
+- Cite **duas** aplicações de WSN.
+- Qual o maior **desafio** energético?
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- LUGLI, A. B.; SANTOS, M. M. D. *Redes sem fio para automação industrial*. Érica.

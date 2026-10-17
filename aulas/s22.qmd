@@ -1,0 +1,149 @@
+---
+title: "Semana 22 — Conteúdo de 2 aulas"
+---
+
+## Semana 22 — Conteúdo de 2 aulas
+
+- **Aula 35:** Prática: Configuração de AP e Controller
+- **Aula 36:** Segurança em Redes sem Fio: Fundamentos
+
+## Aula 35 — Prática: Configuração de AP e Controller
+
+## Objetivos da Aula
+
+- **Configurar** AP gerenciado por controller.
+- Testar **roaming** e **políticas**.
+- Consolidar a prática de gestão centralizada.
+
+## Aula de Hoje
+
+- Aula **prática em laboratório**.
+- Configuração de **AP + controller**.
+- Testes de **conexão e mobilidade**.
+
+## Roteiro da Prática
+
+- **1.** Acessar o **controller**.
+- **2.** Cadastrar/descobrir os **APs**.
+- **3.** Criar um **SSID corporativo**.
+- **4.** Aplicar **políticas** (VLAN, segurança).
+- **5.** Testar o **roaming**.
+
+## Testes
+
+- Conectar em diferentes pontos do **laboratório**.
+- Observar a **troca de AP** (roaming).
+- Medir **cobertura** e **velocidade**.
+
+## Registro
+
+| Local | AP conectado | Sinal | Observação |
+|-------|--------------|-------|------------|
+| | | | |
+| | | | |
+
+## Cuidados
+
+- Não alterar configurações **fora do escopo**.
+- Anotar as mudanças feitas.
+- Restaurar ao final, se necessário.
+
+::: {.callout-note}
+Testar o **roaming** na prática mostra a diferença entre vários APs "soltos" e uma rede **centralizada**.
+:::
+
+## Discussão
+
+- O roaming foi **transparente**?
+- Que problemas apareceram?
+
+## Resumo da Aula
+
+- Configuramos **AP e controller**.
+- Aplicamos **políticas e SSID**.
+- Testamos **roaming** e cobertura.
+
+## Referências
+
+- Manual do equipamento do laboratório.
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+
+## Aula 36 — Segurança em Redes sem Fio: Fundamentos
+
+## Objetivos da Aula
+
+- Compreender por que a segurança sem fio é **crítica**.
+- Conhecer as **ameaças** principais.
+- Entender os **pilares** da segurança.
+
+## Por que é Crítico?
+
+- O sinal **ultrapassa** paredes.
+- Qualquer um ao alcance pode **capturar** o tráfego.
+- Diferente do cabo, o meio é **aberto**.
+
+## Ameaças Comuns
+
+- **Espionagem** (captura de tráfego).
+- **Acesso não autorizado** (rede aberta).
+- **AP falso** (evil twin).
+- **Ataques** de negação de serviço.
+
+## Pilares da Segurança
+
+- **Confidencialidade:** proteger os dados.
+- **Integridade:** garantir que não foram alterados.
+- **Autenticação:** provar a identidade.
+- **Disponibilidade:** garantir o acesso.
+
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize,node distance=4mm,
+  c/.style={draw,rounded corners,fill=blue!10,minimum width=2.3cm,minimum height=0.8cm,align=center,inner sep=3pt}]
+  \node[c] (a) {Confidencialidade};
+  \node[c,right=of a,fill=green!12] (b) {Integridade};
+  \node[c,below=of a,fill=orange!20] (c) {Autenticação};
+  \node[c,below=of b,fill=yellow!25] (d) {Disponibilidade};
+\end{tikzpicture}
+\end{center}
+```
+
+## Autenticação e Criptografia
+
+- **Autenticação:** quem pode entrar.
+- **Criptografia:** embaralhar os dados.
+- Ambas são necessárias.
+
+::: {.callout-note}
+Uma rede **aberta** é como uma conversa em voz alta numa praça: qualquer um pode ouvir.
+:::
+
+## Camadas de Proteção
+
+- **Rede:** WPA2/WPA3.
+- **Usuário:** senhas e 2FA.
+- **Dispositivo:** atualizações.
+- **Monitoramento:** detectar intrusos.
+
+## Boas Práticas
+
+- Nunca rede **aberta** para dados sensíveis.
+- Usar **VPN** em redes públicas.
+- Senhas **fortes** e trocadas.
+- **Atualizar** firmwares.
+
+## Resumo da Aula
+
+- O sinal sem fio é **aberto** e exige proteção.
+- Ameaças: espionagem, acesso indevido, **AP falso**.
+- Segurança = **autenticação + criptografia**.
+
+## Atividade Rápida
+
+- Lista **três** ameaças ao Wi-Fi.
+- Por que rede **aberta** é perigosa?
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- MORAES, A. F. *Redes Sem Fio*. Érica.

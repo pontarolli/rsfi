@@ -1,0 +1,177 @@
+---
+title: "Semana 28 — Conteúdo de 2 aulas"
+---
+
+## Semana 28 — Conteúdo de 2 aulas
+
+- **Aula 45:** WPAN: Bluetooth
+- **Aula 46:** WPAN: Infrared e ZigBee
+
+## Aula 45 — WPAN: Bluetooth
+
+## Objetivos da Aula
+
+- Conhecer a tecnologia **Bluetooth**.
+- Entender seu **funcionamento**.
+- Conhecer suas **versões** e **usos**.
+
+## O que é o Bluetooth?
+
+- Tecnologia **WPAN** de curto alcance.
+- Padrão **IEEE 802.15.1**.
+- Conecta dispositivos **pessoais**.
+
+## Características
+
+- Alcance de ~**10 m** (classe 2).
+- Faixa de **2,4 GHz**.
+- Baixo **consumo** de energia.
+- Conexão **ponto a ponto** ou **piconet**.
+
+## Piconet e Scatternet
+
+- **Piconet:** um mestre e até 7 escravos.
+- **Scatternet:** várias piconets interligadas.
+- Permite várias **conexões**.
+
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize,
+  m/.style={draw,rounded corners,fill=orange!25,minimum width=1.0cm,minimum height=0.5cm,inner sep=1pt},
+  s/.style={draw,circle,fill=blue!15,minimum size=3.5mm,inner sep=0pt}]
+  \node[m] (m) at (0,0) {Mestre};
+  \foreach \a in {0,45,90,135,180,225,270}{
+    \node[s] at ({1.7*cos(\a)},{1.7*sin(\a)}) {};
+    \draw (m) -- ({1.7*cos(\a)},{1.7*sin(\a)});
+  }
+  \node[font=\tiny,below] at (0,-2.1) {piconet: 1 mestre + até 7 escravos};
+\end{tikzpicture}
+\end{center}
+```
+
+## Versões
+
+- **1.x:** básico.
+- **2.x:** taxas maiores (EDR).
+- **3.x, 4.x:** baixo consumo (BLE).
+- **5.x:** maior alcance e taxa.
+
+## Bluetooth Low Energy (BLE)
+
+- Foco em **economia** de energia.
+- Ideal para **IoT** e sensores.
+- Base de wearables e beacons.
+
+::: {.callout-note}
+O Bluetooth é ótimo para **dispositivos pessoais**, mas compartilha a faixa de 2,4 GHz — pode **interferir** no Wi-Fi.
+:::
+
+## Usos
+
+- Fones, caixas de som.
+- Smartwatch e pulseiras.
+- Teclados, mouses.
+- Sensores e beacons.
+
+## Resumo da Aula
+
+- **Bluetooth** é WPAN de curto alcance.
+- Padrão **802.15.1**, faixa 2,4 GHz.
+- Versões evoluíram até **BLE**.
+
+## Atividade Rápida
+
+- Cite **três** usos do Bluetooth.
+- O que é **BLE**?
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- LUGLI, A. B.; SANTOS, M. M. D. *Redes sem fio para automação industrial*. Érica.
+
+## Aula 46 — WPAN: Infrared e ZigBee
+
+## Objetivos da Aula
+
+- Conhecer o **Infrared (IrDA)**.
+- Conhecer o **ZigBee**.
+- Comparar aplicações e características.
+
+## Infrared (IrDA)
+
+- Comunicação por **infravermelho**.
+- Exige **linha de visada**.
+- Alcance **curto** (metros).
+
+## Características do IrDA
+
+- Não atravessa **paredes**.
+- Alta **segurança** (confinado).
+- Baixo custo, mas **pouco usado** hoje.
+
+## Aplicações do Infrared
+
+- Controles remotos.
+- Sensores de proximidade.
+- Antigos celulares (transferência de dados).
+
+## ZigBee
+
+- Padrão **IEEE 802.15.4**.
+- Foco em **baixo consumo** e **automação**.
+- Redes **em malha** (mesh).
+
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize,
+  n/.style={draw,circle,fill=green!18,minimum size=3.5mm,inner sep=0pt}]
+  \node[n] (a) at (0,0) {}; \node[n] (b) at (1.3,0.7) {}; \node[n] (c) at (2.6,0) {};
+  \node[n] (d) at (1.3,-0.7) {}; \node[n] (e) at (0.6,1.4) {}; \node[n] (f) at (2.0,1.4) {};
+  \draw (a)--(b); \draw (b)--(c); \draw (a)--(d); \draw (d)--(c);
+  \draw (a)--(e); \draw (e)--(b); \draw (b)--(f); \draw (f)--(c);
+  \node[font=\tiny,below] at (1.3,-1.15) {malha ZigBee (autorroteamento)};
+\end{tikzpicture}
+\end{center}
+```
+
+## Características do ZigBee
+
+- Baixa taxa de dados.
+- Longa **duração de bateria**.
+- Suporta **muitos nós**.
+- Autorroteamento (**mesh**).
+
+## Aplicações do ZigBee
+
+- **Automação residencial**.
+- Sensores industriais.
+- Medidores inteligentes (**smart meters**).
+- **IoT**.
+
+::: {.callout-note}
+O **ZigBee** é feito para sensores: transmite **pouco** e **devagar**, mas dura **anos** com uma bateria.
+:::
+
+## Comparação
+
+| Item | IrDA | ZigBee |
+|------|------|--------|
+| Meio | Infravermelho | RF (2,4 GHz) |
+| Visada | Sim | Não |
+| Bateria | — | Muito baixa |
+
+## Resumo da Aula
+
+- **IrDA:** infravermelho, linha de visada.
+- **ZigBee:** baixo consumo, mesh, IoT.
+- Cada um serve a **aplicações** distintas.
+
+## Atividade Rápida
+
+- Por que o **IrDA** caiu em desuso?
+- Para que serve o **ZigBee**?
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- LUGLI, A. B.; SANTOS, M. M. D. *Redes sem fio para automação industrial*. Érica.

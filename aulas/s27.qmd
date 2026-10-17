@@ -1,0 +1,147 @@
+---
+title: "Semana 27 — Conteúdo de 2 aulas"
+---
+
+## Semana 27 — Conteúdo de 2 aulas
+
+- **Aula 43:** WPA3 e Segurança Moderna
+- **Aula 44:** Prática: Configuração de RADIUS Básico
+
+## Aula 43 — WPA3 e Segurança Moderna
+
+## Objetivos da Aula
+
+- Conhecer o **WPA3**.
+- Entender as melhorias em relação ao **WPA2**.
+- Reconhecer tendências de **segurança**.
+
+## O que é o WPA3?
+
+- Padrão mais recente (**2018**).
+- Corrige **falhas** do WPA2.
+- Foco em **simplicidade e robustez**.
+
+## Principais Melhorias
+
+- **SAE** substitui a PSK.
+- Criptografia de **redes abertas** (OWE).
+- **Forward secrecy**.
+- Proteção contra ataques de **dicionário**.
+
+## SAE
+
+- **Simultaneous Authentication of Equals**.
+- Troca de chaves resistente a **adivinhação**.
+- Substitui o "handshake" do WPA2.
+
+## WPA3-Personal e Enterprise
+
+- **Personal:** SAE (sem senha compartilhada vulnerável).
+- **Enterprise:** usa **192 bits** de segurança.
+- Ambos mais **resilientes**.
+
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize,
+  b/.style={draw,rounded corners,minimum width=3.5cm,minimum height=1.2cm,align=center,inner sep=3pt}]
+  \node[b,fill=blue!12] (a) at (0,0) {WPA3-Personal\\ \scriptsize SAE};
+  \node[b,fill=green!12] (b) at (4.3,0) {WPA3-Enterprise\\ \scriptsize 192 bits};
+\end{tikzpicture}
+\end{center}
+```
+
+## OWE
+
+- **Opportunistic Wireless Encryption**.
+- Criptografa redes **abertas**.
+- Protege mesmo sem senha.
+
+::: {.callout-note}
+O WPA3 corrige o ponto fraco do WPA2: a **senha** deixa de ser tão vulnerável a ataques de adivinhação.
+:::
+
+## Desafios
+
+- Equipamentos **antigos** não suportam.
+- Adoção **gradual**.
+- Modo **transição** (WPA2/WPA3 juntos).
+
+## Resumo da Aula
+
+- **WPA3** é o padrão mais seguro.
+- Introduz **SAE** e **OWE**.
+- Adoção ainda é **gradual**.
+
+## Atividade Rápida
+
+- O que é **SAE**?
+- O que o **OWE** protege?
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- Wi-Fi Alliance (documentação WPA3).
+
+## Aula 44 — Prática: Configuração de RADIUS Básico
+
+## Objetivos da Aula
+
+- **Configurar** um servidor RADIUS básico.
+- Integrar o RADIUS ao **AP**.
+- Testar autenticação **WPA2-Enterprise**.
+
+## Aula de Hoje
+
+- Aula **prática em laboratório**.
+- Configuração de **RADIUS** (ex.: FreeRADIUS).
+- Integração com **AP** e teste.
+
+## Roteiro da Prática
+
+- **1.** Instalar/configurar o **servidor RADIUS**.
+- **2.** Definir o **cliente** (AP) e o segredo.
+- **3.** Cadastrar **um usuário** de teste.
+- **4.** Configurar o **AP** para Enterprise.
+- **5.** Testar a **autenticação**.
+
+## Configurações-Chave
+
+- Endereço do **servidor**.
+- **Porta** e segredo compartilhado.
+- Método **EAP** (ex.: PEAP).
+- Usuário e senha de teste.
+
+## Teste
+
+- Conectar um dispositivo ao **SSID Enterprise**.
+- Informar **usuário e senha**.
+- Verificar os **logs** do servidor.
+
+::: {.callout-note}
+O log do RADIUS é a **prova** da autenticação: é onde se vê se o acesso foi concedido ou negado.
+:::
+
+## Registro
+
+| Item | Valor configurado |
+|------|-------------------|
+| Servidor | |
+| AP (cliente) | |
+| Método EAP | |
+| Usuário teste | |
+
+## Discussão
+
+- A autenticação **funcionou**?
+- Que **erros** apareceram e como resolver?
+
+## Resumo da Aula
+
+- Configuramos um **RADIUS básico**.
+- Integramos ao **AP** (Enterprise).
+- Testamos a **autenticação**.
+
+## Referências
+
+- Documentação do FreeRADIUS.
+- Manual do equipamento do laboratório.

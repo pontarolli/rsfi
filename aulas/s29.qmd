@@ -1,0 +1,164 @@
+---
+title: "Semana 29 — Conteúdo de 2 aulas"
+---
+
+## Semana 29 — Conteúdo de 2 aulas
+
+- **Aula 47:** WMAN e WiMax
+- **Aula 48:** Redes em Malha (Wimesh/Mesh)
+
+## Aula 47 — WMAN e WiMax
+
+## Objetivos da Aula
+
+- Conhecer o **WiMax**.
+- Entender seu papel na **WMAN**.
+- Comparar com **Wi-Fi** e **celular**.
+
+## O que é o WiMax?
+
+- **Worldwide Interoperability for Microwave Access**.
+- Padrão **IEEE 802.16**.
+- Acesso de **banda larga** sem fio.
+
+## Características
+
+- Alcance de **vários quilômetros**.
+- Taxas de **Mbps**.
+- Pode ter **linha de visada** (LOS) ou **NLOS**.
+
+## Aplicações
+
+- Internet em **áreas rurais**.
+- **Backhaul** sem fio.
+- Provedores **locais**.
+
+## WiMax x Wi-Fi
+
+- **Wi-Fi:** curto alcance, alta velocidade, uso local.
+- **WiMax:** longo alcance, uso metropolitano.
+- Papéis **complementares**.
+
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize,
+  b/.style={draw,rounded corners,minimum width=3.4cm,minimum height=1.1cm,align=center,inner sep=3pt}]
+  \node[b,fill=blue!12] (a) at (0,0) {Wi-Fi\\ \scriptsize curto alcance\\ \scriptsize uso local};
+  \node[b,fill=orange!20] (b) at (4.2,0) {WiMax\\ \scriptsize longo alcance\\ \scriptsize metropolitano};
+\end{tikzpicture}
+\end{center}
+```
+
+## WiMax x Celular
+
+- WiMax compete com **4G/5G**.
+- Celular venceu no mercado de **massa**.
+- WiMax permanece em **nichos**.
+
+::: {.callout-note}
+Apesar de tecnicamente bom, o WiMax perdeu espaço para o **celular** — um exemplo de como o mercado define vencedores.
+:::
+
+## Situação Atual
+
+- Adoção **limitada**.
+- Uso em **provedores** regionais.
+- O **5G** ocupou seu espaço.
+
+## Resumo da Aula
+
+- **WiMax** (802.16) = WMAN de banda larga.
+- Alcance de **quilômetros**.
+- Competiu com o **celular** e ficou em nichos.
+
+## Atividade Rápida
+
+- Qual o padrão do **WiMax**?
+- Compare **WiMax** e **Wi-Fi**.
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- RAPPAPORT, T. S. *Comunicações Sem Fio*. Pearson.
+
+## Aula 48 — Redes em Malha (Wimesh/Mesh)
+
+## Objetivos da Aula
+
+- Compreender as **redes em malha**.
+- Entender o conceito de **Wimesh**.
+- Reconhecer vantagens e aplicações.
+
+## O que é uma Rede em Malha?
+
+- Diversos nós conectados **entre si**.
+- Cada nó **repassa** dados de outros.
+- Múltiplos **caminhos** até o destino.
+
+## Mesh (Malha)
+
+- Sem dependência de um único **AP**.
+- Se um nó falha, a rede **se ajusta**.
+- Alta **resiliência**.
+
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize,
+  n/.style={draw,circle,fill=blue!15,minimum size=4mm,inner sep=0pt}]
+  \node[n] (a) at (0,0) {};
+  \node[n] (b) at (1.4,0.9) {};
+  \node[n] (c) at (2.8,0) {};
+  \node[n] (d) at (1.4,-0.9) {};
+  \draw (a)--(b); \draw (b)--(c); \draw (a)--(d); \draw (d)--(c);
+  \node[n,fill=red!30] (x) at (1.4,0) {};
+  \draw (a)--(x); \draw (x)--(c);
+  \node[font=\tiny,below] at (1.4,-1.35) {se um nó falha, há rota alternativa};
+\end{tikzpicture}
+\end{center}
+```
+
+## Wimesh
+
+- Mesh **sem fio** de grande área.
+- Aplicação de WiMax/mesh em **cidades**.
+- Cobertura **colaborativa**.
+
+## Vantagens
+
+- **Redundância** e tolerância a falhas.
+- Cobertura **ampliável** (só adicionar nós).
+- Sem fiação extensa.
+- **Autocura** (self-healing).
+
+## Desafios
+
+- **Overhead** do roteamento.
+- Aumento de **latência** por saltos.
+- Gestão mais **complexa**.
+
+::: {.callout-note}
+Na malha, cada nó é **cliente e roteador** ao mesmo tempo — a rede "se vira" para entregar os dados.
+:::
+
+## Aplicações
+
+- Cobertura de **cidades** e praças.
+- **Redes comunitárias**.
+- Ambientes **industriais**.
+- Resposta a **desastres**.
+
+## Resumo da Aula
+
+- **Mesh**: nós interligados e **redundantes**.
+- **Autoajuste** e **autocura**.
+- Boa para **cobertura ampla** e ambientes críticos.
+
+## Atividade Rápida
+
+- Cite **duas vantagens** da rede em malha.
+- O que é **autocura**?
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- ROCHOL, J. *Sistemas de Comunicação Sem Fio*. Bookman.

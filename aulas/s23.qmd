@@ -1,0 +1,161 @@
+---
+title: "Semana 23 — Conteúdo de 2 aulas"
+---
+
+## Semana 23 — Conteúdo de 2 aulas
+
+- **Aula 37:** Fragilidades do WEP
+- **Aula 38:** Transição do WEP para o WPA
+
+## Aula 37 — Fragilidades do WEP
+
+## Objetivos da Aula
+
+- Conhecer o **WEP** e seu funcionamento.
+- Compreender suas **fragilidades**.
+- Entender por que foi **abandonado**.
+
+## O que é o WEP?
+
+- **Wired Equivalent Privacy** (1999).
+- Primeiro mecanismo de segurança do Wi-Fi.
+- Objetivo: dar segurança "**equivalente ao cabo**".
+
+## Como Funcionava
+
+- Criptografia baseada em **RC4**.
+- Usava uma **chave** compartilhada.
+- Vetor de inicialização (**IV**) de 24 bits.
+
+## As Fragilidades
+
+- **IV curto** → repetição previsível.
+- Chave **fraca** derivada do IV.
+- **RC4** vulnerável.
+
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize,
+  b/.style={draw,rounded corners,fill=red!12,minimum width=2.8cm,minimum height=0.8cm,align=center,inner sep=3pt}]
+  \node[b] (a) at (0,0.9) {IV de 24 bits\\ \scriptsize repetição previsível};
+  \node[b,fill=red!18] (b) at (0,-0.4) {Chave derivada do IV\\ \scriptsize fraca};
+  \node[b,fill=red!25] (c) at (0,-1.7) {RC4\\ \scriptsize vulnerável};
+  \draw[-{Latex}] (a)--(b); \draw[-{Latex}] (b)--(c);
+\end{tikzpicture}
+\end{center}
+```
+
+## O Ataque
+
+- Capturar **muitos pacotes**.
+- Explorar a **repetição** dos IVs.
+- Recuperar a **chave** em minutos.
+
+::: {.callout-note}
+O WEP foi **quebrado** e é considerado **inseguro**: não deve ser usado em nenhum cenário.
+:::
+
+## Consequências
+
+- Sinal **"protegido"** na aparência, mas **quebrável**.
+- Deu falsa **sensação de segurança**.
+- Motivou o **WPA**.
+
+## Lição
+
+- Segurança **não** é só "ter senha".
+- Algoritmos e **implementação** precisam ser robustos.
+- Evolução constante é **necessária**.
+
+## Resumo da Aula
+
+- WEP: primeira tentativa de segurança do Wi-Fi.
+- **RC4 + IV curto** → quebrável.
+- **Nunca** usar WEP.
+
+## Atividade Rápida
+
+- Por que o **IV curto** é um problema?
+- Qual a lição do WEP?
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- MORAES, A. F. *Redes Sem Fio*. Érica.
+
+## Aula 38 — Transição do WEP para o WPA
+
+## Objetivos da Aula
+
+- Compreender a criação do **WPA**.
+- Conhecer as melhorias em relação ao **WEP**.
+- Entender o conceito de **TKIP**.
+
+## A Necessidade do WPA
+
+- WEP foi **quebrado**.
+- Era preciso uma solução **rápida**.
+- Sem trocar **todo** o hardware existente.
+
+## O que é o WPA?
+
+- **Wi-Fi Protected Access** (2003).
+- Melhoria **intermediária**.
+- Compatível com hardware **antigo** (atualização de firmware).
+
+## TKIP
+
+- **Temporal Key Integrity Protocol**.
+- Gera **chaves temporárias** por pacote.
+- Corrige o problema do **IV curto** do WEP.
+
+## Melhorias
+
+- **Chaves dinâmicas** (mudam com o tempo).
+- **Verificação de integridade** (MIC).
+- Uso de **IV maior**.
+
+## Limitações do WPA
+
+- Ainda baseado em **RC4**.
+- Solução **provisória**.
+- Já existem ataques **parciais**.
+
+::: {.callout-note}
+O WPA foi um **remendo inteligente**: melhorou a segurança sem descartar os equipamentos já instalados.
+:::
+
+## O Caminho
+
+- WEP → **WPA** → **WPA2** → **WPA3**.
+- Cada passo corrigiu falhas do anterior.
+- A evolução continua.
+
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize,node distance=5mm,
+  b/.style={draw,rounded corners,minimum width=1.7cm,minimum height=0.75cm,align=center,inner sep=2pt}]
+  \node[b,fill=red!18] (wep) {WEP};
+  \node[b,right=of wep,fill=orange!20] (wpa) {WPA};
+  \node[b,right=of wpa,fill=green!15] (wpa2) {WPA2};
+  \node[b,right=of wpa2,fill=green!25] (wpa3) {WPA3};
+  \draw[-{Latex}] (wep)--(wpa); \draw[-{Latex}] (wpa)--(wpa2); \draw[-{Latex}] (wpa2)--(wpa3);
+\end{tikzpicture}
+\end{center}
+```
+
+## Resumo da Aula
+
+- **WPA** surgiu para substituir o WEP.
+- Introduziu **TKIP** e chaves dinâmicas.
+- Foi uma solução **provisória**.
+
+## Atividade Rápida
+
+- O que é **TKIP**?
+- Por que o WPA foi "provisório"?
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- MORAES, A. F. *Redes Sem Fio*. Érica.

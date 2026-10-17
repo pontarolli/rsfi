@@ -1,0 +1,160 @@
+---
+title: "Semana 24 — Conteúdo de 2 aulas"
+---
+
+## Semana 24 — Conteúdo de 2 aulas
+
+- **Aula 39:** WPA2: Conceitos
+- **Aula 40:** WPA2 Personal (PSK)
+
+## Aula 39 — WPA2: Conceitos
+
+## Objetivos da Aula
+
+- Conhecer o **WPA2**.
+- Entender o uso do **AES-CCMP**.
+- Diferenciar **Personal** e **Enterprise**.
+
+## O que é o WPA2?
+
+- **Wi-Fi Protected Access 2** (2004).
+- Padrão **IEEE 802.11i**.
+- Substituiu o WPA de forma **definitiva**.
+
+## AES-CCMP
+
+- Usa o cifrador **AES** (robusto).
+- **CCMP:** modo de operação com integridade.
+- Muito mais forte que o **RC4** do WEP/WPA.
+
+## Dois Modos
+
+- **WPA2-Personal (PSK):** chave compartilhada.
+- **WPA2-Enterprise (802.1X):** autenticação por servidor.
+- Escolha depende do **ambiente**.
+
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize,
+  b/.style={draw,rounded corners,minimum width=3.7cm,minimum height=1.2cm,align=center,inner sep=3pt}]
+  \node[b,fill=blue!12] (a) at (0,0) {Personal (PSK)\\ \scriptsize chave compartilhada};
+  \node[b,fill=green!12] (b) at (4.5,0) {Enterprise (802.1X)\\ \scriptsize servidor de autenticação};
+\end{tikzpicture}
+\end{center}
+```
+
+## Por que é Padrão Hoje
+
+- Segurança **sólida** até hoje.
+- Compatível com **quase tudo**.
+- Recomendado para uso geral.
+
+## Ataques Conhecidos
+
+- **KRACK** (2017) — corrigido por atualizações.
+- Ataques a senhas **fracas** (dicionário).
+- Exige **senhas fortes** e firmware atualizado.
+
+::: {.callout-note}
+O WPA2 é seguro **se** a senha for forte e os equipamentos estiverem **atualizados**.
+:::
+
+## Comparativo
+
+| Recurso | WEP | WPA | WPA2 |
+|---------|-----|-----|------|
+| Cifra | RC4 | RC4/TKIP | AES-CCMP |
+| Segurança | Quebrado | Fraca | Boa |
+
+## Resumo da Aula
+
+- **WPA2** usa **AES-CCMP**.
+- Dois modos: **Personal** e **Enterprise**.
+- É o padrão seguro **atual**.
+
+## Atividade Rápida
+
+- Qual a diferença entre **WPA e WPA2**?
+- Quais os dois modos do WPA2?
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- MORAES, A. F. *Redes Sem Fio*. Érica.
+
+## Aula 40 — WPA2 Personal (PSK)
+
+## Objetivos da Aula
+
+- Compreender o modo **WPA2-Personal**.
+- Entender a **PSK** (chave pré-compartilhada).
+- Conhecer boas práticas de senha.
+
+## WPA2-Personal
+
+- Modo mais **comum** em casas e pequenos escritórios.
+- Usa uma **chave pré-compartilhada** (PSK).
+- Simples de configurar.
+
+## PSK
+
+- **Pre-Shared Key:** senha compartilhada por todos.
+- A mesma senha em **todos os dispositivos**.
+- Derivada para gerar chaves de **sessão**.
+
+## Funcionamento
+
+- O cliente e o AP conhecem a **senha**.
+- Deriva-se a **PMK** (chave mestra).
+- Gera-se a **PTK** para a sessão.
+
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize,node distance=6mm,
+  b/.style={draw,rounded corners,fill=blue!10,minimum width=2.2cm,minimum height=0.85cm,align=center,inner sep=3pt}]
+  \node[b] (psk) {Senha (PSK)};
+  \node[b,right=of psk,fill=green!12] (pmk) {PMK\\ \scriptsize chave mestra};
+  \node[b,right=of pmk,fill=orange!20] (ptk) {PTK\\ \scriptsize chave da sessão};
+  \draw[-{Latex}] (psk)--(pmk); \draw[-{Latex}] (pmk)--(ptk);
+\end{tikzpicture}
+\end{center}
+```
+
+## Boas Práticas
+
+- Senha **longa** (12+ caracteres).
+- Misturar **letras, números e símbolos**.
+- Não usar palavras **comuns**.
+- Trocar periodicamente.
+
+::: {.callout-note}
+No modo PSK, **todos** compartilham a mesma senha: se uma vazar, **toda** a rede fica exposta.
+:::
+
+## Limitações
+
+- Sem **identidade individual** por usuário.
+- Difícil **revogar** o acesso de um único usuário.
+- Adequado a redes **pequenas**.
+
+## Quando Usar
+
+- **Casa** e pequenos escritórios.
+- Redes com poucos usuários.
+- Quando não há **servidor** de autenticação.
+
+## Resumo da Aula
+
+- WPA2-Personal usa **PSK**.
+- Simples, mas com **senha única**.
+- Ideal para **redes pequenas**.
+
+## Atividade Rápida
+
+- O que é a **PSK**?
+- Qual a maior **limitação** do modo Personal?
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- MORAES, A. F. *Redes Sem Fio*. Érica.

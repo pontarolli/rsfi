@@ -1,0 +1,156 @@
+---
+title: "Semana 33 — Conteúdo de 2 aulas"
+---
+
+## Semana 33 — Conteúdo de 2 aulas
+
+- **Aula 53:** Site Survey e Cobertura
+- **Aula 54:** Projeto Interdisciplinar com ASRE: Cenários
+
+## Aula 53 — Site Survey e Cobertura
+
+## Objetivos da Aula
+
+- Compreender o que é **site survey**.
+- Conhecer os **tipos** de levantamento.
+- Medir e analisar **cobertura**.
+
+## O que é Site Survey?
+
+- **Levantamento** do local para projetar a rede.
+- Identifica obstáculos e **áreas críticas**.
+- Base para posicionar os **APs**.
+
+## Por que Fazer?
+
+- Evitar pontos **sem sinal**.
+- Ajustar **canais** e potências.
+- Reduzir **interferências**.
+
+## Dois Tipos
+
+- **Preditivo:** simulação (software) sem ir ao local.
+- **Ativo:** medição real **no local**.
+
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize,
+  b/.style={draw,rounded corners,minimum width=3.6cm,minimum height=1.1cm,align=center,inner sep=3pt}]
+  \node[b,fill=blue!12] (a) at (0,0) {Preditivo\\ \scriptsize simulação (software)};
+  \node[b,fill=green!12] (b) at (4.4,0) {Ativo\\ \scriptsize medição no local};
+\end{tikzpicture}
+\end{center}
+```
+
+## Ferramentas
+
+- **Softwares** de planejamento (heat maps).
+- **Analisadores** de espectro.
+- Plantas **baixas** do local.
+
+## Processo
+
+- **1.** Obter a **planta** do local.
+- **2.** Identificar **obstáculos**.
+- **3.** Simular / medir.
+- **4.** Ajustar **posições e canais**.
+
+::: {.callout-note}
+O **heat map** mostra visualmente onde o sinal é bom ou ruim — é a "foto" da cobertura antes de instalar.
+:::
+
+## Métricas
+
+- **RSSI** (intensidade do sinal) em dBm.
+- **SNR** (relação sinal-ruído).
+- **Taxa** de dados alcançada.
+
+## Validação
+
+- Medir **após** a instalação.
+- Comparar com o **projeto**.
+- Corrigir **desvios**.
+
+## Resumo da Aula
+
+- **Site survey** orienta o posicionamento dos APs.
+- Pode ser **preditivo** ou **ativo**.
+- Validação confirma o **desempenho real**.
+
+## Atividade Rápida
+
+- Diferencie site survey **preditivo** e **ativo**.
+- Que métricas indicam **boa cobertura**?
+
+## Referências
+
+- MORAES, A. F. *Redes Sem Fio*. Érica.
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+
+## Aula 54 — Projeto Interdisciplinar com ASRE: Cenários
+
+## Objetivos da Aula
+
+- Compreender a proposta do **projeto interdisciplinar**.
+- Conhecer os **cenários** de projeto.
+- Relacionar teoria e **prática**.
+
+## O Projeto
+
+- **Projeto interdisciplinar** de Redes sem Fio.
+- Desenvolvido com a disciplina **ASRE**.
+- Simula um **projeto real** de rede sem fio.
+
+## O que Será Feito
+
+- Escolher um **cenário** de cobertura.
+- **Projetar** a rede sem fio.
+- **Configurar** os equipamentos.
+- **Apresentar** a solução.
+
+## Cenários Possíveis
+
+- **Escola** — cobertura de salas e pátio.
+- **Galpão** — área ampla com obstáculos.
+- **Área rural** — longa distância.
+- **Praça pública** — cobertura externa.
+
+## Requisitos do Projeto
+
+- Levantamento de **requisitos**.
+- **Site survey** (real ou simulado).
+- Escolha de **equipamentos** (APs, antenas).
+- Definição de **segurança**.
+
+## Critérios de Avaliação
+
+- **Viabilidade técnica** da solução.
+- **Justificativa** das escolhas.
+- **Qualidade** da documentação.
+- **Apresentação** clara.
+
+::: {.callout-note}
+Este projeto integra **tudo** o que aprendemos: RF, antenas, padrões, equipamentos, segurança e projeto.
+:::
+
+## Organização Inicial
+
+- Leitura dos **cenários**.
+- Discussão em grupo.
+- Escolha do **cenário**.
+
+## Resumo da Aula
+
+- O projeto simula uma **rede real**.
+- Há vários **cenários** possíveis.
+- Integra os conceitos do **curso**.
+
+## Atividade Rápida
+
+- Qual **cenário** mais interessa ao seu grupo?
+- Liste **três requisitos** dele.
+
+## Referências
+
+- MORAES, A. F. *Redes Sem Fio*. Érica.
+- Documentação das disciplinas ASRE e RSFI.

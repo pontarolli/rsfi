@@ -1,0 +1,158 @@
+---
+title: "Semana 16 — Conteúdo de 2 aulas"
+---
+
+## Semana 16 — Conteúdo de 2 aulas
+
+- **Aula 25:** Família 802.11g
+- **Aula 26:** Comparação 802.11a/b/g
+
+## Aula 25 — Família 802.11g
+
+## Objetivos da Aula
+
+- Conhecer o padrão **802.11g**.
+- Entender sua **compatibilidade**.
+- Comparar com **a** e **b**.
+
+## O que é o 802.11g?
+
+- Emenda ao 802.11 (2003).
+- Une o **melhor** de a e b.
+- Faixa de **2,4 GHz** com **OFDM**.
+
+## Características
+
+- Faixa de **2,4 GHz**.
+- Taxas de até **54 Mbps**.
+- Técnica **OFDM** (como o 802.11a).
+
+## Compatibilidade
+
+- **Compatível** com o 802.11b.
+- Permite migração gradual.
+- Quando há clientes "b", a rede **cai** para taxas menores.
+
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize,node distance=14mm,
+  b/.style={draw,rounded corners,minimum width=2.7cm,minimum height=0.85cm,align=center,inner sep=3pt}]
+  \node[b,fill=green!12] (g) {802.11g\\ \scriptsize 54 Mbps (OFDM)};
+  \node[b,right=of g,fill=blue!12] (b) {802.11b\\ \scriptsize 11 Mbps (DSSS)};
+  \draw[<->] (g)-- node[above,font=\tiny]{compatível} (b);
+\end{tikzpicture}
+\end{center}
+```
+
+## Vantagens
+
+- **Velocidade** do 802.11a com o **alcance** do b.
+- Compatível com equipamentos antigos.
+- Adoção **ampla**.
+
+## Desvantagens
+
+- Faixa **2,4 GHz congestionada**.
+- Sofre **interferência**.
+
+::: {.callout-note}
+O 802.11g foi o **"melhor dos dois mundos"**: velocidade do 5 GHz com a compatibilidade do 2,4 GHz.
+:::
+
+## Ficha Técnica
+
+| Item | 802.11g |
+|------|---------|
+| Ano | 2003 |
+| Faixa | 2,4 GHz |
+| Taxa máx. | 54 Mbps |
+| Técnica | OFDM |
+
+## Resumo da Aula
+
+- 802.11g: **2,4 GHz**, até **54 Mbps**, OFDM.
+- **Compatível** com o 802.11b.
+- Popular e de bom custo-benefício.
+
+## Atividade Rápida
+
+- Qual a principal **vantagem** do 802.11g?
+- O que acontece se houver clientes "b" na rede?
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- MORAES, A. F. *Redes Sem Fio*. Érica.
+
+## Aula 26 — Comparação 802.11a/b/g
+
+## Objetivos da Aula
+
+- **Comparar** os padrões a, b e g.
+- Relacionar **faixa, taxa e alcance**.
+- Escolher o padrão conforme o **cenário**.
+
+## Quadro Comparativo
+
+| Item | 802.11a | 802.11b | 802.11g |
+|------|---------|---------|---------|
+| Ano | 1999 | 1999 | 2003 |
+| Faixa | 5 GHz | 2,4 GHz | 2,4 GHz |
+| Taxa máx. | 54 Mbps | 11 Mbps | 54 Mbps |
+| Técnica | OFDM | DSSS | OFDM |
+| Alcance | menor | maior | maior |
+
+## Faixa e Comportamento
+
+- **2,4 GHz:** mais alcance, mais interferência.
+- **5 GHz:** mais velocidade, menos alcance.
+- A física explica as **diferenças**.
+
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize,
+  b/.style={draw,rounded corners,minimum width=3.4cm,minimum height=1.1cm,align=center,inner sep=3pt}]
+  \node[b,fill=orange!20] (a) at (0,0) {2,4 GHz\\ \scriptsize mais alcance\\ \scriptsize mais interferência};
+  \node[b,fill=blue!12] (b) at (4.3,0) {5 GHz\\ \scriptsize mais velocidade\\ \scriptsize menos alcance};
+\end{tikzpicture}
+\end{center}
+```
+
+## Compatibilidade
+
+- **a** e **b/g** são **incompatíveis** entre si (faixas diferentes).
+- **g** é compatível com **b**.
+- Equipamentos "abg" combinam tudo.
+
+## Critérios de Escolha
+
+- **Alcance** necessário.
+- **Interferência** no ambiente.
+- **Velocidade** exigida.
+- **Custo** dos equipamentos.
+
+::: {.callout-note}
+A escolha de faixa **2,4 vs 5 GHz** continua sendo a decisão central em projetos Wi-Fi atuais.
+:::
+
+## Estudo de Caso (preparação)
+
+- Compare **duas redes**: uma em 2,4 GHz e outra em 5 GHz.
+- Observe **velocidade e alcance**.
+- Registre os **resultados**.
+
+## Resumo da Aula
+
+- a (5 GHz), b (2,4 GHz) e g (2,4 GHz OFDM).
+- Faixa define **alcance × velocidade**.
+- A escolha depende do **cenário**.
+
+## Atividade Rápida
+
+- Monte um quadro comparativo **a/b/g**.
+- Qual padrão você escolheria para **longo alcance**?
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- TANENBAUM, A. *Redes de Computadores*. Pearson.

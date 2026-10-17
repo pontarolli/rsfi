@@ -1,0 +1,63 @@
+---
+title: "Aula 78 — Recuperação e Reavaliação"
+---
+
+## Objetivos da Aula
+
+- **Retomar** os conteúdos essenciais do ano.
+- Oferecer oportunidade de **recuperação**.
+- Consolidar a **aprendizagem**.
+
+## Aula de Hoje
+
+- **Revisão** dos conteúdos centrais.
+- Orientação para a **recuperação**.
+- Esclarecimento de **dúvidas**.
+
+## Conteúdos Essenciais
+
+- **Fundamentos:** categorias e RF.
+- **Padrões:** IEEE 802.11 a/an/ac/ax.
+- **Equipamentos:** APs e controladores.
+- **Segurança:** WEP → WPA3, 802.1X.
+
+## Temas Mais Cobrados
+
+- **CSMA/CA**.
+- Evolução dos **padrões**.
+- **WPA2-Personal** x **Enterprise**.
+- **RADIUS** e as **três A**.
+
+## Como se Preparar
+
+- Reler os **resumos** das aulas.
+- Refazer as **questões** das avaliações.
+- Montar **resumos próprios**.
+- Trazer **dúvidas**.
+
+::: {.callout-note}
+A recuperação não é só uma **segunda chance**: é a oportunidade de **realmente** entender o que ficou para trás.
+:::
+
+## Estratégia de Estudo
+
+| Tema | Tempo sugerido |
+|------|----------------|
+| Fundamentos | 1 h |
+| Padrões | 1 h |
+| Segurança | 1 h |
+
+## Resumo da Aula
+
+- Revisamos os **conteúdos essenciais**.
+- Orientamos a **recuperação**.
+- Organizamos o **estudo**.
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- MORAES, A. F. *Redes Sem Fio*. Érica.
+
+## Próxima Aula
+
+- **Aula 79:** Encerramento do ano letivo.

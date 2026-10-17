@@ -1,0 +1,64 @@
+---
+title: "Aula 77 — Apresentação dos Projetos: Parte 2"
+---
+
+## Objetivos da Aula
+
+- **Concluir** as apresentações dos projetos.
+- Consolidar a **aprendizagem** do projeto.
+- Encerrar o projeto **interdisciplinar**.
+
+## Aula de Hoje
+
+- **Apresentações** dos projetos.
+- Parte **2** (demais grupos).
+- **Fechamento** do projeto.
+
+## Roteiro da Apresentação
+
+- **~10 minutos** por grupo.
+- Seguir o **roteiro** preparado.
+- **Perguntas** ao final.
+
+## O que Observar
+
+- **Clareza** da solução.
+- **Justificativa** das escolhas.
+- **Domínio** do conteúdo.
+- **Postura** e **tempo**.
+
+## Síntese dos Trabalhos
+
+- Semelhanças entre as **soluções**.
+- Diferentes **abordagens** para o mesmo problema.
+- **Lições** aprendidas.
+
+::: {.callout-note}
+Comparar as **soluções** dos colegas amplia nossa visão: não há uma única resposta certa em projeto de redes.
+:::
+
+## Avaliação do Projeto
+
+- Considerar **processo** e **produto**.
+- Participação **individual** e **coletiva**.
+- Qualidade da **documentação**.
+
+## Encerramento do Projeto
+
+- Agradecimento e **retorno geral**.
+- Os projetos ficam **arquivados** como referência.
+
+## Resumo da Aula
+
+- Concluímos as **apresentações**.
+- Consolidamos o aprendizado do **projeto**.
+- Encerramos o **projeto interdisciplinar**.
+
+## Referências
+
+- Documentação do projeto.
+- Critérios de avaliação do professor.
+
+## Próxima Aula
+
+- **Aula 78:** Recuperação e reavaliação.

@@ -79,4 +79,4 @@ No modo PSK, **todos** compartilham a mesma senha: se uma vazar, **toda** a rede
 
 ## Próxima Aula
 
-- **Aula 50:** WPA2 Enterprise (EAP/802.1X).
+- **Aula 51:** WPA2 Enterprise (EAP/802.1X).

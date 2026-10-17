@@ -83,4 +83,4 @@ O WLL é essencial para **incluir digitalmente** regiões onde o cabo não chega
 
 ## Próxima Aula
 
-- **Aula 10:** Comparativo entre as categorias.
+- **Aula 11:** Comparativo entre as categorias.

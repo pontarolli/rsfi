@@ -1,0 +1,66 @@
+---
+title: "Aula 72 — Projeto Interdisciplinar: 1ª Entrega"
+---
+
+## Objetivos da Aula
+
+- **Entregar** a primeira versão do projeto.
+- Apresentar o **andamento** aos colegas.
+- Receber **orientações**.
+
+## Aula de Hoje
+
+- **Entrega** da 1ª versão.
+- **Apresentação breve** de cada grupo.
+- **Feedback** inicial do professor.
+
+## O que Será Entregue
+
+- Relatório **parcial** do projeto.
+- **Planta** com posições.
+- Lista de **equipamentos**.
+- Definição de **segurança**.
+
+## Apresentação Breve
+
+- Cada grupo apresenta por **~5 minutos**.
+- **Cenário** e solução proposta.
+- Principais **decisões técnicas**.
+
+## Feedback do Professor
+
+- Pontos **fortes** da proposta.
+- Pontos a **corrigir**.
+- **Sugestões** de melhoria.
+
+::: {.callout-note}
+A 1ª entrega **não é o fim**: serve para identificar erros enquanto ainda dá tempo de corrigi-los.
+:::
+
+## Checklist de Entrega
+
+- [ ] Relatório parcial
+- [ ] Planta do cenário
+- [ ] Lista de equipamentos
+- [ ] Definição de segurança
+
+## Próximos Passos
+
+- Anotar os **comentários**.
+- Planejar as **correções**.
+- Continuar o **desenvolvimento**.
+
+## Resumo da Aula
+
+- Entregamos a **1ª versão** do projeto.
+- Apresentamos e recebemos **feedback**.
+- Preparamos as **correções**.
+
+## Referências
+
+- Documentação do projeto.
+- MORAES, A. F. *Redes Sem Fio*. Érica.
+
+## Próxima Aula
+
+- **Aula 73:** Feedback e correção dos erros.

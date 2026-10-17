@@ -42,16 +42,16 @@ Cronograma com **72 aulas de conteúdo** (18 por bimestre) e **8 avaliações** 
 | 07 | WLAN — redes locais sem fio | [aula-07](aulas/aula-07.pdf) | [.qmd](aulas/aula-07-wlan.qmd) |
 | 08 | WMAN e WWAN — redes metropolitanas e amplas | [aula-08](aulas/aula-08.pdf) | [.qmd](aulas/aula-08-wman-e-wwan.qmd) |
 | 09 | WLL — acesso local sem fio | [aula-09](aulas/aula-09.pdf) | [.qmd](aulas/aula-09-wll.qmd) |
-| 10 | Comparativo entre as categorias | [aula-10](aulas/aula-10.pdf) | [.qmd](aulas/aula-10-comparativo-categorias.qmd) |
-| 11 | Princípios de radiofrequência (RF) | [aula-11](aulas/aula-11.pdf) | [.qmd](aulas/aula-11-principios-radiofrequencia.qmd) |
-| 12 | Propagação de ondas de rádio | [aula-12](aulas/aula-12.pdf) | [.qmd](aulas/aula-12-propagacao-ondas.qmd) |
-| 13 | Reflexão, difração e espalhamento | [aula-13](aulas/aula-13.pdf) | [.qmd](aulas/aula-13-reflexao-difracao-espalhamento.qmd) |
-| 14 | Interferência e ruído | [aula-14](aulas/aula-14.pdf) | [.qmd](aulas/aula-14-interferencia-e-ruido.qmd) |
-| 15 | Tipos de antenas: onidirecionais e direcionais | [aula-15](aulas/aula-15.pdf) | [.qmd](aulas/aula-15-tipos-de-antenas.qmd) |
-| 16 | Ganho de sinal e potência | [aula-16](aulas/aula-16.pdf) | [.qmd](aulas/aula-16-ganho-de-sinal.qmd) |
-| 17 | Prática: identificação de antenas em laboratório | [aula-17](aulas/aula-17.pdf) | [.qmd](aulas/aula-17-pratica-identificacao-antenas.qmd) |
-| 18 | Síntese e revisão do 1º bimestre | [aula-18](aulas/aula-18.pdf) | [.qmd](aulas/aula-18-revisao-bimestre-1.qmd) |
-| 19 | **Avaliação 1 (GIFT, 10 questões)** | — | `aula-19-avaliacao-b1-av1.gift` |
+| 10 | **Avaliação 1 (GIFT, 10 questões)** | — | `aula-10-avaliacao-b1-av1.gift` |
+| 11 | Comparativo entre as categorias | [aula-11](aulas/aula-11.pdf) | [.qmd](aulas/aula-11-comparativo-categorias.qmd) |
+| 12 | Princípios de radiofrequência (RF) | [aula-12](aulas/aula-12.pdf) | [.qmd](aulas/aula-12-principios-radiofrequencia.qmd) |
+| 13 | Propagação de ondas de rádio | [aula-13](aulas/aula-13.pdf) | [.qmd](aulas/aula-13-propagacao-ondas.qmd) |
+| 14 | Reflexão, difração e espalhamento | [aula-14](aulas/aula-14.pdf) | [.qmd](aulas/aula-14-reflexao-difracao-espalhamento.qmd) |
+| 15 | Interferência e ruído | [aula-15](aulas/aula-15.pdf) | [.qmd](aulas/aula-15-interferencia-e-ruido.qmd) |
+| 16 | Tipos de antenas: onidirecionais e direcionais | [aula-16](aulas/aula-16.pdf) | [.qmd](aulas/aula-16-tipos-de-antenas.qmd) |
+| 17 | Ganho de sinal e potência | [aula-17](aulas/aula-17.pdf) | [.qmd](aulas/aula-17-ganho-de-sinal.qmd) |
+| 18 | Prática: identificação de antenas em laboratório | [aula-18](aulas/aula-18.pdf) | [.qmd](aulas/aula-18-pratica-identificacao-antenas.qmd) |
+| 19 | Síntese e revisão do 1º bimestre | [aula-19](aulas/aula-19.pdf) | [.qmd](aulas/aula-19-revisao-bimestre-1.qmd) |
 | 20 | **Avaliação 2 (GIFT, 10 questões)** | — | `aula-20-avaliacao-b1-av2.gift` |
 
 ### 2º Bimestre — Acesso ao Meio e Padrões IEEE 802.11
@@ -67,16 +67,16 @@ Cronograma com **72 aulas de conteúdo** (18 por bimestre) e **8 avaliações** 
 | 27 | Família 802.11b | [aula-27](aulas/aula-27.pdf) | [.qmd](aulas/aula-27-802-11b.qmd) |
 | 28 | Família 802.11a | [aula-28](aulas/aula-28.pdf) | [.qmd](aulas/aula-28-802-11a.qmd) |
 | 29 | Família 802.11g | [aula-29](aulas/aula-29.pdf) | [.qmd](aulas/aula-29-802-11g.qmd) |
-| 30 | Comparação 802.11a/b/g | [aula-30](aulas/aula-30.pdf) | [.qmd](aulas/aula-30-comparacao-802-11-a-b-g.qmd) |
-| 31 | Estudo de caso: comparação de tecnologias | [aula-31](aulas/aula-31.pdf) | [.qmd](aulas/aula-31-estudo-de-caso-tecnologias.qmd) |
-| 32 | Padrões modernos: 802.11n (Wi-Fi 4) | [aula-32](aulas/aula-32.pdf) | [.qmd](aulas/aula-32-802-11n-wifi-4.qmd) |
-| 33 | Padrões modernos: 802.11ac (Wi-Fi 5) | [aula-33](aulas/aula-33.pdf) | [.qmd](aulas/aula-33-802-11ac-wifi-5.qmd) |
-| 34 | Padrões modernos: 802.11ax (Wi-Fi 6) | [aula-34](aulas/aula-34.pdf) | [.qmd](aulas/aula-34-802-11ax-wifi-6.qmd) |
-| 35 | Wi-Fi 6E, Wi-Fi 7 e tendências futuras | [aula-35](aulas/aula-35.pdf) | [.qmd](aulas/aula-35-wifi-6e-wifi-7-tendencias.qmd) |
-| 36 | Prática: análise de espectro | [aula-36](aulas/aula-36.pdf) | [.qmd](aulas/aula-36-pratica-analise-de-espectro.qmd) |
-| 37 | Pesquisa orientada: evolução do Wi-Fi | [aula-37](aulas/aula-37.pdf) | [.qmd](aulas/aula-37-pesquisa-evolucao-wifi.qmd) |
-| 38 | Síntese e revisão do 2º bimestre | [aula-38](aulas/aula-38.pdf) | [.qmd](aulas/aula-38-revisao-bimestre-2.qmd) |
-| 39 | **Avaliação 1 (GIFT, 10 questões)** | — | `aula-39-avaliacao-b2-av1.gift` |
+| 30 | **Avaliação 1 (GIFT, 10 questões)** | — | `aula-30-avaliacao-b2-av1.gift` |
+| 31 | Comparação 802.11a/b/g | [aula-31](aulas/aula-31.pdf) | [.qmd](aulas/aula-31-comparacao-802-11-a-b-g.qmd) |
+| 32 | Estudo de caso: comparação de tecnologias | [aula-32](aulas/aula-32.pdf) | [.qmd](aulas/aula-32-estudo-de-caso-tecnologias.qmd) |
+| 33 | Padrões modernos: 802.11n (Wi-Fi 4) | [aula-33](aulas/aula-33.pdf) | [.qmd](aulas/aula-33-802-11n-wifi-4.qmd) |
+| 34 | Padrões modernos: 802.11ac (Wi-Fi 5) | [aula-34](aulas/aula-34.pdf) | [.qmd](aulas/aula-34-802-11ac-wifi-5.qmd) |
+| 35 | Padrões modernos: 802.11ax (Wi-Fi 6) | [aula-35](aulas/aula-35.pdf) | [.qmd](aulas/aula-35-802-11ax-wifi-6.qmd) |
+| 36 | Wi-Fi 6E, Wi-Fi 7 e tendências futuras | [aula-36](aulas/aula-36.pdf) | [.qmd](aulas/aula-36-wifi-6e-wifi-7-tendencias.qmd) |
+| 37 | Prática: análise de espectro | [aula-37](aulas/aula-37.pdf) | [.qmd](aulas/aula-37-pratica-analise-de-espectro.qmd) |
+| 38 | Pesquisa orientada: evolução do Wi-Fi | [aula-38](aulas/aula-38.pdf) | [.qmd](aulas/aula-38-pesquisa-evolucao-wifi.qmd) |
+| 39 | Síntese e revisão do 2º bimestre | [aula-39](aulas/aula-39.pdf) | [.qmd](aulas/aula-39-revisao-bimestre-2.qmd) |
 | 40 | **Avaliação 2 (GIFT, 10 questões)** | — | `aula-40-avaliacao-b2-av2.gift` |
 
 ### 3º Bimestre — Equipamentos, Segurança e Outras Tecnologias
@@ -92,16 +92,16 @@ Cronograma com **72 aulas de conteúdo** (18 por bimestre) e **8 avaliações** 
 | 47 | Transição do WEP para o WPA | [aula-47](aulas/aula-47.pdf) | [.qmd](aulas/aula-47-transicao-wep-para-wpa.qmd) |
 | 48 | WPA2 — conceitos | [aula-48](aulas/aula-48.pdf) | [.qmd](aulas/aula-48-wpa2-conceitos.qmd) |
 | 49 | WPA2 Personal (PSK) | [aula-49](aulas/aula-49.pdf) | [.qmd](aulas/aula-49-wpa2-personal-psk.qmd) |
-| 50 | WPA2 Enterprise (EAP/802.1X) | [aula-50](aulas/aula-50.pdf) | [.qmd](aulas/aula-50-wpa2-enterprise-eap.qmd) |
-| 51 | Servidores RADIUS | [aula-51](aulas/aula-51.pdf) | [.qmd](aulas/aula-51-servidores-radius.qmd) |
-| 52 | WPA3 e segurança moderna | [aula-52](aulas/aula-52.pdf) | [.qmd](aulas/aula-52-wpa3-seguranca-moderna.qmd) |
-| 53 | Prática: configuração de RADIUS básico | [aula-53](aulas/aula-53.pdf) | [.qmd](aulas/aula-53-pratica-radius-basico.qmd) |
-| 54 | WPAN: Bluetooth | [aula-54](aulas/aula-54.pdf) | [.qmd](aulas/aula-54-wpan-bluetooth.qmd) |
-| 55 | WPAN: Infrared e ZigBee | [aula-55](aulas/aula-55.pdf) | [.qmd](aulas/aula-55-wpan-infrared-zigbee.qmd) |
-| 56 | WMAN e WiMax | [aula-56](aulas/aula-56.pdf) | [.qmd](aulas/aula-56-wman-wimax.qmd) |
-| 57 | Redes em malha (Wimesh/mesh) | [aula-57](aulas/aula-57.pdf) | [.qmd](aulas/aula-57-redes-em-malha.qmd) |
-| 58 | Síntese e revisão do 3º bimestre | [aula-58](aulas/aula-58.pdf) | [.qmd](aulas/aula-58-revisao-bimestre-3.qmd) |
-| 59 | **Avaliação 1 (GIFT, 10 questões)** | — | `aula-59-avaliacao-b3-av1.gift` |
+| 50 | **Avaliação 1 (GIFT, 10 questões)** | — | `aula-50-avaliacao-b3-av1.gift` |
+| 51 | WPA2 Enterprise (EAP/802.1X) | [aula-51](aulas/aula-51.pdf) | [.qmd](aulas/aula-51-wpa2-enterprise-eap.qmd) |
+| 52 | Servidores RADIUS | [aula-52](aulas/aula-52.pdf) | [.qmd](aulas/aula-52-servidores-radius.qmd) |
+| 53 | WPA3 e segurança moderna | [aula-53](aulas/aula-53.pdf) | [.qmd](aulas/aula-53-wpa3-seguranca-moderna.qmd) |
+| 54 | Prática: configuração de RADIUS básico | [aula-54](aulas/aula-54.pdf) | [.qmd](aulas/aula-54-pratica-radius-basico.qmd) |
+| 55 | WPAN: Bluetooth | [aula-55](aulas/aula-55.pdf) | [.qmd](aulas/aula-55-wpan-bluetooth.qmd) |
+| 56 | WPAN: Infrared e ZigBee | [aula-56](aulas/aula-56.pdf) | [.qmd](aulas/aula-56-wpan-infrared-zigbee.qmd) |
+| 57 | WMAN e WiMax | [aula-57](aulas/aula-57.pdf) | [.qmd](aulas/aula-57-wman-wimax.qmd) |
+| 58 | Redes em malha (Wimesh/mesh) | [aula-58](aulas/aula-58.pdf) | [.qmd](aulas/aula-58-redes-em-malha.qmd) |
+| 59 | Síntese e revisão do 3º bimestre | [aula-59](aulas/aula-59.pdf) | [.qmd](aulas/aula-59-revisao-bimestre-3.qmd) |
 | 60 | **Avaliação 2 (GIFT, 10 questões)** | — | `aula-60-avaliacao-b3-av2.gift` |
 
 ### 4º Bimestre — Tecnologias Avançadas e Projeto de Redes Sem Fio
@@ -117,16 +117,16 @@ Cronograma com **72 aulas de conteúdo** (18 por bimestre) e **8 avaliações** 
 | 67 | Projeto interdisciplinar: divisão de grupos | [aula-67](aulas/aula-67.pdf) | [.qmd](aulas/aula-67-projeto-divisao-de-grupos.qmd) |
 | 68 | Projeto interdisciplinar: desenvolvimento — Parte 1 | [aula-68](aulas/aula-68.pdf) | [.qmd](aulas/aula-68-projeto-desenvolvimento-1.qmd) |
 | 69 | Projeto interdisciplinar: desenvolvimento — Parte 2 | [aula-69](aulas/aula-69.pdf) | [.qmd](aulas/aula-69-projeto-desenvolvimento-2.qmd) |
-| 70 | Projeto interdisciplinar: desenvolvimento — Parte 3 | [aula-70](aulas/aula-70.pdf) | [.qmd](aulas/aula-70-projeto-desenvolvimento-3.qmd) |
-| 71 | Projeto interdisciplinar: 1ª entrega | [aula-71](aulas/aula-71.pdf) | [.qmd](aulas/aula-71-projeto-primeira-entrega.qmd) |
-| 72 | Feedback e correção dos erros | [aula-72](aulas/aula-72.pdf) | [.qmd](aulas/aula-72-feedback-correcao-erros.qmd) |
-| 73 | Ajustes e finalização do projeto | [aula-73](aulas/aula-73.pdf) | [.qmd](aulas/aula-73-ajustes-finalizacao-projeto.qmd) |
-| 74 | Preparação das apresentações | [aula-74](aulas/aula-74.pdf) | [.qmd](aulas/aula-74-preparacao-apresentacoes.qmd) |
-| 75 | Apresentação dos projetos — Parte 1 | [aula-75](aulas/aula-75.pdf) | [.qmd](aulas/aula-75-apresentacao-projetos-1.qmd) |
-| 76 | Apresentação dos projetos — Parte 2 | [aula-76](aulas/aula-76.pdf) | [.qmd](aulas/aula-76-apresentacao-projetos-2.qmd) |
-| 77 | Recuperação e reavaliação | [aula-77](aulas/aula-77.pdf) | [.qmd](aulas/aula-77-recuperacao-e-reavaliacao.qmd) |
-| 78 | Encerramento do ano letivo | [aula-78](aulas/aula-78.pdf) | [.qmd](aulas/aula-78-encerramento-ano-letivo.qmd) |
-| 79 | **Avaliação 1 (GIFT, 10 questões)** | — | `aula-79-avaliacao-b4-av1.gift` |
+| 70 | **Avaliação 1 (GIFT, 10 questões)** | — | `aula-70-avaliacao-b4-av1.gift` |
+| 71 | Projeto interdisciplinar: desenvolvimento — Parte 3 | [aula-71](aulas/aula-71.pdf) | [.qmd](aulas/aula-71-projeto-desenvolvimento-3.qmd) |
+| 72 | Projeto interdisciplinar: 1ª entrega | [aula-72](aulas/aula-72.pdf) | [.qmd](aulas/aula-72-projeto-primeira-entrega.qmd) |
+| 73 | Feedback e correção dos erros | [aula-73](aulas/aula-73.pdf) | [.qmd](aulas/aula-73-feedback-correcao-erros.qmd) |
+| 74 | Ajustes e finalização do projeto | [aula-74](aulas/aula-74.pdf) | [.qmd](aulas/aula-74-ajustes-finalizacao-projeto.qmd) |
+| 75 | Preparação das apresentações | [aula-75](aulas/aula-75.pdf) | [.qmd](aulas/aula-75-preparacao-apresentacoes.qmd) |
+| 76 | Apresentação dos projetos — Parte 1 | [aula-76](aulas/aula-76.pdf) | [.qmd](aulas/aula-76-apresentacao-projetos-1.qmd) |
+| 77 | Apresentação dos projetos — Parte 2 | [aula-77](aulas/aula-77.pdf) | [.qmd](aulas/aula-77-apresentacao-projetos-2.qmd) |
+| 78 | Recuperação e reavaliação | [aula-78](aulas/aula-78.pdf) | [.qmd](aulas/aula-78-recuperacao-e-reavaliacao.qmd) |
+| 79 | Encerramento do ano letivo | [aula-79](aulas/aula-79.pdf) | [.qmd](aulas/aula-79-encerramento-ano-letivo.qmd) |
 | 80 | **Avaliação 2 (GIFT, 10 questões)** | — | `aula-80-avaliacao-b4-av2.gift` |
 
 ---

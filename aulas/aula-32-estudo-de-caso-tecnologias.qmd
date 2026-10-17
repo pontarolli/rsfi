@@ -1,0 +1,70 @@
+---
+title: "Aula 32 — Estudo de Caso: Comparação de Tecnologias"
+---
+
+## Objetivos da Aula
+
+- Aplicar os conceitos em um **estudo de caso**.
+- Comparar **tecnologias** na prática.
+- Desenvolver **análise crítica**.
+
+## Proposta da Aula
+
+- Analisar **cenários reais** de redes sem fio.
+- Comparar **padrões e faixas**.
+- Justificar **escolhas técnicas**.
+
+## Cenário 1: Escola
+
+- Muitos usuários, **salas** e **paredes**.
+- Exige **cobertura** e **capacidade**.
+- Alternativa: **ESS** com vários APs.
+
+## Cenário 2: Galpão Industrial
+
+- Área ampla com **obstáculos** metálicos.
+- Exige **alcance** e robustez.
+- Alternativa: **antenas direcionais/setoriais**.
+
+## Cenário 3: Área Rural
+
+- Sem infraestrutura cabeadas.
+- Exige **longo alcance**.
+- Alternativa: **WLL/WiMax**.
+
+## Método de Análise
+
+- **1.** Levantar requisitos.
+- **2.** Identificar **restrições**.
+- **3.** Comparar **tecnologias**.
+- **4.** Justificar a **escolha**.
+
+::: {.callout-note}
+Em um estudo de caso não existe resposta "única": o importante é **justificar** a escolha com base nos requisitos.
+:::
+
+## Trabalho em Grupo
+
+- Formar grupos e escolher um **cenário**.
+- Apresentar a **solução** proposta.
+- Discutir **vantagens e limitações**.
+
+## Resumo da Aula
+
+- Aplicamos os conceitos em **cenários reais**.
+- Comparamos **tecnologias** e faixas.
+- A análise justifica a **solução**.
+
+## Atividade Rápida
+
+- Escolha um cenário e liste **três requisitos**.
+- Proponha uma **tecnologia** e justifique.
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- MORAES, A. F. *Redes Sem Fio*. Érica.
+
+## Próxima Aula
+
+- **Aula 33:** Padrões modernos — 802.11n (Wi-Fi 4).

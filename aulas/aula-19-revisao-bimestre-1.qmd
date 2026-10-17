@@ -1,0 +1,70 @@
+---
+title: "Aula 19 — Síntese e Revisão do 1º Bimestre"
+---
+
+## Objetivos da Aula
+
+- **Revisar** os fundamentos do bimestre.
+- Organizar o estudo para a **avaliação**.
+- Esclarecer dúvidas.
+
+## O que Estudamos
+
+- Introdução e terminologia.
+- Categorias: WPAN, WLAN, WMAN, WWAN, WLL.
+- Princípios de **radiofrequência**.
+- Propagação e fenômenos de RF.
+- **Antenas** e ganho.
+
+## Categorias
+
+- **WPAN:** pessoal (Bluetooth).
+- **WLAN:** local (Wi-Fi).
+- **WMAN:** metropolitana (WiMax).
+- **WWAN:** ampla (celular).
+- **WLL:** acesso do usuário.
+
+## RF e Propagação
+
+- Espectro e **frequência** (2,4 e 5 GHz).
+- **Atenuação, dB/dBm**.
+- Reflexão, difração, **espalhamento**.
+- **Multipercurso** e interferência.
+
+## Antenas
+
+- **Onidirecional** × **direcional**.
+- **Ganho** em dBi/dBd.
+- **EIRP** e balanço de enlace.
+
+::: {.callout-note}
+O fio condutor do bimestre: **como o sinal sem fio se comporta** — e como projetar considerando esses efeitos.
+:::
+
+## Fórmulas Importantes
+
+- λ = c / f (comprimento de onda).
+- EIRP = potência + ganho − perdas.
+- dBd + 2,15 = dBi.
+
+## Como se Preparar
+
+- Reler os **resumos** das aulas.
+- Refazer as **contas** de RF e EIRP.
+- Revisar os **tipos de antenas**.
+- Tirar **dúvidas**.
+
+## Resumo da Aula
+
+- Revisamos fundamentos, categorias, RF e antenas.
+- Os conceitos **se conectam**.
+- Prontos para a **avaliação**.
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- RAPPAPORT, T. S. *Comunicações Sem Fio*. Pearson.
+
+## Próxima Aula
+
+- **Aula 21:** Métodos de acesso ao meio.

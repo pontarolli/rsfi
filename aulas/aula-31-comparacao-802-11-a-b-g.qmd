@@ -1,0 +1,78 @@
+---
+title: "Aula 31 — Comparação 802.11a/b/g"
+---
+
+## Objetivos da Aula
+
+- **Comparar** os padrões a, b e g.
+- Relacionar **faixa, taxa e alcance**.
+- Escolher o padrão conforme o **cenário**.
+
+## Quadro Comparativo
+
+| Item | 802.11a | 802.11b | 802.11g |
+|------|---------|---------|---------|
+| Ano | 1999 | 1999 | 2003 |
+| Faixa | 5 GHz | 2,4 GHz | 2,4 GHz |
+| Taxa máx. | 54 Mbps | 11 Mbps | 54 Mbps |
+| Técnica | OFDM | DSSS | OFDM |
+| Alcance | menor | maior | maior |
+
+## Faixa e Comportamento
+
+- **2,4 GHz:** mais alcance, mais interferência.
+- **5 GHz:** mais velocidade, menos alcance.
+- A física explica as **diferenças**.
+
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize,
+  b/.style={draw,rounded corners,minimum width=3.4cm,minimum height=1.1cm,align=center,inner sep=3pt}]
+  \node[b,fill=orange!20] (a) at (0,0) {2,4 GHz\\ \scriptsize mais alcance\\ \scriptsize mais interferência};
+  \node[b,fill=blue!12] (b) at (4.3,0) {5 GHz\\ \scriptsize mais velocidade\\ \scriptsize menos alcance};
+\end{tikzpicture}
+\end{center}
+```
+
+## Compatibilidade
+
+- **a** e **b/g** são **incompatíveis** entre si (faixas diferentes).
+- **g** é compatível com **b**.
+- Equipamentos "abg" combinam tudo.
+
+## Critérios de Escolha
+
+- **Alcance** necessário.
+- **Interferência** no ambiente.
+- **Velocidade** exigida.
+- **Custo** dos equipamentos.
+
+::: {.callout-note}
+A escolha de faixa **2,4 vs 5 GHz** continua sendo a decisão central em projetos Wi-Fi atuais.
+:::
+
+## Estudo de Caso (preparação)
+
+- Compare **duas redes**: uma em 2,4 GHz e outra em 5 GHz.
+- Observe **velocidade e alcance**.
+- Registre os **resultados**.
+
+## Resumo da Aula
+
+- a (5 GHz), b (2,4 GHz) e g (2,4 GHz OFDM).
+- Faixa define **alcance × velocidade**.
+- A escolha depende do **cenário**.
+
+## Atividade Rápida
+
+- Monte um quadro comparativo **a/b/g**.
+- Qual padrão você escolheria para **longo alcance**?
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- TANENBAUM, A. *Redes de Computadores*. Pearson.
+
+## Próxima Aula
+
+- **Aula 32:** Estudo de caso — comparação de tecnologias.

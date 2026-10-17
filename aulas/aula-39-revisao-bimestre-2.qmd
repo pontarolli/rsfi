@@ -1,0 +1,71 @@
+---
+title: "Aula 39 — Síntese e Revisão do 2º Bimestre"
+---
+
+## Objetivos da Aula
+
+- **Revisar** os conceitos do bimestre.
+- Organizar o estudo para a **avaliação**.
+- Esclarecer dúvidas.
+
+## O que Estudamos
+
+- Acesso ao meio (**CSMA/CA**).
+- Arquiteturas e **topologias**.
+- Padrões **IEEE 802.11**.
+- Evolução do Wi-Fi (**b → ax**).
+
+## Acesso ao Meio
+
+- Meio compartilhado (**o ar**).
+- **CSMA/CA** evita colisões.
+- **ACK**, backoff e **RTS/CTS**.
+
+## Arquiteturas
+
+- **Infraestrutura, ad hoc, mesh**.
+- **BSS, ESS, IBSS**.
+- **Roaming** entre APs.
+
+## Padrões 802.11
+
+- **a/b/g:** primeiras gerações.
+- **n (Wi-Fi 4):** MIMO.
+- **ac (Wi-Fi 5):** 5 GHz, MU-MIMO.
+- **ax (Wi-Fi 6):** OFDMA, eficiência.
+
+::: {.callout-note}
+O fio condutor do bimestre: **como o Wi-Fi se organiza e evolui** — do acesso ao meio aos padrões atuais.
+:::
+
+## Comparativo Rápido
+
+| Padrão | Faixa | Taxa | Destaque |
+|--------|-------|------|----------|
+| b | 2,4 GHz | 11 Mbps | Popularização |
+| g | 2,4 GHz | 54 Mbps | Compatibilidade |
+| n | 2,4/5 GHz | 600 Mbps | MIMO |
+| ac | 5 GHz | Gbps | MU-MIMO |
+| ax | 2,4/5 GHz | Gbps | OFDMA |
+
+## Como se Preparar
+
+- Reler os **resumos**.
+- Revisar o **CSMA/CA**.
+- Memorizar o **quadro de padrões**.
+- Tirar **dúvidas**.
+
+## Resumo da Aula
+
+- Revisamos acesso, arquiteturas e padrões.
+- O Wi-Fi **evoluiu** muito em velocidade e eficiência.
+- Prontos para a **avaliação**.
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- TANENBAUM, A. *Redes de Computadores*. Pearson.
+
+## Próxima Aula
+
+- **Aula 41:** Configuração de Access Points — Parte 1.

@@ -1,0 +1,84 @@
+---
+title: "Aula 51 — WPA2 Enterprise (EAP/802.1X)"
+---
+
+## Objetivos da Aula
+
+- Compreender o modo **WPA2-Enterprise**.
+- Entender o **802.1X** e o **EAP**.
+- Reconhecer suas vantagens.
+
+## WPA2-Enterprise
+
+- Modo voltado a **empresas e instituições**.
+- **Cada usuário** tem suas credenciais.
+- Autenticação por **servidor** (RADIUS).
+
+## 802.1X
+
+- Padrão de **controle de acesso à rede**.
+- Três papéis:
+  - **Suplicante:** o cliente.
+  - **Autenticador:** o AP/switch.
+  - **Servidor:** RADIUS.
+
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[font=\scriptsize,node distance=6mm,
+  b/.style={draw,rounded corners,fill=blue!10,minimum width=2.3cm,minimum height=0.9cm,align=center,inner sep=3pt}]
+  \node[b] (sup) {Suplicante\\ \scriptsize cliente};
+  \node[b,right=of sup,fill=orange!20] (aut) {Autenticador\\ \scriptsize AP / switch};
+  \node[b,right=of aut,fill=green!12] (srv) {Servidor\\ \scriptsize RADIUS};
+  \draw[-{Latex}] (sup)--(aut); \draw[-{Latex}] (aut)--(srv);
+\end{tikzpicture}
+\end{center}
+```
+
+## EAP
+
+- **Extensible Authentication Protocol**.
+- Método de **autenticação** entre as partes.
+- Tipos: **EAP-TLS, PEAP, EAP-TTLS**.
+
+## Funcionamento
+
+- O cliente **não** envia a senha ao AP.
+- As credenciais vão ao **servidor RADIUS**.
+- O AP apenas **repassa**.
+
+## Vantagens
+
+- Identidade **individual** por usuário.
+- Fácil **revogar** acesso.
+- Registro (**log**) de acessos.
+- Mais **seguro** e gerenciável.
+
+::: {.callout-note}
+No Enterprise, cada usuário tem **sua** credencial — revogar o acesso de uma pessoa não afeta as demais.
+:::
+
+## Desafios
+
+- Exige **infraestrutura** (RADIUS, certificados).
+- Configuração mais **complexa**.
+- Requer **planejamento**.
+
+## Resumo da Aula
+
+- WPA2-Enterprise usa **802.1X + EAP**.
+- Autenticação por **RADIUS**.
+- Ideal para **empresas e instituições**.
+
+## Atividade Rápida
+
+- Cite os **três papéis** do 802.1X.
+- Por que o Enterprise é mais **gerenciável**?
+
+## Referências
+
+- SILVA, F. R. et al. *Redes Sem Fio*. Grupo A, 2021.
+- MORAES, A. F. *Redes Sem Fio*. Érica.
+
+## Próxima Aula
+
+- **Aula 52:** Servidores RADIUS.
